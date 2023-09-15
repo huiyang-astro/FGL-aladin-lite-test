@@ -77,6 +77,7 @@
    <FIELD ID="true_Class" datatype="double" name="true_Class"/>
    <FIELD ID="shape" arraysize="4" datatype="unicodeChar" name="shape"/>
    <FIELD ID="color" arraysize="7" datatype="unicodeChar" name="color"/>
+   <FIELD ID="Fb" datatype="double" name="Fb"/>
    <DATA>
     <TABLEDATA>
      <TR>
@@ -153,6 +154,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>orange</TD>
+      <TD>1.374353897300225e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085853.0-451120-1</TD>
@@ -227,7 +229,8 @@
       <TD>1.305547539323589e-15</TD>
       <TD/>
       <TD>plus</TD>
-      <TD>gold</TD>
+      <TD>yellow</TD>
+      <TD>9.89760010585788e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J085859.5-451319-1</TD>
@@ -303,6 +306,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>blue</TD>
+      <TD>2.542190337269556e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J085920.0-454620-0</TD>
@@ -378,6 +382,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>2.1346190610257167e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085924.4-455036-1</TD>
@@ -453,6 +458,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>cyan</TD>
+      <TD>6.211110371328567e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J085928.0-454831-0</TD>
@@ -528,6 +534,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>1.0722238905882054e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085929.2-455022-0</TD>
@@ -603,6 +610,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>1.0226598751274993e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085932.1-450905-1</TD>
@@ -677,7 +685,8 @@
       <TD>1.6163018114121852e-15</TD>
       <TD/>
       <TD>plus</TD>
-      <TD>gold</TD>
+      <TD>yellow</TD>
+      <TD>3.177725569515524e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J085934.7-454629-1</TD>
@@ -753,6 +762,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>cyan</TD>
+      <TD>3.5269111845740515e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085935.5-454551-0</TD>
@@ -828,6 +838,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>2.5647090586381493e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085939.4-450933-1</TD>
@@ -902,7 +913,8 @@
       <TD>1.9414594741332374e-15</TD>
       <TD/>
       <TD>plus</TD>
-      <TD>gold</TD>
+      <TD>yellow</TD>
+      <TD>1.2063743597588142e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085941.6-454613-1</TD>
@@ -977,7 +989,8 @@
       <TD>1.983562323271292e-15</TD>
       <TD/>
       <TD>plus</TD>
-      <TD>gold</TD>
+      <TD>yellow</TD>
+      <TD>5.608852815694409e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J085943.8-454858-0</TD>
@@ -1053,6 +1066,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>blue</TD>
+      <TD>1.7710329271534117e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085949.5-454820-1</TD>
@@ -1128,6 +1142,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>lime</TD>
+      <TD>1.0792192686958681e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J085950.9-454426-0</TD>
@@ -1203,6 +1218,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>orange</TD>
+      <TD>2.7763776730168826e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085952.3-454905-0</TD>
@@ -1278,6 +1294,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>1.8104105245353474e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085952.5-455045-1</TD>
@@ -1353,6 +1370,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>cyan</TD>
+      <TD>5.121222121115699e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J085954.0-454332-1</TD>
@@ -1428,6 +1446,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>cyan</TD>
+      <TD>1.0913517814103443e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085954.8-454918-1</TD>
@@ -1503,6 +1522,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>cyan</TD>
+      <TD>1.8638745453560227e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J085957.2-454602-0</TD>
@@ -1578,6 +1598,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>9.716078319001645e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J090005.7-454936-0</TD>
@@ -1653,6 +1674,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>6.565387695223975e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J090007.7-454540-0</TD>
@@ -1728,6 +1750,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>orange</TD>
+      <TD>1.5738123269831168e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J090010.5-454640-0</TD>
@@ -1803,6 +1826,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>9.613256767736848e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J090016.5-454638-0</TD>
@@ -1878,6 +1902,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>blue</TD>
+      <TD>1.4004209246488777e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J090022.6-454711-0</TD>
@@ -1953,6 +1978,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>4.198049414605793e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J090024.0-454842-0</TD>
@@ -2028,6 +2054,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>2.2328094478493587e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J090024.2-454512-1</TD>
@@ -2103,6 +2130,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>lime</TD>
+      <TD>7.139362597803232e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J090025.1-454541-1</TD>
@@ -2177,7 +2205,8 @@
       <TD>2.4805884267334795e-15</TD>
       <TD/>
       <TD>plus</TD>
-      <TD>gold</TD>
+      <TD>yellow</TD>
+      <TD>1.062865808358205e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J090032.2-454940-0</TD>
@@ -2253,6 +2282,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>magenta</TD>
+      <TD>1.2734059782779578e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J090032.9-455011-0</TD>
@@ -2328,6 +2358,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>orange</TD>
+      <TD>2.0159831918086534e-14</TD>
      </TR>
      <TR>
       <TD>2CXO J090039.2-454911-0</TD>
@@ -2403,6 +2434,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>orange</TD>
+      <TD>7.733850993072889e-15</TD>
      </TR>
      <TR>
       <TD>2CXO J090051.2-454728-1</TD>
@@ -2478,6 +2510,7 @@
       <TD/>
       <TD>plus</TD>
       <TD>lime</TD>
+      <TD>6.780546914000994e-15</TD>
      </TR>
     </TABLEDATA>
    </DATA>
