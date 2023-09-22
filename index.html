@@ -2962,7 +2962,7 @@ if (params.has('fov')) {
         cat.addSources([A.marker(359.90914735495846, 62.55121700752044, {popupTitle: '2CXO J235938.1+623304', popupDesc: '359.909147 62.551217 1.53"<br/>Fb=9.5e-15 HR_h(ms)=0.6 P_intra=0.39<br/>0 CP(s) (p_any=0.0%)<br/>Classified as NS 79&plusmn19% (CT=1.5)<br/>w/o MW TD:  as LM-STAR 54&plusmn24% (CT=1.0)<br/>'})]);
         cat.addSources([A.marker(359.9238973145865, 62.52466422305641, {popupTitle: '2CXO J235941.7+623128', popupDesc: '359.923897 62.524664 1.36"<br/>Fb=4.0e-15 HR_h(ms)=0.0 P_intra=0.12<br/>1 CP(s) (p_any=98.6%)<br/>1st CP: G=17.1 J=15.2 <br/>Classified as YSO 45&plusmn5% (CT=1.2)<br/>Without CP classified as LMXB 65&plusmn8% (CT=2.3)<br/>Combined classified as YSO 44&plusmn5% (CT=1.2)<br/>'})]);
 
-        var hips = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_all_class_color.vot', {onClick: 'showTable', sourceSize: 100,  name: 'CSC',shape: drawFunction,filter: myFilterFunction}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+        var hips = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_all_class_color_v1.vot', {onClick: 'showTable', sourceSize: 100,  name: 'CSC',shape: drawFunction,filter: myFilterFunction}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
          aladin.addCatalog(hips);
         
         $('input[type=radio][name=otype]').change(function() {
