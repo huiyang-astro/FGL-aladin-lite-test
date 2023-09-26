@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 5.2.2
+     http://www.astropy.org/ -->
+<VOTABLE version="1.4" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/VOTable-1.4.xsd">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="name" arraysize="23" datatype="unicodeChar" name="name"/>
+   <FIELD ID="ra" datatype="double" name="ra"/>
+   <FIELD ID="dec" datatype="double" name="dec"/>
+   <FIELD ID="_r" datatype="double" name="_r"/>
+   <FIELD ID="cat" arraysize="9" datatype="unicodeChar" name="cat"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2CXO J173007.4-212842-0</TD>
+      <TD>262.53056758760977</TD>
+      <TD>-21.47869410230157</TD>
+      <TD>1.1121124511140175</TD>
+      <TD>DECaPS2</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J173036.3-213612-0</TD>
+      <TD>262.6514093378333</TD>
+      <TD>-21.603370294482676</TD>
+      <TD>0.5937230399249617</TD>
+      <TD>DECaPS2</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J173040.2-212920-0</TD>
+      <TD>262.6676829572689</TD>
+      <TD>-21.48913329323807</TD>
+      <TD>0.27937127722234406</TD>
+      <TD>DECaPS2</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J173042.8-213449-0</TD>
+      <TD>262.6783686918444</TD>
+      <TD>-21.580491035497857</TD>
+      <TD>0.978105267435964</TD>
+      <TD>DECaPS2</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174215.6-283928-0</TD>
+      <TD>265.56522626964136</TD>
+      <TD>-28.65794154839763</TD>
+      <TD>0.33492029423843217</TD>
+      <TD>DECaPS2</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174236.0-283859-0</TD>
+      <TD>265.65006576686113</TD>
+      <TD>-28.649801438579715</TD>
+      <TD>0.9441850169341123</TD>
+      <TD>DECaPS2</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174244.3-283648-0</TD>
+      <TD>265.6848209468106</TD>
+      <TD>-28.613542625915883</TD>
+      <TD>0.13964821285440285</TD>
+      <TD>DECaPS2</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174453.0-290504-0</TD>
+      <TD>266.2211377700816</TD>
+      <TD>-29.08450490821187</TD>
+      <TD>0.2527703393241071</TD>
+      <TD>DECaPS2</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174504.2-290442-0</TD>
+      <TD>266.2678478165656</TD>
+      <TD>-29.07857424471746</TD>
+      <TD>0.8454212792750296</TD>
+      <TD>DECaPS2</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J202726.5+372251-0</TD>
+      <TD>306.860358</TD>
+      <TD>37.380893</TD>
+      <TD>0.483</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J202727.8+372236-0</TD>
+      <TD>306.866197</TD>
+      <TD>37.376798</TD>
+      <TD>0.204</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J180433.9-295744-0</TD>
+      <TD>271.141318</TD>
+      <TD>-29.962644</TD>
+      <TD>1.051</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174215.6-283928-0</TD>
+      <TD>265.565291</TD>
+      <TD>-28.657906</TD>
+      <TD>0.46</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174236.0-283859-0</TD>
+      <TD>265.650095</TD>
+      <TD>-28.649878</TD>
+      <TD>0.858</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J195245.0+292632-0</TD>
+      <TD>298.187755</TD>
+      <TD>29.442418</TD>
+      <TD>0.64</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J184621.2-025815-0</TD>
+      <TD>281.588361</TD>
+      <TD>-2.971004</TD>
+      <TD>0.121</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174453.0-290504-0</TD>
+      <TD>266.221155</TD>
+      <TD>-29.084473</TD>
+      <TD>0.354</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174456.5-290331-0</TD>
+      <TD>266.235851</TD>
+      <TD>-29.058495</TD>
+      <TD>0.935</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174457.8-290509-0</TD>
+      <TD>266.241017</TD>
+      <TD>-29.085883</TD>
+      <TD>0.344</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174502.8-290505-0</TD>
+      <TD>266.262064</TD>
+      <TD>-29.084921</TD>
+      <TD>0.469</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174504.9-290618-0</TD>
+      <TD>266.270573</TD>
+      <TD>-29.105197</TD>
+      <TD>0.495</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174505.9-290600-0</TD>
+      <TD>266.274548</TD>
+      <TD>-29.100102</TD>
+      <TD>0.951</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174506.0-290512-0</TD>
+      <TD>266.275275</TD>
+      <TD>-29.086638</TD>
+      <TD>0.934</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174506.8-290537-0</TD>
+      <TD>266.278252</TD>
+      <TD>-29.093407</TD>
+      <TD>1.322</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174506.8-290557-0</TD>
+      <TD>266.27806</TD>
+      <TD>-29.099479</TD>
+      <TD>0.751</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174507.0-290357-0</TD>
+      <TD>266.279147</TD>
+      <TD>-29.065795</TD>
+      <TD>0.565</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J180931.7-240521-0</TD>
+      <TD>272.382607</TD>
+      <TD>-24.089563</TD>
+      <TD>0.779</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J205842.9+435451-0</TD>
+      <TD>314.679082</TD>
+      <TD>43.914362</TD>
+      <TD>0.44</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J205849.2+435035-0</TD>
+      <TD>314.704862</TD>
+      <TD>43.843367</TD>
+      <TD>1.621</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J181830.2-145521-0</TD>
+      <TD>274.626272</TD>
+      <TD>-14.92325</TD>
+      <TD>2.01</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J181845.1-150101-0</TD>
+      <TD>274.688163</TD>
+      <TD>-15.017163</TD>
+      <TD>0.227</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J181852.0-150213-0</TD>
+      <TD>274.717029</TD>
+      <TD>-15.037368</TD>
+      <TD>0.405</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J205801.3+445256-0</TD>
+      <TD>314.504517</TD>
+      <TD>44.881927</TD>
+      <TD>2.644</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174618.2-285138-0</TD>
+      <TD>266.576144</TD>
+      <TD>-28.860856</TD>
+      <TD>0.407</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174621.5-285256-0</TD>
+      <TD>266.590033</TD>
+      <TD>-28.882326</TD>
+      <TD>0.3</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182750.6-113548-0</TD>
+      <TD>276.961108</TD>
+      <TD>-11.596821</TD>
+      <TD>0.703</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182412.4-130628-0</TD>
+      <TD>276.051989</TD>
+      <TD>-13.108183</TD>
+      <TD>1.014</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182907.2-125504-0</TD>
+      <TD>277.280615</TD>
+      <TD>-12.918019</TD>
+      <TD>0.704</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182638.2-121048-0</TD>
+      <TD>276.659875</TD>
+      <TD>-12.18049</TD>
+      <TD>1.286</TD>
+      <TD>UKIDDSdr6</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>
