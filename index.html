@@ -669,7 +669,7 @@ if (params.has('fov')) {
             canvasCtx.fillText(source.data['Class'], source.x + 2 + xShift, source.y + 10);
         };
  
-    aladin = A.aladin("#aladin-lite-div", {survey: "https://cdaftp.cfa.harvard.edu/cxc-hips", target: target, fov: fov });
+    aladin = A.aladin("#aladin-lite-div", {survey: "https://cdaftp.cfa.harvard.edu/cxc-hips", name:"Chandra",  target: target, fov: fov });
     //aladin.toggleFullscreen();
 
     aladin.setOverlayImageLayer('https://alasky.cds.unistra.fr/pub/10.1051_0004-6361_201732098flux/');
@@ -3340,10 +3340,10 @@ if (params.has('fov')) {
             hips2.reportChange();
         });
 
-        var hips3 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/MSC.vot', {onClick: 'showPopup', sourceSize: 20,  name:'MSC',shape:'plus', color:'yellow'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+        var hips3 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/MSC.vot', {onClick: 'showPopup', sourceSize: 20,  name:'radio',shape:'plus', color:'yellow'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
          aladin.addCatalog(hips3);
 
-        var hips4 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/NScan_deeperSurvey.vot', {onClick: 'showPopup', sourceSize: 20,  name:'match',shape:'plus', color:'cyan'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+        var hips4 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/NScan_deeperSurvey.vot', {onClick: 'showPopup', sourceSize: 20,  name:'match-to-deeper',shape:'plus', color:'cyan'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
          aladin.addCatalog(hips4);
          
         // var hips5 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_DECaPS2.vot', {onClick: 'showPopup', sourceSize: 20,  name:'match',shape:'plus', color:'magenta'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
@@ -4621,17 +4621,17 @@ if (params.has('fov')) {
       }
     
     </script>    
-    
+
     <div>
         <h3><u>(classification) summary</u></h3>
         <!-- <h4>
              Conf_95_SemiMajor <p id="DescChange"></p>
         </h4> -->
-        <li id="g_prop1">Name=4FGL J1704.1-4140,GLON=344.7,GLAT=-0.2</li>
-        <li id="g_prop2">Signif.=5.3,EnergyFlux100=1.2e-11cgs,Var_idx=10.2,Sig_Cur=2.1</li>
-        <li id="coverfact">X-ray Covering faction=0.98;CLASS1=spp;ASSOC1=SNR G344.7-00.1</li>
-        <li id="all_clas">All classifications: 2LMXB 3YSO 1LM-STAR</li>
-        <li id="conf_clas">Confident (CT>=2) classifications: 1YSO 1LM-STAR </li>
+        <li id="g_prop1">Name=4FGL J0859.3-4342,GLON=265.1,GLAT=1.5</li>
+        <li id="g_prop2">Signif=8.8,EnergyFlux100=9.0e-12cgs,Var_idx=14.5,Sig_Cur=4.2</li>
+        <li id="coverfact">X-ray Covering faction=0.96;CLASS1=nan;ASSOC1=nan</li>
+        <li id="all_clas">All classifications: 13NS 1AGN 11LMXB 1HMXB 10CV 106YSO 2HM-STAR 5LM-STAR</li>
+        <li id="conf_clas">Confident (CT>=2) classifications: 4NS 1HMXB 3CV 102YSO 1HM-STAR 3LM-STAR</li>
         <li id="comments">Comment: </li>
         <!-- <LI> <B>Sky area:</B> 3.76% of sky => 1551°^2
         <LI> <B>Associated coverage map:</B> <A HREF="Moc.fits">MOC</A>
