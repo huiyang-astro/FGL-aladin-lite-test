@@ -734,8 +734,8 @@ and with Significance greater than:
          hips5.hide();
          aladin.addCatalog(hips5);
 
-         var hips6 = A.catalogHiPS('https://data.darts.isas.jaxa.jp/pub/HiPS/CHANDRA_Catalogue/', {onClick: 'showPopup', sourceSize: 10, name: 'CSC',shape:'circle',color:'white' });
-         hips6.hide();
+         var hips6 = A.catalogHiPS('https://data.darts.isas.jaxa.jp/pub/HiPS/CHANDRA_Catalogue/', {onClick: 'showPopup', sourceSize: 10, name: 'CSC',shape:'circle',color:'orange' });
+        //  hips6.hide();
          aladin.addCatalog(hips6);
 
         var hips4 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/4FGL-DR4.vot', {onClick: 'showPopup', sourceSize: 10,  name:'4FGL',shape:'circle'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
@@ -756,6 +756,10 @@ and with Significance greater than:
 
         var hips7 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/SNR.vot', {onClick: 'showPopup', sourceSize: 10,  name:'SNR'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
           aladin.addCatalog(hips7);
+
+        var hips14 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_IDF.vot', {onClick: 'showPopup', sourceSize: 10,  name:'counterpart'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+        aladin.addCatalog(hips14);
+
 
           // 'gold', 'orange', 'magenta', 'red', 'blue'
 
