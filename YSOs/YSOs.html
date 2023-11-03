@@ -1,0 +1,2187 @@
+
+<HTML>
+    <HEAD>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+        <script type="text/javascript">
+    var hipsDir=null;</script>
+    </HEAD>
+    <H1> Identified 4FGL-DR4 Sources</H1>
+    <!-- This Web resource contains HiPS(*) components for <B>ESO EPO</B> progressive survey. -->
+    <TABLE>
+    <TR>
+  Image Opacity: <br/> <input id="slider" type="range" value=0.5 min=0 max=1 step=0.05 ; style="width:150px;height:5px;line-height:0%">
+  
+    <TD>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="../aladin.js" charset="utf-8"></script>
+    <div id="aladin-lite-div" style="width:900px;height:600px">
+            <div style="max-width: 30%; background-color: rgba(255, 255, 255, 0.6); z-index: 20; position: absolute; left: 40%;top: 2%;"><span id="previousField" style="cursor: pointer;">&#x2190;</span><select name="fields" id="field-select"><option value="">--Choose a field</option></select><span id="nextField" style="cursor: pointer;">&#x2192;</span></div>
+            <!-- <div style="background-color: rgba(255, 255, 255, 0.6); z-index: 20; position: absolute; left: 10px;bottom: 30%;">&nbsp;&nbsp;Overlay opacity:<br><input id="opacity" type="range" min="0" max="1" step="0.05" value="1"></div> -->
+    </div>
+  
+  Base 
+  <input id="DSS" type="radio" name="survey" value="P/DSS2/Color"><label for="DSS"> <label> <A HREF="https://alasky.cds.unistra.fr/DSS/DSSColor/">Optical (DSS2)</A>
+  <input id="2MASS" type="radio" name="survey" value="P/2MASS/Color"><label for="2MASS"> <label> <A HREF="https://alasky.cds.unistra.fr/2MASS/Color/">2MASS</A>
+  <input id="WISE" type="radio" name="survey" value="WISE"><label for="WISE"> <label> <A HREF="https://alasky.cds.unistra.fr/AllWISE/RGB-W4-W2-W1/">AllWISE</A>
+  <input id="VLASS1.1" type="radio" name="survey" value="VLASS1.1" checked><label for="VLASS1.1"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS1.1v2/Quicklook/">VLASS1.1</A>
+  <input id="VLASS1.2" type="radio" name="survey" value="VLASS1.2"><label for="VLASS1.2"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS1.2v2/Quicklook/">VLASS1.2</A>
+  <input id="VLASS2.1" type="radio" name="survey" value="VLASS2.1"><label for="VLASS2.1"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS2.1/Quicklook/">VLASS2.1</A>
+  <input id="VLASS2.2" type="radio" name="survey" value="VLASS2.2"><label for="VLASS2.2"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS2.2/Quicklook/">VLASS2.2</A>
+  <input id="VLASS3.1" type="radio" name="survey" value="VLASS3.1"><label for="VLASS3.1"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS3.1/Quicklook/">VLASS3.1 (underway)</A>
+  <br/>
+  <input id="VLASS_Epoch1" type="radio" name="survey" value="VLASS_Epoch1"><label for="VLASS_Epoch1"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS_Epoch1/Quicklook/">VLASS Epoch1</A>
+  <input id="VCSS1" type="radio" name="survey" value="VCSS1"><label for="VCSS1"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VCSS1/Images_vcss1_HiPS/">VCSS1</A>
+  <input id="NVSS" type="radio" name="survey" value="NVSS"><label for="NVSS"> <label> <A HREF="https://alasky.cds.unistra.fr/NVSS/intensity/">NVSS</A>
+  <input id="RACS-m" type="radio" name="survey" value="RACS-m"><label for="RACS-m"> <label> <A HREF="https://casda.csiro.au/hips/RACS/mid/I/">RACS-m</A>
+  <input id="RACS-l" type="radio" name="survey" value="RACS-l"><label for="RACS-l"> </label> <label> <A HREF="https://casda.csiro.au/hips/RACS/low/I/">RACS-l</A>
+  <input id="CGPS-VGPS CONT" type="radio" name="survey" value="CGPS-VGPS CONT"><label for="CGPS-VGPS CONT"> <label> <A HREF="http://cade.irap.omp.eu/documents/Ancillary/4Aladin/CGPS_CONT/">CGPS-VGPS CONT</A>
+  <input id="SUMSS" type="radio" name="survey" value="SUMSS"><label for="SUMSS"> <label> <A HREF="https://alasky.cds.unistra.fr/SUMSS/">SUMSS</A>
+  
+  <br/> Overlay   
+  <input id="XMM" type="radio" name="survey2" value="XMM"><label for="XMM"> <label> <A HREF="https://xcatdb.unistra.fr/PNColor/">XMM</A>
+  <input id="CXO" type="radio" name="survey2" value="CXO" checked><label for="CXO"> <label> <A HREF="https://cdaftp.cfa.harvard.edu/cxc-hips/">CXO</A>
+  <input id="RASS" type="radio" name="survey2" value="RASS"><label for="RASS"> <label> <A HREF="https://alasky.cds.unistra.fr/RASS/">RASS</A>
+  <input id="BAT" type="radio" name="survey2" value="BAT"><label for="BAT"> <label> <A HREF="https://data.darts.isas.jaxa.jp/pub/HiPS/SWIFT-BAT_Image/">Swift BAT</A>
+  <input id="Fermi" type="radio" name="survey2" value="Fermi"><label for="Fermi"> <label> <A HREF="https://alasky.cds.unistra.fr/Fermi/Color/">Fermi</A>
+  <input id="HGPS" type="radio" name="survey2" value="HGPS"><label for="HGPS"> <label> <A HREF="https://alasky.cds.unistra.fr/pub/10.1051_0004-6361_201732098flux/">HESS GPS</A>
+  
+  <br/> Catalogues Citations:  <A HREF="https://www.mrao.cam.ac.uk/surveys/snrs/">SNR</A>, <A HREF="http://tevcat2.uchicago.edu/">TeVCat</A>, <A HREF="https://www.astro.puc.cl/BlackCAT/">BlackCAT</A>, <A HREF="https://www.atnf.csiro.au/research/pulsar/psrcat/">ATNF</A>,
+  <A HREF="https://fermi.gsfc.nasa.gov/ssc/data/access/lat/14yr_catalog/">4FGL</A>,<A HREF="https://data.darts.isas.jaxa.jp/pub/HiPS/CHANDRA_Catalogue/">CSC</A>,<A HREF="https://data.darts.isas.jaxa.jp/pub/HiPS/XMM-EPIC_Catalogue/">XMM</A>,<A HREF="https://data.darts.isas.jaxa.jp/pub/HiPS/SWIFT-XRT_Catalogue/">XRT</A>,
+  <A HREF="https://axel.u-strasbg.fr/HiPSCatService/Simbad">Simbad</A>
+    
+    
+  <br/>  Show sources with CT greater than:
+  <input id='slider' style='vertical-align:middle;width:40vw;' step='0.1' min='0' max='10' type='range' value='0'>
+  <span id='pmVal'  >0 </span><br><br><div id='aladin-lite-div' style='width: 400px;height: 5px;'></div>
+    
+  and with Significance greater than:
+  <input id='slider2' style='vertical-align:middle;width:40vw;' step='0.1' min='3' max='10' type='range' value='3'>
+  <span id='sigVal'  >3 </span><br><br><div id='aladin-lite-div' style='width: 400px;height: 5px;'></div>
+    
+    
+    
+    
+    <script type="text/javascript">
+    
+    
+    var fields =  [{name:"NGC 7822", coord:"0.563625 67.43325"},
+                {name:"IRAS 00013+6817", coord:"1.0160417 68.5593611"},
+                {name:"NGC 1333", coord:"52.2698333 31.3363056"},
+                {name:"IC 348", coord:"56.12625 32.1291111"},
+                {name:"LkHalpha 101", coord:"67.5410833 35.2692222"},
+                {name:"NGC 2068-2071", coord:"86.6814167 0.1261667"},
+                {name:"ONC Flank S", coord:"83.774125 -5.6521944"},
+                {name:"ONC Flank N", coord:"83.8099167 -4.8304167"},
+                {name:"OMC 2-3", coord:"83.8476667 -5.1175278"},
+                {name:"Mon R2", coord:"91.9422917 -6.3815556"},
+                {name:"GGD 12-15", coord:"92.7062917 -6.1960278"},
+                {name:"RCW 120", coord:"258.096875 -38.4792778"},
+                {name:"Serpens Main", coord:"277.4845833 1.2198611"},
+                {name:"Serpens South", coord:"277.5106667 -2.0617222"},
+                {name:"IRAS 20050+2720", coord:"301.7773333 27.5006389"},
+                {name:"Sh 2-106", coord:"306.8515 37.3819167"},
+                {name:"IC 5146", coord:"328.37425 47.2562222"},
+                {name:"NGC 7160", coord:"328.45825 62.5861667"},
+                {name:"LDN 1251B", coord:"339.7002083 75.1973333"},
+                {name:"Cep OB3b", coord:"343.9138333 62.6364444"},
+                {name:"Cep A", coord:"344.058875 62.0382778"},
+                {name:"Cep C", coord:"346.4559167 62.5075556"},
+                {name:"Car", coord:"161.079167 -59.889167"},
+                {name:"DR21", coord:"309.756655 42.327191"},
+                {name:"Eagle", coord:"274.7 -13.806667"},
+                {name:"Flame", coord:"85.427917 -1.912222"},
+                {name:"Lagon", coord:"270.904167 -24.386667"},
+                {name:"M17", coord:"275.195833 -16.171667"},
+                {name:"N1893", coord:"80.683333 33.411667"},
+                {name:"N2264", coord:"100.241667 9.895"},
+                {name:"N2362", coord:"109.670833 -24.955"},
+                {name:"N3576", coord:"167.9575 -61.303889"},
+                {name:"N6334", coord:"260.212 -36.115"},
+                {name:"N6357", coord:"261.625 -34.2"},
+                {name:"Orion", coord:"83.822083 -5.391111"},
+                {name:"RCW36", coord:"134.75375 -43.736111"},
+                {name:"RCW38", coord:"134.772917 -47.510944"},
+                {name:"Roset", coord:"97.916667 4.963333"},
+                {name:"Trifi", coord:"270.675 -22.971667"},
+                {name:"W3", coord:"36.767083 61.874194"},
+                {name:"W4", coord:"38.175 61.45"},
+                {name:"W40", coord:"277.8604 -2.0728"}]
+    
+    
+    // fields.sort();
+    console.log(fields.length  + ' objects in list');
+    const fieldSelect = document.getElementById('field-select');
+    for (var k=0; k<fields.length; k++) {
+        var opt = document.createElement('option');
+        opt.value = fields[k].coord;
+        opt.innerHTML = fields[k].name;
+        fieldSelect.appendChild(opt);
+    }
+    fieldSelect.addEventListener("change", function() {
+        if (this.value.length>0) {
+            aladin.gotoObject(this.value);
+        }
+    });
+    
+    const previousFieldFn = function() {
+        const idxSelected = fields.map(e => e.coord).indexOf(fieldSelect.value); //fields.indexOf(fieldSelect);
+        if (idxSelected>0) {
+            fieldSelect.value = fields[idxSelected - 1].coord;
+            fieldSelect.dispatchEvent(new Event('change'));
+        }
+    };
+    
+    //console.log(fieldSelect.name);
+    
+    const nextFieldFn = function() {
+        const idxSelected = fields.map(e => e.coord).indexOf(fieldSelect.value);
+        if (idxSelected<fields.length - 1) {
+            fieldSelect.value = fields[idxSelected + 1].coord;
+            fieldSelect.dispatchEvent(new Event('change'));
+        }
+    };
+    
+    
+    
+    document.getElementById('previousField').addEventListener('click', previousFieldFn);
+    document.addEventListener('keydown', (event) => {if (event.keyCode==37) previousFieldFn();})
+    
+    document.getElementById('nextField').addEventListener('click', nextFieldFn);
+    document.addEventListener('keydown', (event) => {if (event.keyCode==39) nextFieldFn();})
+    
+    
+    // listener for zoom in / zoom out
+    document.addEventListener('keydown', function(e) {
+        if (e.keyCode==73) {
+            aladin.increaseZoom();
+        }
+        if (e.keyCode==79) {
+            aladin.decreaseZoom();
+        }
+    });
+    
+    fieldSelect.addEventListener('change', function() {
+        fieldSelect.blur();
+    });
+    
+    var target = '0.563625 67.43325';
+    fieldSelect.value = target;
+    var fov = 12 / 60.;
+    const params = new URLSearchParams(location.search);
+    if (params.has('target')) {
+        target = params.get('target');
+    }
+    if (params.has('fov')) {
+        fov = parseFloat(params.get('fov'));
+    }
+    
+        let aladin;
+        A.init.then(() => {
+    
+            var pmThreshold = 0;
+            var sigThreshold = 0;
+    
+            var slider = document.getElementById('slider');
+            slider.oninput = function() {
+                pmThreshold = this.value;
+                $('#pmVal').html(pmThreshold);
+                hips.reportChange();
+            }
+    
+            var sigThreshold = 0;
+    
+            var slider = document.getElementById('slider2');
+            slider.oninput = function() {
+                sigThreshold = this.value;
+                $('#sigVal').html(sigThreshold);
+                hips.reportChange();
+            }
+            
+            var myFilterFunction = function(source) {
+                var totalPm  = parseFloat(source.data['CT']);
+                var signif  = parseFloat(source.data['significance']);
+                if (isNaN(totalPm) || isNaN(signif)) {
+                    return false;
+                }
+                return totalPm>pmThreshold && signif>sigThreshold;
+            }
+    
+            // define custom draw function
+            var drawFunction = function(source, canvasCtx, viewParams) {
+                canvasCtx.beginPath();
+                canvasCtx.arc(source.x, source.y,6, 0, 2 * Math.PI, false);
+                canvasCtx.closePath();
+                // canvasCtx.strokeStyle = '#c38';
+                canvasCtx.strokeStyle = source.data['color'];
+                canvasCtx.lineWidth = 3;
+                canvasCtx.globalAlpha = 0.7,
+                canvasCtx.stroke();
+                var fov = Math.max(viewParams['fov'][0], viewParams['fov'][1]);
+    
+                // object name is displayed only if fov<10°
+                if (fov>10) {
+                    return;
+                }
+    
+                canvasCtx.globalAlpha = 0.9;
+                canvasCtx.globalAlpha = 1;
+    
+                var xShift = 20;
+    
+                canvasCtx.font = '15px Arial'
+                canvasCtx.fillStyle = '#eee';
+                // canvasCtx.fillText(source.data['name'], source.x + xShift, source.y -4);
+    
+                // object type is displayed only if fov<2°
+                if (fov>0.05) {
+                    return;
+                }
+                canvasCtx.font = '12px Arial'
+                canvasCtx.fillStyle = '#abc';
+                canvasCtx.fillText(source.data['Class'], source.x + 2 + xShift, source.y + 10);
+            };
+    
+            // define custom draw function
+            var drawFunction2 = function(source, canvasCtx, viewParams) {
+                canvasCtx.beginPath();
+                // canvasCtx.arc(source.x, source.y,10, 0, 2 * Math.PI, false);
+                canvasCtx.rect(source.x-8, source.y-8,16,16)
+                canvasCtx.closePath();
+                // canvasCtx.strokeStyle = '#c38';
+                canvasCtx.strokeStyle = source.data['color'];
+                canvasCtx.lineWidth = 3;
+                canvasCtx.globalAlpha = 0.7,
+                canvasCtx.stroke();
+                var fov = Math.max(viewParams['fov'][0], viewParams['fov'][1]);
+    
+                // object name is displayed only if fov<10°
+                if (fov>10) {
+                    return;
+                }
+    
+                canvasCtx.globalAlpha = 0.9;
+                canvasCtx.globalAlpha = 1;
+    
+                var xShift = 20;
+    
+                canvasCtx.font = '15px Arial'
+                canvasCtx.fillStyle = '#eee';
+                // canvasCtx.fillText(source.data['name'], source.x + xShift, source.y -4);
+    
+                // object type is displayed only if fov<2°
+                if (fov>0.05) {
+                    return;
+                }
+                canvasCtx.font = '12px Arial'
+                canvasCtx.fillStyle = '#abc';
+                canvasCtx.fillText(source.data['Class'], source.x + 2 + xShift, source.y + 10);
+            };
+     
+        aladin = A.aladin("#aladin-lite-div", {survey: "https://cdaftp.cfa.harvard.edu/cxc-hips", name:"Chandra",  target: target, fov: fov });
+        //aladin.toggleFullscreen();
+    
+        var callback = function(ra, dec, fov) {
+              aladin.addCatalog(A.catalogFromSimbad( {ra: ra, dec: dec} , 1 , {shape: 'circle', color: '#5d5', onClick: 'showTable'}));
+              // we must return true, so that the default action (set view to center of image) is performed
+              return true;
+          }
+  
+          $("#slider").on('input', function() {
+              const opacity = $(this).val();
+              aladin.getOverlayImageLayer().setOpacity(opacity);
+          });
+          aladin.setBaseImageLayer('http://archive-new.nrao.edu/vlass/HiPS/VLASS1.1v2/Quicklook/');
+  
+          aladin.setOverlayImageLayer('cxc.harvard.edu/P/cda/hips/allsky/rgb');
+  
+          $('input[name=survey]').change(function() {
+              let surveyName = $(this).val();
+              if (surveyName === "P/2MASS/Color") {
+                  aladin.setBaseImageLayer("CDS/P/2MASS/color");
+              } else if (surveyName === "P/DSS2/Color") {
+                  aladin.setBaseImageLayer("CDS/P/DSS2/color");
+              } else if (surveyName === "WISE") {
+                  aladin.setBaseImageLayer("CDS/P/allWISE/color");
+              } else if (surveyName === "RACS-m") {
+                  // aladin.setBaseImageLayer("https://casda.csiro.au/hips/RACS/mid/I/");
+                  aladin.setBaseImageLayer("CSIRO/P/RACS/mid/I");
+              } else if (surveyName === "RACS-l") {
+                  aladin.setBaseImageLayer("CSIRO/P/RACS/low/I");
+              } else if (surveyName === "VLASS1.1") {
+                  aladin.setBaseImageLayer("http://archive-new.nrao.edu/vlass/HiPS/VLASS1.1v2/Quicklook/");
+              } else if (surveyName === "VLASS1.2") {
+                  aladin.setBaseImageLayer("http://archive-new.nrao.edu/vlass/HiPS/VLASS1.2v2/Quicklook/");
+              } else if (surveyName === "VLASS2.1") {
+                  aladin.setBaseImageLayer("http://archive-new.nrao.edu/vlass/HiPS/VLASS2.1/Quicklook/");
+              } else if (surveyName === "VLASS2.2") {
+                  aladin.setBaseImageLayer("http://archive-new.nrao.edu/vlass/HiPS/VLASS2.2/Quicklook/");
+              } else if (surveyName === "VLASS3.1") {
+                  aladin.setBaseImageLayer("http://archive-new.nrao.edu/vlass/HiPS/VLASS3.1/Quicklook/");
+              } else if (surveyName === "VLASS_Epoch1") {
+                  aladin.setBaseImageLayer("http://archive-new.nrao.edu/vlass/HiPS/VLASS_Epoch1/Quicklook/");
+              } else if (surveyName === "VCSS1") {
+                  aladin.setBaseImageLayer("http://archive-new.nrao.edu/vlass/HiPS/VCSS1/Images_vcss1_HiPS/");
+              } else if (surveyName === "NVSS") {
+                  aladin.setBaseImageLayer("CDS/P/NVSS");
+              } else if (surveyName === "CGPS-VGPS CONT") {
+                  aladin.setBaseImageLayer("http://cade.irap.omp.eu/documents/Ancillary/4Aladin/CGPS_VGPS_CONT/");
+              } else if (surveyName === "SUMSS") {
+                  aladin.setBaseImageLayer("https://alasky.cds.unistra.fr/SUMSS/");
+  
+              } 
+          });
+  
+          $('input[name=survey2]').change(function() {
+              let surveyName = $(this).val();
+              if (surveyName === "XMM") {
+                  aladin.setOverlayImageLayer("xcatdb/P/XMM/PN/color");
+              } else if (surveyName === "CXO") {
+                  aladin.setOverlayImageLayer("cxc.harvard.edu/P/cda/hips/allsky/rgb");
+              } else if (surveyName === "RASS") {
+                  aladin.setOverlayImageLayer("CDS/P/RASS");
+              } else if (surveyName === "BAT") {
+                  aladin.setOverlayImageLayer("JAXA/P/SWIFT/BAT/Image");
+              } else if (surveyName === "Fermi") {
+                  aladin.setOverlayImageLayer("CDS/P/Fermi/color");
+              } else if (surveyName === "HGPS") {
+                  aladin.setOverlayImageLayer("CDS/P/HGPS/Flux");
+              } 
+          });
+  
+          var hips2 = A.catalogHiPS('https://axel.u-strasbg.fr/HiPSCatService/Simbad', {onClick: 'showPopup', name: 'Simbad',sourceSize: 5});
+          hips2.hide();
+          aladin.addCatalog(hips2);
+  
+          var hips = A.catalogHiPS('https://data.darts.isas.jaxa.jp/pub/HiPS/SWIFT-XRT_Catalogue/', {onClick: 'showPopup',  sourceSize: 10,  name: 'XRT',shape:'circle'});
+          hips.hide(); 
+          aladin.addCatalog(hips);
+  
+           // var hips5 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/4XMM-DR13.vot', {onClick: 'showPopup', sourceSize: 10,  name:'XMM',shape:'circle', color:'orange'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+           var hips5 = A.catalogHiPS('https://data.darts.isas.jaxa.jp/pub/HiPS/XMM-EPIC_Catalogue/', {onClick: 'showTable', sourceSize: 10, name: 'XMM',shape:'circle' });
+           hips5.hide();
+           aladin.addCatalog(hips5);
+  
+           var hips6 = A.catalogHiPS('https://data.darts.isas.jaxa.jp/pub/HiPS/CHANDRA_Catalogue/', {onClick: 'showPopup', sourceSize: 10, name: 'CSC',shape:'circle',color:'orange' });
+          //  hips6.hide();
+           aladin.addCatalog(hips6);
+  
+          var hips4 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/4FGL-DR4.vot', {onClick: 'showPopup', sourceSize: 10,  name:'4FGL',shape:'circle'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+          hips4.hide(); 
+          aladin.addCatalog(hips4);
+  
+          var hips9 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/ATNF_NS.vot', {onClick: 'showPopup', sourceSize: 10,  name:'ATNF'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+          hips9.hide(); 
+          aladin.addCatalog(hips9);
+  
+          var hips3 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/BlackCAT.vot', {onClick: 'showPopup', sourceSize: 10,  name:'BlackCAT'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+          hips3.hide(); 
+          aladin.addCatalog(hips3);
+          
+          var hips10 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/TeVCat.vot', {onClick: 'showPopup', sourceSize: 10,  name:'TeVCat'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+          hips10.hide();  
+          aladin.addCatalog(hips10);
+  
+          var hips7 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/SNR.vot', {onClick: 'showPopup', sourceSize: 10,  name:'SNR'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            aladin.addCatalog(hips7);
+  
+          var hips14 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_IDF.vot', {onClick: 'showPopup', sourceSize: 10,  name:'counterpart'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+          aladin.addCatalog(hips14);
+  
+  
+            // 'gold', 'orange', 'magenta', 'red', 'blue'
+  
+          
+        var overlay = A.graphicOverlay({color: '#ee2345', lineWidth: 3});
+            aladin.addOverlay(overlay);
+                        // overlay.add(); // radius in degrees , use the polygon to use the calculated coordinates of ellipses
+    
+              
+            // var hips = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_all_class_color.vot', {onClick: 'showTable', sourceSize: 100,  name: 'CSC',shape: drawFunction,filter: myFilterFunction}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips);
+            
+            // $('input[type=radio][name=otype]').change(function() {
+            //     requestedOtype = this.value;
+            //     hips.reportChange();
+            // });
+    
+            // var hips2 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/CSCv2_TD.vot', {onClick: 'showPopup', sourceSize: 200,  name:'TD',shape:drawFunction2}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips2);
+            
+            // $('input[type=radio][name=otype]').change(function() {
+            //     requestedOtype = this.value;
+            //     hips2.reportChange();
+            // });
+    
+            // var hips3 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/MSC.vot', {onClick: 'showPopup', sourceSize: 20,  name:'radio',shape:'plus', color:'yellow'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips3);
+    
+            // var hips4 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/NScan_deeperSurvey.vot', {onClick: 'showPopup', sourceSize: 20,  name:'match-to-deeper',shape:'plus', color:'cyan'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips4);
+             
+            // var hips5 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_DECaPS2.vot', {onClick: 'showPopup', sourceSize: 20,  name:'match',shape:'plus', color:'magenta'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips5);
+    
+            // var hips6 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_vphas.vot', {onClick: 'showPopup', sourceSize: 20,  name:'match',shape:'plus', color:'magenta'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips6);
+            
+            // var hips7 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_ukidds1.vot', {onClick: 'showPopup', sourceSize: 20,  name:'match',shape:'plus', color:'magenta'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips7);
+    
+            // var hips8 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_ukidds2.vot', {onClick: 'showPopup', sourceSize: 20,  name:'match',shape:'plus', color:'magenta'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips8);
+    
+            // var hips9 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/ATNF_NS.vot', {onClick: 'showPopup', sourceSize: 20,  name:'ATNF',shape:'plus', color:'magenta'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips9);
+            
+            // var hips10 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/TeVCat.vot', {onClick: 'showPopup', sourceSize: 20,  name:'TeVCat',shape:'plus', color:'gold'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips10);
+    
+            // var hips11 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/BeStar.vot', {onClick: 'showPopup', sourceSize: 20,  name:'BeStar',shape:'plus', color:'rgb(0,255,0)'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips11);
+    
+            // var hips5 = A.catalogFromURL('https://axel.cds.unistra.fr/HiPSCatService/II/341/vphasp/', {onClick: 'showPopup', sourceSize: 200,  name:'match',shape:'plus', color:'green'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips5);
+    
+            // var hips6 = A.catalogFromURL('https://axel.cds.unistra.fr/HiPSCatService/II/341/vphasp/', {onClick: 'showPopup', sourceSize: 20,  name:'match',shape:'plus', color:'cyan'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+            //  aladin.addCatalog(hips6);
+    
+    
+            
+        });
+    
+        
+    </script>    
+    </TD>
+    <TD>
+        
+    
+        <script type="text/javascript">
+            
+            window.onload = function() {
+            let
+              g_prop = document.getElementById("g_prop"),
+              all_clas = document.getElementById("all_clas"),
+              conf_clas = document.getElementById("conf_clas"),
+              mySelect   = document.getElementById("field-select"),
+              DescChange = document.getElementById("DescChange"),
+              comment = document.getElementById("comments")
+            ;
+          
+          
+            mySelect.onchange = function(){
+          
+              switch (mySelect.value)  {
+                case '0.7201 62.2905':
+                  g_prop1.textContent ="Name=4FGL J0002.8+6217,GLON=117.3,GLAT=-0.1,Class=PSR,PSR J0002+6216";
+                  g_prop2.textContent ="Signif=35.8,EnergyFlux100=1.9e-11cgs,Var_idx=15.4,Sig_Cur=12.0";
+                break;
+                case '1.768 73.0512':
+                  g_prop1.textContent ="Name=4FGL J0007.0+7303,GLON=119.7,GLAT=10.5,Class=PSR,PSR J0007+7303";
+                  g_prop2.textContent ="Signif=401.7,EnergyFlux100=4.3e-10cgs,Var_idx=8.2,Sig_Cur=82.9";
+                break;
+                case '16.6094 48.9269':
+                  g_prop1.textContent ="Name=4FGL J0106.4+4855,GLON=125.5,GLAT=-13.9,Class=PSR,PSR J0106+4855";
+                  g_prop2.textContent ="Signif=65.7,EnergyFlux100=2.0e-11cgs,Var_idx=6.3,Sig_Cur=17.7";
+                break;
+                case '31.4273 64.8239':
+                  g_prop1.textContent ="Name=4FGL J0205.7+6449,GLON=130.7,GLAT=3.1,Class=PSR,PSR J0205+6449";
+                  g_prop2.textContent ="Signif=13.4,EnergyFlux100=4.6e-11cgs,Var_idx=10.0,Sig_Cur=13.8";
+                break;
+                case '42.1027 60.3663':
+                  g_prop1.textContent ="Name=4FGL J0248.4+6021,GLON=136.9,GLAT=0.7,Class=PSR,PSR J0248+6021";
+                  g_prop2.textContent ="Signif=41.4,EnergyFlux100=2.9e-11cgs,Var_idx=8.1,Sig_Cur=12.7";
+                break;
+                case '59.4605 32.0833':
+                  g_prop1.textContent ="Name=4FGL J0357.8+3204,GLON=162.8,GLAT=-16.0,Class=PSR,PSR J0357+3205";
+                  g_prop2.textContent ="Signif=81.3,EnergyFlux100=6.1e-11cgs,Var_idx=23.8,Sig_Cur=36.8";
+                break;
+                case '59.8638 54.2482':
+                  g_prop1.textContent ="Name=4FGL J0359.4+5414,GLON=148.2,GLAT=0.9,Class=PSR,PSR J0359+5414";
+                  g_prop2.textContent ="Signif=35.1,EnergyFlux100=2.0e-11cgs,Var_idx=4.5,Sig_Cur=12.8";
+                break;
+                case '78.6547 -44.1358':
+                  g_prop1.textContent ="Name=4FGL J0514.6-4408,GLON=249.5,GLAT=-35.4,Class=PSR,PSR J0514-4408";
+                  g_prop2.textContent ="Signif=28.6,EnergyFlux100=5.7e-12cgs,Var_idx=11.1,Sig_Cur=10.5";
+                break;
+                case '83.6367 22.0149':
+                  g_prop1.textContent ="Name=4FGL J0534.5+2200,GLON=184.6,GLAT=-5.8,Class=PSR,PSR J0534+2200";
+                  g_prop2.textContent ="Signif=25.2,EnergyFlux100=1.5e-09cgs,Var_idx=156.7,Sig_Cur=27.5";
+                break;
+                case '85.0887 -69.3383':
+                  g_prop1.textContent ="Name=4FGL J0540.3-6920,GLON=279.7,GLAT=-31.5,Class=PSR,PSR J0540-6919";
+                  g_prop2.textContent ="Signif=28.5,EnergyFlux100=2.8e-11cgs,Var_idx=15.9,Sig_Cur=7.5";
+                break;
+                case '88.548 31.1176':
+                  g_prop1.textContent ="Name=4FGL J0554.1+3107,GLON=179.1,GLAT=2.7,Class=PSR,PSR J0554+3107";
+                  g_prop2.textContent ="Signif=45.0,EnergyFlux100=2.0e-11cgs,Var_idx=14.6,Sig_Cur=15.3";
+                break;
+                case '95.5616 37.8291':
+                  g_prop1.textContent ="Name=4FGL J0622.2+3749,GLON=175.9,GLAT=11.0,Class=PSR,PSR J0622+3749";
+                  g_prop2.textContent ="Signif=41.6,EnergyFlux100=1.9e-11cgs,Var_idx=10.9,Sig_Cur=20.0";
+                break;
+                case '97.8765 10.6046':
+                  g_prop1.textContent ="Name=4FGL J0631.5+1036,GLON=201.2,GLAT=0.5,Class=PSR,PSR J0631+1036";
+                  g_prop2.textContent ="Signif=48.2,EnergyFlux100=3.0e-11cgs,Var_idx=8.4,Sig_Cur=14.8";
+                break;
+                case '97.9644 6.7625':
+                  g_prop1.textContent ="Name=4FGL J0631.8+0645,GLON=204.7,GLAT=-1.2,Class=PSR,PSR J0631+0646";
+                  g_prop2.textContent ="Signif=30.9,EnergyFlux100=1.6e-11cgs,Var_idx=9.2,Sig_Cur=11.4";
+                break;
+                case '98.4371 6.545':
+                  g_prop1.textContent ="Name=4FGL J0633.7+0632,GLON=205.1,GLAT=-0.9,Class=PSR,PSR J0633+0632";
+                  g_prop2.textContent ="Signif=96.2,EnergyFlux100=9.5e-11cgs,Var_idx=10.3,Sig_Cur=29.4";
+                break;
+                case '98.483 17.7723':
+                  g_prop1.textContent ="Name=4FGL J0633.9+1746,GLON=195.1,GLAT=4.3,Class=PSR,PSR J0633+1746";
+                  g_prop2.textContent ="Signif=898.0,EnergyFlux100=4.2e-09cgs,Var_idx=20.1,Sig_Cur=249.3";
+                break;
+                case '104.9416 14.2792':
+                  g_prop1.textContent ="Name=4FGL J0659.7+1416,GLON=201.1,GLAT=8.3,Class=PSR,PSR J0659+1414";
+                  g_prop2.textContent ="Signif=43.5,EnergyFlux100=2.7e-11cgs,Var_idx=10.5,Sig_Cur=14.5";
+                break;
+                case '112.3416 -14.7608':
+                  g_prop1.textContent ="Name=4FGL J0729.3-1445,GLON=230.4,GLAT=1.5,Class=PSR,PSR J0729-1448";
+                  g_prop2.textContent ="Signif=8.5,EnergyFlux100=7.0e-12cgs,Var_idx=14.7,Sig_Cur=2.1";
+                break;
+                case '113.6891 -15.9917':
+                  g_prop1.textContent ="Name=4FGL J0734.7-1559,GLON=232.1,GLAT=2.0,Class=PSR,PSR J0734-1559";
+                  g_prop2.textContent ="Signif=65.9,EnergyFlux100=4.5e-11cgs,Var_idx=10.0,Sig_Cur=16.5";
+                break;
+                case '115.7091 -28.3814':
+                  g_prop1.textContent ="Name=4FGL J0742.8-2822,GLON=243.8,GLAT=-2.4,Class=PSR,PSR J0742-2822";
+                  g_prop2.textContent ="Signif=28.4,EnergyFlux100=1.5e-11cgs,Var_idx=9.8,Sig_Cur=8.7";
+                break;
+                case '116.0141 -25.432':
+                  g_prop1.textContent ="Name=4FGL J0744.0-2525,GLON=241.4,GLAT=-0.7,Class=PSR,PSR J0744-2525";
+                  g_prop2.textContent ="Signif=35.2,EnergyFlux100=1.7e-11cgs,Var_idx=12.4,Sig_Cur=11.6";
+                break;
+                case '120.5456 -56.2012':
+                  g_prop1.textContent ="Name=4FGL J0802.1-5612,GLON=269.9,GLAT=-13.2,Class=PSR,PSR J0802-5613";
+                  g_prop2.textContent ="Signif=26.5,EnergyFlux100=7.0e-12cgs,Var_idx=7.8,Sig_Cur=10.7";
+                break;
+                case '128.837 -45.1781':
+                  g_prop1.textContent ="Name=4FGL J0835.3-4510,GLON=263.6,GLAT=-2.8,Class=PSR,PSR J0835-4510";
+                  g_prop2.textContent ="Signif=689.2,EnergyFlux100=9.3e-09cgs,Var_idx=13.7,Sig_Cur=253.7";
+                break;
+                case '137.179 -49.1941':
+                  g_prop1.textContent ="Name=4FGL J0908.7-4911,GLON=270.3,GLAT=-1.0,Class=PSR,PSR J0908-4913";
+                  g_prop2.textContent ="Signif=19.4,EnergyFlux100=2.2e-11cgs,Var_idx=14.7,Sig_Cur=9.7";
+                break;
+                case '140.59 6.7342':
+                  g_prop1.textContent ="Name=4FGL J0922.3+0644,GLON=225.3,GLAT=36.5,Class=PSR,PSR J0922+0638";
+                  g_prop2.textContent ="Signif=5.7,EnergyFlux100=2.3e-12cgs,Var_idx=10.4,Sig_Cur=1.6";
+                break;
+                case '145.2831 -54.4873':
+                  g_prop1.textContent ="Name=4FGL J0941.1-5429,GLON=277.5,GLAT=-1.3,Class=PSR,PSR J0940-5428";
+                  g_prop2.textContent ="Signif=27.0,EnergyFlux100=1.5e-11cgs,Var_idx=18.7,Sig_Cur=10.4";
+                break;
+                case '154.0951 -58.9587':
+                  g_prop1.textContent ="Name=4FGL J1016.3-5857,GLON=284.1,GLAT=-1.9,Class=PSR,PSR J1016-5857";
+                  g_prop2.textContent ="Signif=45.5,EnergyFlux100=6.9e-11cgs,Var_idx=15.9,Sig_Cur=11.2";
+                break;
+                case '154.9668 -57.8279':
+                  g_prop1.textContent ="Name=4FGL J1019.8-5749,GLON=283.8,GLAT=-0.7,Class=PSR,PSR J1019-5749";
+                  g_prop2.textContent ="Signif=19.7,EnergyFlux100=2.5e-11cgs,Var_idx=9.9,Sig_Cur=5.9";
+                break;
+                case '155.7749 -57.7611':
+                  g_prop1.textContent ="Name=4FGL J1023.0-5745,GLON=284.2,GLAT=-0.4,Class=PSR,PSR J1023-5746";
+                  g_prop2.textContent ="Signif=33.0,EnergyFlux100=1.5e-10cgs,Var_idx=9.3,Sig_Cur=21.9";
+                break;
+                case '157.1295 -58.3179':
+                  g_prop1.textContent ="Name=4FGL J1028.5-5819,GLON=285.1,GLAT=-0.5,Class=PSR,PSR J1028-5819";
+                  g_prop2.textContent ="Signif=146.4,EnergyFlux100=2.5e-10cgs,Var_idx=6.8,Sig_Cur=33.2";
+                break;
+                case '161.1238 -57.6258':
+                  g_prop1.textContent ="Name=4FGL J1044.4-5737,GLON=286.6,GLAT=1.2,Class=PSR,PSR J1044-5737";
+                  g_prop2.textContent ="Signif=94.0,EnergyFlux100=1.2e-10cgs,Var_idx=20.7,Sig_Cur=23.3";
+                break;
+                case '162.0575 -58.5396':
+                  g_prop1.textContent ="Name=4FGL J1048.2-5832,GLON=287.4,GLAT=0.6,Class=PSR,PSR J1048-5832";
+                  g_prop2.textContent ="Signif=139.0,EnergyFlux100=1.8e-10cgs,Var_idx=11.5,Sig_Cur=32.8";
+                break;
+                case '163.9355 -60.4723':
+                  g_prop1.textContent ="Name=4FGL J1055.7-6028,GLON=289.1,GLAT=-0.7,Class=PSR,PSR J1055-6028";
+                  g_prop2.textContent ="Signif=20.3,EnergyFlux100=2.1e-11cgs,Var_idx=15.2,Sig_Cur=7.6";
+                break;
+                case '164.2386 -58.8806':
+                  g_prop1.textContent ="Name=4FGL J1056.9-5852,GLON=288.6,GLAT=0.8,Class=PSR,PSR J1057-5851";
+                  g_prop2.textContent ="Signif=21.1,EnergyFlux100=1.4e-11cgs,Var_idx=6.6,Sig_Cur=10.0";
+                break;
+                case '164.4976 -52.4528':
+                  g_prop1.textContent ="Name=4FGL J1057.9-5227,GLON=286.0,GLAT=6.6,Class=PSR,PSR J1057-5226";
+                  g_prop2.textContent ="Signif=297.3,EnergyFlux100=3.0e-10cgs,Var_idx=13.2,Sig_Cur=93.3";
+                break;
+                case '166.2343 -60.6304':
+                  g_prop1.textContent ="Name=4FGL J1104.9-6037,GLON=290.2,GLAT=-0.4,Class=PSR,PSR J1105-6037";
+                  g_prop2.textContent ="Signif=29.1,EnergyFlux100=3.1e-11cgs,Var_idx=9.8,Sig_Cur=11.1";
+                break;
+                case '166.365 -61.1497':
+                  g_prop1.textContent ="Name=4FGL J1105.4-6108,GLON=290.5,GLAT=-0.9,Class=PSR,PSR J1105-6107";
+                  g_prop2.textContent ="Signif=17.2,EnergyFlux100=2.2e-11cgs,Var_idx=10.3,Sig_Cur=6.9";
+                break;
+                case '167.9624 -60.659':
+                  g_prop1.textContent ="Name=4FGL J1111.8-6039,GLON=291.0,GLAT=-0.1,Class=PSR,PSR J1111-6039";
+                  g_prop2.textContent ="Signif=54.2,EnergyFlux100=5.9e-11cgs,Var_idx=17.4,Sig_Cur=15.6";
+                break;
+                case '168.0302 -61.1341':
+                  g_prop1.textContent ="Name=4FGL J1112.1-6108,GLON=291.2,GLAT=-0.5,Class=PSR,PSR J1112-6103";
+                  g_prop2.textContent ="Signif=13.5,EnergyFlux100=2.4e-11cgs,Var_idx=5.1,Sig_Cur=5.3";
+                break;
+                case '169.7757 -61.4551':
+                  g_prop1.textContent ="Name=4FGL J1119.1-6127,GLON=292.1,GLAT=-0.5,Class=PSR,PSR J1119-6127";
+                  g_prop2.textContent ="Signif=7.4,EnergyFlux100=2.2e-11cgs,Var_idx=20.3,Sig_Cur=7.7";
+                break;
+                case '171.1774 -59.2611':
+                  g_prop1.textContent ="Name=4FGL J1124.7-5915,GLON=292.0,GLAT=1.8,Class=PSR,PSR J1124-5916";
+                  g_prop2.textContent ="Signif=72.3,EnergyFlux100=6.2e-11cgs,Var_idx=11.9,Sig_Cur=15.0";
+                break;
+                case '173.8043 -60.9297':
+                  g_prop1.textContent ="Name=4FGL J1135.2-6055,GLON=293.8,GLAT=0.6,Class=PSR,PSR J1135-6055";
+                  g_prop2.textContent ="Signif=56.5,EnergyFlux100=4.3e-11cgs,Var_idx=11.1,Sig_Cur=14.4";
+                break;
+                case '174.8191 -62.7915':
+                  g_prop1.textContent ="Name=4FGL J1139.2-6247,GLON=294.8,GLAT=-1.1,Class=PSR,PSR J1139-6247";
+                  g_prop2.textContent ="Signif=23.4,EnergyFlux100=1.8e-11cgs,Var_idx=8.8,Sig_Cur=6.9";
+                break;
+                case '178.0226 -61.1298':
+                  g_prop1.textContent ="Name=4FGL J1152.0-6107,GLON=295.8,GLAT=0.9,Class=PSR,PSR J1151-6108";
+                  g_prop2.textContent ="Signif=18.6,EnergyFlux100=1.0e-11cgs,Var_idx=8.4,Sig_Cur=6.7";
+                break;
+                case '180.9843 -62.7095':
+                  g_prop1.textContent ="Name=4FGL J1203.9-6242,GLON=297.5,GLAT=-0.3,Class=PSR,PSR J1203-6242";
+                  g_prop2.textContent ="Signif=32.4,EnergyFlux100=3.6e-11cgs,Var_idx=22.9,Sig_Cur=12.2";
+                break;
+                case '182.0529 -62.6331':
+                  g_prop1.textContent ="Name=4FGL J1208.2-6237,GLON=298.0,GLAT=-0.2,Class=PSR,PSR J1208-6238";
+                  g_prop2.textContent ="Signif=32.1,EnergyFlux100=3.7e-11cgs,Var_idx=11.2,Sig_Cur=9.3";
+                break;
+                case '186.1626 -64.1383':
+                  g_prop1.textContent ="Name=4FGL J1224.6-6408,GLON=300.0,GLAT=-1.4,Class=PSR,PSR J1224-6407";
+                  g_prop2.textContent ="Signif=4.7,EnergyFlux100=2.5e-12cgs,Var_idx=6.3,Sig_Cur=2.7";
+                break;
+                case '187.9102 -51.2672':
+                  g_prop1.textContent ="Name=4FGL J1231.6-5116,GLON=299.8,GLAT=11.5,Class=PSR,PSR J1231-5113";
+                  g_prop2.textContent ="Signif=30.4,EnergyFlux100=1.1e-11cgs,Var_idx=10.0,Sig_Cur=12.4";
+                break;
+                case '187.9169 -65.1938':
+                  g_prop1.textContent ="Name=4FGL J1231.6-6511,GLON=300.9,GLAT=-2.4,Class=PSR,PSR J1231-6511";
+                  g_prop2.textContent ="Signif=20.1,EnergyFlux100=1.1e-11cgs,Var_idx=13.1,Sig_Cur=7.6";
+                break;
+                case '193.3418 -58.2833':
+                  g_prop1.textContent ="Name=4FGL J1253.3-5816,GLON=303.2,GLAT=4.6,Class=PSR,PSR J1253-5820";
+                  g_prop2.textContent ="Signif=8.5,EnergyFlux100=5.2e-12cgs,Var_idx=13.8,Sig_Cur=3.9";
+                break;
+                case '205.4337 -62.2801':
+                  g_prop1.textContent ="Name=4FGL J1341.7-6216,GLON=308.7,GLAT=0.0,Class=PSR,PSR J1341-6220";
+                  g_prop2.textContent ="Signif=12.6,EnergyFlux100=2.2e-11cgs,Var_idx=10.1,Sig_Cur=2.4";
+                break;
+                case '207.6746 -62.4133':
+                  g_prop1.textContent ="Name=4FGL J1350.6-6224,GLON=309.7,GLAT=-0.3,Class=PSR,PSR J1350-6225";
+                  g_prop2.textContent ="Signif=31.7,EnergyFlux100=3.4e-11cgs,Var_idx=7.7,Sig_Cur=10.9";
+                break;
+                case '209.234 -64.5401':
+                  g_prop1.textContent ="Name=4FGL J1356.9-6432,GLON=309.9,GLAT=-2.6,Class=PSR,PSR J1357-6429";
+                  g_prop2.textContent ="Signif=21.6,EnergyFlux100=3.0e-11cgs,Var_idx=15.1,Sig_Cur=9.6";
+                break;
+                case '209.5981 -60.4444':
+                  g_prop1.textContent ="Name=4FGL J1358.3-6026,GLON=311.1,GLAT=1.4,Class=PSR,PSR J1358-6025";
+                  g_prop2.textContent ="Signif=26.8,EnergyFlux100=3.0e-11cgs,Var_idx=7.1,Sig_Cur=8.9";
+                break;
+                case '212.8964 -61.5539':
+                  g_prop1.textContent ="Name=4FGL J1411.5-6133,GLON=312.3,GLAT=-0.2,Class=PSR,PSR J1410-6132";
+                  g_prop2.textContent ="Signif=6.6,EnergyFlux100=2.1e-11cgs,Var_idx=8.4,Sig_Cur=4.8";
+                break;
+                case '213.382 -62.0903':
+                  g_prop1.textContent ="Name=4FGL J1413.5-6205,GLON=312.4,GLAT=-0.7,Class=PSR,PSR J1413-6205";
+                  g_prop2.textContent ="Signif=106.7,EnergyFlux100=1.7e-10cgs,Var_idx=5.9,Sig_Cur=27.8";
+                break;
+                case '214.6927 -60.9654':
+                  g_prop1.textContent ="Name=4FGL J1418.7-6057,GLON=313.3,GLAT=0.1,Class=PSR,PSR J1418-6058";
+                  g_prop2.textContent ="Signif=44.9,EnergyFlux100=3.0e-10cgs,Var_idx=16.1,Sig_Cur=25.2";
+                break;
+                case '215.009 -60.805':
+                  g_prop1.textContent ="Name=4FGL J1420.0-6048,GLON=313.5,GLAT=0.2,Class=PSR,PSR J1420-6048";
+                  g_prop2.textContent ="Signif=12.9,EnergyFlux100=1.2e-10cgs,Var_idx=19.5,Sig_Cur=12.1";
+                break;
+                case '215.6298 -61.6311':
+                  g_prop1.textContent ="Name=4FGL J1422.5-6137,GLON=313.5,GLAT=-0.6,Class=PSR,PSR J1422-6138";
+                  g_prop2.textContent ="Signif=54.3,EnergyFlux100=5.4e-11cgs,Var_idx=10.4,Sig_Cur=19.2";
+                break;
+                case '217.4914 -59.1888':
+                  g_prop1.textContent ="Name=4FGL J1429.9-5911,GLON=315.3,GLAT=1.3,Class=PSR,PSR J1429-5911";
+                  g_prop2.textContent ="Signif=82.1,EnergyFlux100=1.1e-10cgs,Var_idx=11.2,Sig_Cur=20.7";
+                break;
+                case '221.8551 -57.9511':
+                  g_prop1.textContent ="Name=4FGL J1447.4-5757,GLON=317.8,GLAT=1.5,Class=PSR,PSR J1447-5757";
+                  g_prop2.textContent ="Signif=21.7,EnergyFlux100=2.3e-11cgs,Var_idx=10.1,Sig_Cur=8.5";
+                break;
+                case '224.8752 -60.8894':
+                  g_prop1.textContent ="Name=4FGL J1459.5-6053,GLON=317.9,GLAT=-1.8,Class=PSR,PSR J1459-6053";
+                  g_prop2.textContent ="Signif=75.2,EnergyFlux100=1.2e-10cgs,Var_idx=9.5,Sig_Cur=21.1";
+                break;
+                case '227.3646 -58.8431':
+                  g_prop1.textContent ="Name=4FGL J1509.4-5850,GLON=320.0,GLAT=-0.6,Class=PSR,PSR J1509-5850";
+                  g_prop2.textContent ="Signif=76.9,EnergyFlux100=1.2e-10cgs,Var_idx=17.5,Sig_Cur=20.9";
+                break;
+                case '230.493 -57.5893':
+                  g_prop1.textContent ="Name=4FGL J1521.9-5735,GLON=322.0,GLAT=-0.4,Class=PSR,PSR J1522-5735";
+                  g_prop2.textContent ="Signif=53.2,EnergyFlux100=7.5e-11cgs,Var_idx=5.3,Sig_Cur=17.4";
+                break;
+                case '232.1087 -58.634':
+                  g_prop1.textContent ="Name=4FGL J1528.4-5838,GLON=322.2,GLAT=-1.8,Class=PSR,PSR J1528-5838";
+                  g_prop2.textContent ="Signif=29.8,EnergyFlux100=1.8e-11cgs,Var_idx=6.2,Sig_Cur=10.5";
+                break;
+                case '232.8971 -56.2103':
+                  g_prop1.textContent ="Name=4FGL J1531.5-5612,GLON=323.9,GLAT=-0.0,Class=PSR,PSR J1531-5610";
+                  g_prop2.textContent ="Signif=14.4,EnergyFlux100=1.9e-11cgs,Var_idx=6.7,Sig_Cur=7.0";
+                break;
+                case '243.5403 -50.7863':
+                  g_prop1.textContent ="Name=4FGL J1614.1-5047,GLON=332.2,GLAT=0.2,Class=PSR,PSR J1614-5048";
+                  g_prop2.textContent ="Signif=6.5,EnergyFlux100=2.1e-11cgs,Var_idx=12.5,Sig_Cur=3.2";
+                break;
+                case '243.8303 -51.6135':
+                  g_prop1.textContent ="Name=4FGL J1615.3-5136,GLON=331.8,GLAT=-0.5,Class=PSR,PSR J1615-5137";
+                  g_prop2.textContent ="Signif=24.9,EnergyFlux100=3.4e-11cgs,Var_idx=10.1,Sig_Cur=12.1";
+                break;
+                case '245.1805 -49.4599':
+                  g_prop1.textContent ="Name=4FGL J1620.7-4927,GLON=333.9,GLAT=0.4,Class=PSR,PSR J1620-4927";
+                  g_prop2.textContent ="Signif=81.8,EnergyFlux100=1.3e-10cgs,Var_idx=8.1,Sig_Cur=25.4";
+                break;
+                case '245.7514 -50.0756':
+                  g_prop1.textContent ="Name=4FGL J1623.0-5004,GLON=333.7,GLAT=-0.3,Class=PSR,PSR J1623-5005";
+                  g_prop2.textContent ="Signif=39.8,EnergyFlux100=5.9e-11cgs,Var_idx=5.9,Sig_Cur=11.3";
+                break;
+                case '246.0399 -40.7073':
+                  g_prop1.textContent ="Name=4FGL J1624.1-4042,GLON=340.5,GLAT=6.1,Class=PSR,PSR J1624-4041";
+                  g_prop2.textContent ="Signif=43.5,EnergyFlux100=2.7e-11cgs,Var_idx=14.4,Sig_Cur=13.9";
+                break;
+                case '250.325 -53.2989':
+                  g_prop1.textContent ="Name=4FGL J1641.2-5317,GLON=333.3,GLAT=-4.6,Class=PSR,PSR J1641-5317";
+                  g_prop2.textContent ="Signif=29.9,EnergyFlux100=1.5e-11cgs,Var_idx=12.6,Sig_Cur=10.6";
+                break;
+                case '252.1065 -46.1955':
+                  g_prop1.textContent ="Name=4FGL J1648.4-4611,GLON=339.4,GLAT=-0.8,Class=PSR,PSR J1648-4611";
+                  g_prop2.textContent ="Signif=33.5,EnergyFlux100=4.4e-11cgs,Var_idx=12.9,Sig_Cur=11.3";
+                break;
+                case '252.5986 -46.0163':
+                  g_prop1.textContent ="Name=4FGL J1650.3-4600,GLON=339.8,GLAT=-1.0,Class=PSR,PSR J1650-4601";
+                  g_prop2.textContent ="Signif=30.5,EnergyFlux100=5.7e-11cgs,Var_idx=13.8,Sig_Cur=11.3";
+                break;
+                case '255.7401 -41.5266':
+                  g_prop1.textContent ="Name=4FGL J1702.9-4131,GLON=344.7,GLAT=0.1,Class=PSR,PSR J1702-4128";
+                  g_prop2.textContent ="Signif=10.3,EnergyFlux100=2.6e-11cgs,Var_idx=7.5,Sig_Cur=5.4";
+                break;
+                case '256.401 -19.1658':
+                  g_prop1.textContent ="Name=4FGL J1705.6-1909,GLON=3.1,GLAT=13.0,Class=PSR,PSR J1705-1906";
+                  g_prop2.textContent ="Signif=9.7,EnergyFlux100=4.4e-12cgs,Var_idx=11.0,Sig_Cur=5.7";
+                break;
+                case '257.4298 -44.4854':
+                  g_prop1.textContent ="Name=4FGL J1709.7-4429,GLON=343.1,GLAT=-2.7,Class=PSR,PSR J1709-4429";
+                  g_prop2.textContent ="Signif=431.4,EnergyFlux100=1.4e-09cgs,Var_idx=11.2,Sig_Cur=89.1";
+                break;
+                case '258.6124 -38.507':
+                  g_prop1.textContent ="Name=4FGL J1714.4-3830,GLON=348.5,GLAT=0.1,Class=PSR,PSR J1714-3830";
+                  g_prop2.textContent ="Signif=30.8,EnergyFlux100=9.5e-11cgs,Var_idx=11.0,Sig_Cur=8.1";
+                break;
+                case '259.5634 -38.4318':
+                  g_prop1.textContent ="Name=4FGL J1718.2-3825,GLON=348.9,GLAT=-0.4,Class=PSR,PSR J1718-3825";
+                  g_prop2.textContent ="Signif=47.8,EnergyFlux100=1.0e-10cgs,Var_idx=3.6,Sig_Cur=15.2";
+                break;
+                case '262.6425 -33.8801':
+                  g_prop1.textContent ="Name=4FGL J1730.5-3352,GLON=354.1,GLAT=0.1,Class=PSR,PSR J1730-3350";
+                  g_prop2.textContent ="Signif=12.9,EnergyFlux100=4.3e-11cgs,Var_idx=13.1,Sig_Cur=4.9";
+                break;
+                case '263.1452 -31.5174':
+                  g_prop1.textContent ="Name=4FGL J1732.5-3131,GLON=356.3,GLAT=1.0,Class=PSR,PSR J1732-3131";
+                  g_prop2.textContent ="Signif=109.6,EnergyFlux100=1.8e-10cgs,Var_idx=7.2,Sig_Cur=36.4";
+                break;
+                case '264.0259 -34.3772':
+                  g_prop1.textContent ="Name=4FGL J1736.1-3422,GLON=354.3,GLAT=-1.2,Class=PSR,PSR J1736-3422";
+                  g_prop2.textContent ="Signif=18.4,EnergyFlux100=1.6e-11cgs,Var_idx=17.6,Sig_Cur=6.3";
+                break;
+                case '264.8691 -30.2587':
+                  g_prop1.textContent ="Name=4FGL J1739.4-3015,GLON=358.2,GLAT=0.4,Class=PSR,PSR J1739-3023";
+                  g_prop2.textContent ="Signif=11.2,EnergyFlux100=2.2e-11cgs,Var_idx=13.0,Sig_Cur=6.2";
+                break;
+                case '265.1489 10.0977':
+                  g_prop1.textContent ="Name=4FGL J1740.5+1005,GLON=34.1,GLAT=20.3,Class=PSR,PSR J1740+1000";
+                  g_prop2.textContent ="Signif=6.7,EnergyFlux100=4.8e-12cgs,Var_idx=6.5,Sig_Cur=2.1";
+                break;
+                case '265.4918 -20.9005':
+                  g_prop1.textContent ="Name=4FGL J1741.9-2054,GLON=6.4,GLAT=4.9,Class=PSR,PSR J1741-2054";
+                  g_prop2.textContent ="Signif=116.3,EnergyFlux100=1.2e-10cgs,Var_idx=6.1,Sig_Cur=42.5";
+                break;
+                case '265.5804 -33.3075':
+                  g_prop1.textContent ="Name=4FGL J1742.3-3318,GLON=355.9,GLAT=-1.7,Class=PSR,PSR J1742-3321";
+                  g_prop2.textContent ="Signif=16.2,EnergyFlux100=1.6e-11cgs,Var_idx=12.6,Sig_Cur=6.3";
+                break;
+                case '266.7205 -32.6644':
+                  g_prop1.textContent ="Name=4FGL J1746.8-3239,GLON=357.0,GLAT=-2.2,Class=PSR,PSR J1746-3239";
+                  g_prop2.textContent ="Signif=39.1,EnergyFlux100=4.8e-11cgs,Var_idx=3.2,Sig_Cur=16.9";
+                break;
+                case '266.8231 -29.9648':
+                  g_prop1.textContent ="Name=4FGL J1747.2-2957,GLON=359.3,GLAT=-0.8,Class=PSR,PSR J1747-2958";
+                  g_prop2.textContent ="Signif=36.9,EnergyFlux100=1.7e-10cgs,Var_idx=28.7,Sig_Cur=16.5";
+                break;
+                case '269.4949 -24.33':
+                  g_prop1.textContent ="Name=4FGL J1757.9-2419,GLON=5.4,GLAT=-0.0,Class=PSR,PSR J1757-2421";
+                  g_prop2.textContent ="Signif=6.9,EnergyFlux100=2.4e-11cgs,Var_idx=13.6,Sig_Cur=1.1";
+                break;
+                case '270.3192 -24.849':
+                  g_prop1.textContent ="Name=4FGL J1801.2-2450,GLON=5.3,GLAT=-0.9,Class=PSR,PSR J1801-2451";
+                  g_prop2.textContent ="Signif=19.3,EnergyFlux100=3.2e-11cgs,Var_idx=4.4,Sig_Cur=5.7";
+                break;
+                case '270.7829 -21.8088':
+                  g_prop1.textContent ="Name=4FGL J1803.1-2148,GLON=8.1,GLAT=0.2,Class=PSR,PSR J1803-2149";
+                  g_prop2.textContent ="Signif=36.4,EnergyFlux100=9.2e-11cgs,Var_idx=12.6,Sig_Cur=10.8";
+                break;
+                case '272.4614 -23.5395':
+                  g_prop1.textContent ="Name=4FGL J1809.8-2332,GLON=7.4,GLAT=-2.0,Class=PSR,PSR J1809-2332";
+                  g_prop2.textContent ="Signif=188.9,EnergyFlux100=4.3e-10cgs,Var_idx=13.9,Sig_Cur=46.1";
+                break;
+                case '273.3508 -12.7677':
+                  g_prop1.textContent ="Name=4FGL J1813.4-1246,GLON=17.2,GLAT=2.4,Class=PSR,PSR J1813-1246";
+                  g_prop2.textContent ="Signif=124.2,EnergyFlux100=2.4e-10cgs,Var_idx=8.2,Sig_Cur=29.9";
+                break;
+                case '274.292 -17.7023':
+                  g_prop1.textContent ="Name=4FGL J1817.1-1742,GLON=13.3,GLAT=-0.7,Class=PSR,PSR J1817-1742";
+                  g_prop2.textContent ="Signif=17.0,EnergyFlux100=2.6e-11cgs,Var_idx=5.4,Sig_Cur=6.1";
+                break;
+                case '276.5352 -12.9415':
+                  g_prop1.textContent ="Name=4FGL J1826.1-1256,GLON=18.6,GLAT=-0.4,Class=PSR,PSR J1826-1256";
+                  g_prop2.textContent ="Signif=112.1,EnergyFlux100=4.0e-10cgs,Var_idx=9.0,Sig_Cur=34.1";
+                break;
+                case '276.8733 -14.7622':
+                  g_prop1.textContent ="Name=4FGL J1827.4-1445,GLON=17.1,GLAT=-1.5,Class=PSR,PSR J1827-1446";
+                  g_prop2.textContent ="Signif=22.1,EnergyFlux100=2.2e-11cgs,Var_idx=8.3,Sig_Cur=10.9";
+                break;
+                case '277.1027 -10.9964':
+                  g_prop1.textContent ="Name=4FGL J1828.4-1059,GLON=20.5,GLAT=0.0,Class=PSR,PSR J1828-1101";
+                  g_prop2.textContent ="Signif=11.7,EnergyFlux100=4.8e-11cgs,Var_idx=12.9,Sig_Cur=4.0";
+                break;
+                case '277.7159 -9.79':
+                  g_prop1.textContent ="Name=4FGL J1830.8-0947,GLON=21.9,GLAT=0.1,Class=PSR,PSR J1831-0952";
+                  g_prop2.textContent ="Signif=15.0,EnergyFlux100=6.2e-11cgs,Var_idx=10.4,Sig_Cur=9.7";
+                break;
+                case '278.3832 -10.5568':
+                  g_prop1.textContent ="Name=4FGL J1833.5-1033,GLON=21.5,GLAT=-0.9,Class=PSR,PSR J1833-1034";
+                  g_prop2.textContent ="Signif=36.7,EnergyFlux100=8.7e-11cgs,Var_idx=6.2,Sig_Cur=8.0";
+                break;
+                case '279.0556 59.4279':
+                  g_prop1.textContent ="Name=4FGL J1836.2+5925,GLON=88.9,GLAT=25.0,Class=PSR,PSR J1836+5925";
+                  g_prop2.textContent ="Signif=587.6,EnergyFlux100=6.2e-10cgs,Var_idx=14.2,Sig_Cur=142.3";
+                break;
+                case '279.4726 -6.0824':
+                  g_prop1.textContent ="Name=4FGL J1837.8-0604,GLON=26.0,GLAT=0.2,Class=PSR,PSR J1837-0604";
+                  g_prop2.textContent ="Signif=10.6,EnergyFlux100=3.4e-11cgs,Var_idx=13.0,Sig_Cur=3.8";
+                break;
+                case '279.7459 -5.6174':
+                  g_prop1.textContent ="Name=4FGL J1838.9-0537,GLON=26.5,GLAT=0.2,Class=PSR,PSR J1838-0537";
+                  g_prop2.textContent ="Signif=36.5,EnergyFlux100=1.2e-10cgs,Var_idx=7.6,Sig_Cur=13.0";
+                break;
+                case '281.1182 -3.7579':
+                  g_prop1.textContent ="Name=4FGL J1844.4-0345,GLON=28.8,GLAT=-0.2,Class=PSR,PSR J1844-0346";
+                  g_prop2.textContent ="Signif=26.3,EnergyFlux100=4.9e-11cgs,Var_idx=21.5,Sig_Cur=11.6";
+                break;
+                case '281.5957 9.3322':
+                  g_prop1.textContent ="Name=4FGL J1846.3+0919,GLON=40.7,GLAT=5.4,Class=PSR,PSR J1846+0919";
+                  g_prop2.textContent ="Signif=69.3,EnergyFlux100=3.5e-11cgs,Var_idx=20.0,Sig_Cur=20.7";
+                break;
+                case '283.3487 -0.0895':
+                  g_prop1.textContent ="Name=4FGL J1853.3-0005,GLON=33.1,GLAT=-0.5,Class=PSR,PSR J1853-0004";
+                  g_prop2.textContent ="Signif=7.1,EnergyFlux100=6.3e-12cgs,Var_idx=21.6,Sig_Cur=3.8";
+                break;
+                case '284.409 1.7327':
+                  g_prop1.textContent ="Name=4FGL J1857.6+0143,GLON=35.2,GLAT=-0.6,Class=PSR,PSR J1857+0143";
+                  g_prop2.textContent ="Signif=11.2,EnergyFlux100=1.9e-11cgs,Var_idx=17.3,Sig_Cur=6.4";
+                break;
+                case '286.6115 7.3982':
+                  g_prop1.textContent ="Name=4FGL J1906.4+0723,GLON=41.2,GLAT=0.1,Class=PSR,PSR J1906+0722";
+                  g_prop2.textContent ="Signif=28.4,EnergyFlux100=8.5e-11cgs,Var_idx=10.6,Sig_Cur=10.6";
+                break;
+                case '286.9845 6.0351':
+                  g_prop1.textContent ="Name=4FGL J1907.9+0602,GLON=40.2,GLAT=-0.9,Class=PSR,PSR J1907+0602";
+                  g_prop2.textContent ="Signif=131.0,EnergyFlux100=3.0e-10cgs,Var_idx=17.3,Sig_Cur=32.7";
+                break;
+                case '288.3458 9.0918':
+                  g_prop1.textContent ="Name=4FGL J1913.3+0905,GLON=43.5,GLAT=-0.7,Class=PSR,PSR J1913+0904";
+                  g_prop2.textContent ="Signif=18.2,EnergyFlux100=2.0e-11cgs,Var_idx=13.7,Sig_Cur=8.3";
+                break;
+                case '288.3496 10.3289':
+                  g_prop1.textContent ="Name=4FGL J1913.3+1019,GLON=44.6,GLAT=-0.1,Class=PSR,PSR J1913+1011";
+                  g_prop2.textContent ="Signif=11.3,EnergyFlux100=1.8e-11cgs,Var_idx=12.3,Sig_Cur=1.5";
+                break;
+                case '291.3217 17.4847':
+                  g_prop1.textContent ="Name=4FGL J1925.2+1729,GLON=52.3,GLAT=0.7,Class=PSR,PSR J1925+1720";
+                  g_prop2.textContent ="Signif=8.2,EnergyFlux100=1.2e-11cgs,Var_idx=17.3,Sig_Cur=5.0";
+                break;
+                case '293.065 22.3616':
+                  g_prop1.textContent ="Name=4FGL J1932.2+2221,GLON=57.4,GLAT=1.6,Class=PSR,PSR J1932+2220";
+                  g_prop2.textContent ="Signif=6.6,EnergyFlux100=6.0e-12cgs,Var_idx=23.3,Sig_Cur=3.1";
+                break;
+                case '293.0761 19.2685':
+                  g_prop1.textContent ="Name=4FGL J1932.3+1916,GLON=54.6,GLAT=0.1,Class=PSR,PSR J1932+1916";
+                  g_prop2.textContent ="Signif=45.3,EnergyFlux100=6.7e-11cgs,Var_idx=13.5,Sig_Cur=16.2";
+                break;
+                case '293.8179 20.4908':
+                  g_prop1.textContent ="Name=4FGL J1935.2+2029,GLON=56.1,GLAT=0.1,Class=PSR,PSR J1935+2025";
+                  g_prop2.textContent ="Signif=15.5,EnergyFlux100=2.7e-11cgs,Var_idx=36.8,Sig_Cur=7.4";
+                break;
+                case '298.2473 32.883':
+                  g_prop1.textContent ="Name=4FGL J1952.9+3252,GLON=68.8,GLAT=2.8,Class=PSR,PSR J1952+3252";
+                  g_prop2.textContent ="Signif=84.4,EnergyFlux100=1.3e-10cgs,Var_idx=7.7,Sig_Cur=28.8";
+                break;
+                case '298.5854 28.6026':
+                  g_prop1.textContent ="Name=4FGL J1954.3+2836,GLON=65.2,GLAT=0.4,Class=PSR,PSR J1954+2836";
+                  g_prop2.textContent ="Signif=91.1,EnergyFlux100=1.1e-10cgs,Var_idx=13.3,Sig_Cur=22.9";
+                break;
+                case '299.4058 50.5598':
+                  g_prop1.textContent ="Name=4FGL J1957.6+5033,GLON=84.6,GLAT=11.0,Class=PSR,PSR J1957+5033";
+                  g_prop2.textContent ="Signif=76.0,EnergyFlux100=2.7e-11cgs,Var_idx=13.1,Sig_Cur=24.9";
+                break;
+                case '299.6761 28.7704':
+                  g_prop1.textContent ="Name=4FGL J1958.7+2846,GLON=65.9,GLAT=-0.4,Class=PSR,PSR J1958+2846";
+                  g_prop2.textContent ="Signif=97.3,EnergyFlux100=1.1e-10cgs,Var_idx=11.2,Sig_Cur=27.7";
+                break;
+                case '301.5661 31.0446':
+                  g_prop1.textContent ="Name=4FGL J2006.2+3102,GLON=68.7,GLAT=-0.5,Class=PSR,PSR J2006+3102";
+                  g_prop2.textContent ="Signif=16.4,EnergyFlux100=1.1e-11cgs,Var_idx=6.0,Sig_Cur=6.7";
+                break;
+                case '304.4909 36.4277':
+                  g_prop1.textContent ="Name=4FGL J2017.9+3625,GLON=74.5,GLAT=0.4,Class=PSR,PSR J2017+3625";
+                  g_prop2.textContent ="Signif=57.8,EnergyFlux100=7.3e-11cgs,Var_idx=14.3,Sig_Cur=19.4";
+                break;
+                case '305.2796 36.8561':
+                  g_prop1.textContent ="Name=4FGL J2021.1+3651,GLON=75.2,GLAT=0.1,Class=PSR,PSR J2021+3651";
+                  g_prop2.textContent ="Signif=208.3,EnergyFlux100=5.0e-10cgs,Var_idx=6.7,Sig_Cur=58.2";
+                break;
+                case '305.3851 40.4445':
+                  g_prop1.textContent ="Name=4FGL J2021.5+4026,GLON=78.2,GLAT=2.1,Class=PSR,PSR J2021+4026";
+                  g_prop2.textContent ="Signif=145.7,EnergyFlux100=8.2e-10cgs,Var_idx=296.0,Sig_Cur=61.8";
+                break;
+                case '305.5845 38.6711':
+                  g_prop1.textContent ="Name=4FGL J2022.3+3840,GLON=76.9,GLAT=0.9,Class=PSR,PSR J2022+3842";
+                  g_prop2.textContent ="Signif=16.9,EnergyFlux100=2.6e-11cgs,Var_idx=10.4,Sig_Cur=6.5";
+                break;
+                case '307.0848 33.5315':
+                  g_prop1.textContent ="Name=4FGL J2028.3+3331,GLON=73.4,GLAT=-3.0,Class=PSR,PSR J2028+3332";
+                  g_prop2.textContent ="Signif=68.3,EnergyFlux100=5.8e-11cgs,Var_idx=12.1,Sig_Cur=27.8";
+                break;
+                case '307.5086 36.6872':
+                  g_prop1.textContent ="Name=4FGL J2030.0+3641,GLON=76.1,GLAT=-1.4,Class=PSR,PSR J2030+3641";
+                  g_prop2.textContent ="Signif=62.3,EnergyFlux100=4.4e-11cgs,Var_idx=11.9,Sig_Cur=21.3";
+                break;
+                case '307.7256 44.2669':
+                  g_prop1.textContent ="Name=4FGL J2030.9+4416,GLON=82.4,GLAT=2.9,Class=PSR,PSR J2030+4415";
+                  g_prop2.textContent ="Signif=52.7,EnergyFlux100=4.5e-11cgs,Var_idx=7.3,Sig_Cur=19.4";
+                break;
+                case '308.0631 41.459':
+                  g_prop1.textContent ="Name=4FGL J2032.2+4127,GLON=80.2,GLAT=1.0,Class=PSR,PSR J2032+4127";
+                  g_prop2.textContent ="Signif=111.5,EnergyFlux100=1.4e-10cgs,Var_idx=26.1,Sig_Cur=25.9";
+                break;
+                case '310.9331 27.6936':
+                  g_prop1.textContent ="Name=4FGL J2043.7+2741,GLON=70.6,GLAT=-9.1,Class=PSR,PSR J2043+2740";
+                  g_prop2.textContent ="Signif=27.5,EnergyFlux100=1.0e-11cgs,Var_idx=49.2,Sig_Cur=9.8";
+                break;
+                case '313.9601 25.674':
+                  g_prop1.textContent ="Name=4FGL J2055.8+2540,GLON=70.7,GLAT=-12.5,Class=PSR,PSR J2055+2539";
+                  g_prop2.textContent ="Signif=123.3,EnergyFlux100=5.6e-11cgs,Var_idx=12.4,Sig_Cur=38.4";
+                break;
+                case '317.863 46.1048':
+                  g_prop1.textContent ="Name=4FGL J2111.4+4606,GLON=88.3,GLAT=-1.5,Class=PSR,PSR J2111+4606";
+                  g_prop2.textContent ="Signif=78.4,EnergyFlux100=4.9e-11cgs,Var_idx=11.6,Sig_Cur=16.8";
+                break;
+                case '319.0594 37.0257':
+                  g_prop1.textContent ="Name=4FGL J2116.2+3701,GLON=82.3,GLAT=-8.3,Class=PSR,PSR J2116+3701";
+                  g_prop2.textContent ="Signif=16.4,EnergyFlux100=6.0e-12cgs,Var_idx=10.5,Sig_Cur=7.2";
+                break;
+                case '325.0009 47.2686':
+                  g_prop1.textContent ="Name=4FGL J2140.0+4716,GLON=92.6,GLAT=-4.0,Class=PSR,PSR J2139+4716";
+                  g_prop2.textContent ="Signif=59.3,EnergyFlux100=2.8e-11cgs,Var_idx=12.1,Sig_Cur=21.5";
+                break;
+                case '332.0399 40.9744':
+                  g_prop1.textContent ="Name=4FGL J2208.1+4058,GLON=92.6,GLAT=-12.1,Class=PSR,PSR J2208+4056";
+                  g_prop2.textContent ="Signif=8.5,EnergyFlux100=5.1e-12cgs,Var_idx=40.5,Sig_Cur=4.1";
+                break;
+                case '337.2737 61.2364':
+                  g_prop1.textContent ="Name=4FGL J2229.0+6114,GLON=106.6,GLAT=2.9,Class=PSR,PSR J2229+6114";
+                  g_prop2.textContent ="Signif=168.6,EnergyFlux100=2.4e-10cgs,Var_idx=10.3,Sig_Cur=40.0";
+                break;
+                case '339.6277 59.0563':
+                  g_prop1.textContent ="Name=4FGL J2238.5+5903,GLON=106.6,GLAT=0.5,Class=PSR,PSR J2238+5903";
+                  g_prop2.textContent ="Signif=73.5,EnergyFlux100=6.8e-11cgs,Var_idx=13.6,Sig_Cur=20.2";
+                break;
+                case '340.1669 58.5519':
+                  g_prop1.textContent ="Name=4FGL J2240.6+5833,GLON=106.6,GLAT=-0.1,Class=PSR,PSR J2240+5832";
+                  g_prop2.textContent ="Signif=16.8,EnergyFlux100=9.4e-12cgs,Var_idx=5.6,Sig_Cur=5.6";
+                break;
+                case '5.8513 9.3475':
+                  g_prop1.textContent ="Name=4FGL J0023.4+0920,GLON=111.4,GLAT=-52.9,Class=MSP,PSR J0023+0923";
+                  g_prop2.textContent ="Signif=31.2,EnergyFlux100=8.0e-12cgs,Var_idx=10.7,Sig_Cur=9.6";
+                break;
+                case '7.6107 4.8592':
+                  g_prop1.textContent ="Name=4FGL J0030.4+0451,GLON=113.1,GLAT=-57.6,Class=MSP,PSR J0030+0451";
+                  g_prop2.textContent ="Signif=140.2,EnergyFlux100=6.1e-11cgs,Var_idx=13.4,Sig_Cur=37.1";
+                break;
+                case '8.5961 -5.5809':
+                  g_prop1.textContent ="Name=4FGL J0034.3-0534,GLON=111.5,GLAT=-68.1,Class=MSP,PSR J0034-0534";
+                  g_prop2.textContent ="Signif=66.4,EnergyFlux100=2.0e-11cgs,Var_idx=9.4,Sig_Cur=13.3";
+                break;
+                case '15.2997 -64.3683':
+                  g_prop1.textContent ="Name=4FGL J0101.1-6422,GLON=301.2,GLAT=-52.7,Class=MSP,PSR J0101-6422";
+                  g_prop2.textContent ="Signif=66.9,EnergyFlux100=1.3e-11cgs,Var_idx=10.5,Sig_Cur=17.1";
+                break;
+                case '15.7137 48.6591':
+                  g_prop1.textContent ="Name=4FGL J0102.8+4839,GLON=124.9,GLAT=-14.2,Class=MSP,PSR J0102+4839";
+                  g_prop2.textContent ="Signif=47.0,EnergyFlux100=1.5e-11cgs,Var_idx=7.0,Sig_Cur=11.7";
+                break;
+                case '34.5344 42.5459':
+                  g_prop1.textContent ="Name=4FGL J0218.1+4232,GLON=139.5,GLAT=-17.5,Class=MSP,PSR J0218+4232";
+                  g_prop2.textContent ="Signif=94.6,EnergyFlux100=4.9e-11cgs,Var_idx=21.4,Sig_Cur=15.7";
+                break;
+                case '42.1544 42.5':
+                  g_prop1.textContent ="Name=4FGL J0248.6+4230,GLON=144.9,GLAT=-15.3,Class=MSP,PSR J0248+4230";
+                  g_prop2.textContent ="Signif=13.8,EnergyFlux100=2.0e-12cgs,Var_idx=6.1,Sig_Cur=6.0";
+                break;
+                case '42.7587 26.0936':
+                  g_prop1.textContent ="Name=4FGL J0251.0+2605,GLON=153.9,GLAT=-29.5,Class=MSP,PSR J0251+2606";
+                  g_prop2.textContent ="Signif=22.3,EnergyFlux100=5.0e-12cgs,Var_idx=8.9,Sig_Cur=8.0";
+                break;
+                case '46.9724 74.7167':
+                  g_prop1.textContent ="Name=4FGL J0307.8+7443,GLON=131.7,GLAT=14.2,Class=MSP,PSR J0307+7443";
+                  g_prop2.textContent ="Signif=60.0,EnergyFlux100=1.7e-11cgs,Var_idx=17.8,Sig_Cur=20.1";
+                break;
+                case '48.028 -9.3541':
+                  g_prop1.textContent ="Name=4FGL J0312.1-0921,GLON=191.5,GLAT=-52.4,Class=MSP,PSR J0312-0921";
+                  g_prop2.textContent ="Signif=26.2,EnergyFlux100=5.6e-12cgs,Var_idx=12.5,Sig_Cur=9.5";
+                break;
+                case '49.5675 2.9073':
+                  g_prop1.textContent ="Name=4FGL J0318.2+0254,GLON=178.4,GLAT=-43.6,Class=MSP,PSR J0318+0253";
+                  g_prop2.textContent ="Signif=28.7,EnergyFlux100=6.6e-12cgs,Var_idx=12.9,Sig_Cur=8.5";
+                break;
+                case '55.099 41.5091':
+                  g_prop1.textContent ="Name=4FGL J0340.3+4130,GLON=153.8,GLAT=-11.0,Class=MSP,PSR J0340+4130";
+                  g_prop2.textContent ="Signif=62.0,EnergyFlux100=1.9e-11cgs,Var_idx=7.8,Sig_Cur=18.0";
+                break;
+                case '64.7254 66.6001':
+                  g_prop1.textContent ="Name=4FGL J0418.9+6636,GLON=141.5,GLAT=11.5,Class=MSP,PSR J0418+6635";
+                  g_prop2.textContent ="Signif=35.0,EnergyFlux100=1.0e-11cgs,Var_idx=12.8,Sig_Cur=9.1";
+                break;
+                case '69.3136 -47.2545':
+                  g_prop1.textContent ="Name=4FGL J0437.2-4715,GLON=253.4,GLAT=-42.0,Class=MSP,PSR J0437-4715";
+                  g_prop2.textContent ="Signif=76.9,EnergyFlux100=1.8e-11cgs,Var_idx=11.2,Sig_Cur=20.1";
+                break;
+                case '83.471 68.0011':
+                  g_prop1.textContent ="Name=4FGL J0533.8+6800,GLON=144.8,GLAT=18.2,Class=MSP,PSR J0533+6759";
+                  g_prop2.textContent ="Signif=42.9,EnergyFlux100=9.1e-12cgs,Var_idx=14.2,Sig_Cur=11.3";
+                break;
+                case '91.282 37.9592':
+                  g_prop1.textContent ="Name=4FGL J0605.1+3757,GLON=174.2,GLAT=8.0,Class=MSP,PSR J0605+3757";
+                  g_prop2.textContent ="Signif=25.8,EnergyFlux100=6.4e-12cgs,Var_idx=17.6,Sig_Cur=10.5";
+                break;
+                case '92.5576 -21.0006':
+                  g_prop1.textContent ="Name=4FGL J0610.2-2100,GLON=227.7,GLAT=-18.2,Class=MSP,PSR J0610-2100";
+                  g_prop2.textContent ="Signif=32.5,EnergyFlux100=7.7e-12cgs,Var_idx=5.2,Sig_Cur=10.4";
+                break;
+                case '93.4375 -2.0217':
+                  g_prop1.textContent ="Name=4FGL J0613.7-0201,GLON=210.4,GLAT=-9.3,Class=MSP,PSR J0613-0200";
+                  g_prop2.textContent ="Signif=75.2,EnergyFlux100=3.9e-11cgs,Var_idx=5.9,Sig_Cur=18.1";
+                break;
+                case '93.5422 -33.4976':
+                  g_prop1.textContent ="Name=4FGL J0614.1-3329,GLON=240.5,GLAT=-21.8,Class=MSP,PSR J0614-3329";
+                  g_prop2.textContent ="Signif=233.1,EnergyFlux100=1.2e-10cgs,Var_idx=7.2,Sig_Cur=47.2";
+                break;
+                case '95.3134 25.2075':
+                  g_prop1.textContent ="Name=4FGL J0621.2+2512,GLON=187.2,GLAT=5.1,Class=MSP,PSR J0621+2514";
+                  g_prop2.textContent ="Signif=15.8,EnergyFlux100=4.4e-12cgs,Var_idx=17.1,Sig_Cur=7.3";
+                break;
+                case '103.2355 47.1259':
+                  g_prop1.textContent ="Name=4FGL J0652.9+4707,GLON=169.2,GLAT=19.8,Class=MSP,PSR J0653+4706";
+                  g_prop2.textContent ="Signif=12.9,EnergyFlux100=2.1e-12cgs,Var_idx=17.3,Sig_Cur=5.4";
+                break;
+                case '114.4766 -30.69':
+                  g_prop1.textContent ="Name=4FGL J0737.9-3041,GLON=245.3,GLAT=-4.5,Class=MSP,PSR J0737-3039A";
+                  g_prop2.textContent ="Signif=4.4,EnergyFlux100=2.7e-12cgs,Var_idx=9.4,Sig_Cur=1.7";
+                break;
+                case '115.2539 66.3123':
+                  g_prop1.textContent ="Name=4FGL J0741.0+6618,GLON=149.8,GLAT=29.6,Class=MSP,PSR J0740+6620";
+                  g_prop2.textContent ="Signif=21.0,EnergyFlux100=2.6e-12cgs,Var_idx=25.5,Sig_Cur=6.1";
+                break;
+                case '117.8024 18.1411':
+                  g_prop1.textContent ="Name=4FGL J0751.2+1808,GLON=202.7,GLAT=21.1,Class=MSP,PSR J0751+1807";
+                  g_prop2.textContent ="Signif=39.7,EnergyFlux100=1.0e-11cgs,Var_idx=10.9,Sig_Cur=15.3";
+                break;
+                case '142.8242 -19.1157':
+                  g_prop1.textContent ="Name=4FGL J0931.2-1906,GLON=251.0,GLAT=23.0,Class=MSP,PSR J0931-1902";
+                  g_prop2.textContent ="Signif=11.2,EnergyFlux100=1.6e-12cgs,Var_idx=10.5,Sig_Cur=5.4";
+                break;
+                case '148.0477 -6.129':
+                  g_prop1.textContent ="Name=4FGL J0952.1-0607,GLON=243.7,GLAT=35.4,Class=MSP,PSR J0952-0607";
+                  g_prop2.textContent ="Signif=14.3,EnergyFlux100=2.5e-12cgs,Var_idx=10.6,Sig_Cur=5.6";
+                break;
+                case '148.8467 -39.8206':
+                  g_prop1.textContent ="Name=4FGL J0955.3-3949,GLON=269.9,GLAT=11.5,Class=MSP,PSR J0955-3947";
+                  g_prop2.textContent ="Signif=31.1,EnergyFlux100=1.2e-11cgs,Var_idx=14.8,Sig_Cur=7.5";
+                break;
+                case '148.8667 -61.8559':
+                  g_prop1.textContent ="Name=4FGL J0955.4-6151,GLON=283.7,GLAT=-5.7,Class=MSP,PSR J0955-6150";
+                  g_prop2.textContent ="Signif=23.7,EnergyFlux100=8.7e-12cgs,Var_idx=15.4,Sig_Cur=6.0";
+                break;
+                case '153.0499 -42.5893':
+                  g_prop1.textContent ="Name=4FGL J1012.1-4235,GLON=274.2,GLAT=11.2,Class=MSP,PSR J1012-4235";
+                  g_prop2.textContent ="Signif=21.0,EnergyFlux100=5.3e-12cgs,Var_idx=15.7,Sig_Cur=6.1";
+                break;
+                case '156.1254 -7.3196':
+                  g_prop1.textContent ="Name=4FGL J1024.5-0719,GLON=251.7,GLAT=40.5,Class=MSP,PSR J1024-0719";
+                  g_prop2.textContent ="Signif=20.5,EnergyFlux100=4.1e-12cgs,Var_idx=19.8,Sig_Cur=5.6";
+                break;
+                case '158.8645 -67.338':
+                  g_prop1.textContent ="Name=4FGL J1035.4-6720,GLON=290.4,GLAT=-7.8,Class=MSP,PSR J1035-6720";
+                  g_prop2.textContent ="Signif=56.5,EnergyFlux100=1.9e-11cgs,Var_idx=6.0,Sig_Cur=17.8";
+                break;
+                case '159.1499 -83.3125':
+                  g_prop1.textContent ="Name=4FGL J1036.5-8318,GLON=298.9,GLAT=-21.5,Class=MSP,PSR J1036-8317";
+                  g_prop2.textContent ="Signif=21.2,EnergyFlux100=4.1e-12cgs,Var_idx=3.9,Sig_Cur=8.1";
+                break;
+                case '162.1711 23.6798':
+                  g_prop1.textContent ="Name=4FGL J1048.6+2340,GLON=213.1,GLAT=62.1,Class=MSP,PSR J1048+2339";
+                  g_prop2.textContent ="Signif=21.6,EnergyFlux100=4.8e-12cgs,Var_idx=16.2,Sig_Cur=4.1";
+                break;
+                case '171.0135 -36.8998':
+                  g_prop1.textContent ="Name=4FGL J1124.0-3653,GLON=284.1,GLAT=22.8,Class=MSP,PSR J1124-3653";
+                  g_prop2.textContent ="Signif=44.9,EnergyFlux100=1.2e-11cgs,Var_idx=15.2,Sig_Cur=11.4";
+                break;
+                case '171.4087 -58.4246':
+                  g_prop1.textContent ="Name=4FGL J1125.6-5825,GLON=291.9,GLAT=2.6,Class=MSP,PSR J1125-5825";
+                  g_prop2.textContent ="Signif=20.2,EnergyFlux100=6.5e-12cgs,Var_idx=4.9,Sig_Cur=7.3";
+                break;
+                case '171.6141 -60.1862':
+                  g_prop1.textContent ="Name=4FGL J1126.4-6011,GLON=292.6,GLAT=1.0,Class=MSP,PSR J1125-6014";
+                  g_prop2.textContent ="Signif=8.6,EnergyFlux100=4.1e-12cgs,Var_idx=13.4,Sig_Cur=3.8";
+                break;
+                case '174.4247 75.4583':
+                  g_prop1.textContent ="Name=4FGL J1137.6+7527,GLON=129.0,GLAT=40.8,Class=MSP,PSR J1137+7528";
+                  g_prop2.textContent ="Signif=6.5,EnergyFlux100=6.3e-13cgs,Var_idx=6.8,Sig_Cur=3.5";
+                break;
+                case '175.7154 1.34':
+                  g_prop1.textContent ="Name=4FGL J1142.8+0120,GLON=267.5,GLAT=59.4,Class=MSP,PSR J1142+0119";
+                  g_prop2.textContent ="Signif=31.7,EnergyFlux100=6.7e-12cgs,Var_idx=21.4,Sig_Cur=8.0";
+                break;
+                case '181.8508 -50.8495':
+                  g_prop1.textContent ="Name=4FGL J1207.4-5050,GLON=295.9,GLAT=11.4,Class=MSP,PSR J1207-5050";
+                  g_prop2.textContent ="Signif=20.0,EnergyFlux100=4.6e-12cgs,Var_idx=14.5,Sig_Cur=8.1";
+                break;
+                case '185.3701 -6.5831':
+                  g_prop1.textContent ="Name=4FGL J1221.4-0634,GLON=289.7,GLAT=55.5,Class=MSP,PSR J1221-0633";
+                  g_prop2.textContent ="Signif=24.2,EnergyFlux100=5.4e-12cgs,Var_idx=14.3,Sig_Cur=6.8";
+                break;
+                case '187.0101 -48.8847':
+                  g_prop1.textContent ="Name=4FGL J1228.0-4853,GLON=299.0,GLAT=13.8,Class=MSP,PSR J1227-4853";
+                  g_prop2.textContent ="Signif=52.7,EnergyFlux100=2.5e-11cgs,Var_idx=181.3,Sig_Cur=7.9";
+                break;
+                case '187.7981 -14.2014':
+                  g_prop1.textContent ="Name=4FGL J1231.1-1412,GLON=295.5,GLAT=48.4,Class=MSP,PSR J1231-1411";
+                  g_prop2.textContent ="Signif=188.0,EnergyFlux100=1.0e-10cgs,Var_idx=27.8,Sig_Cur=51.6";
+                break;
+                case '194.7625 -81.8163':
+                  g_prop1.textContent ="Name=4FGL J1259.0-8148,GLON=303.2,GLAT=-18.9,Class=MSP,PSR J1259-8148";
+                  g_prop2.textContent ="Signif=15.0,EnergyFlux100=4.5e-12cgs,Var_idx=10.9,Sig_Cur=4.9";
+                break;
+                case '195.412 8.5742':
+                  g_prop1.textContent ="Name=4FGL J1301.6+0834,GLON=310.8,GLAT=71.3,Class=MSP,PSR J1301+0833";
+                  g_prop2.textContent ="Signif=34.5,EnergyFlux100=8.0e-12cgs,Var_idx=26.6,Sig_Cur=10.2";
+                break;
+                case '195.6231 -32.9694':
+                  g_prop1.textContent ="Name=4FGL J1302.4-3258,GLON=305.6,GLAT=29.8,Class=MSP,PSR J1302-3258";
+                  g_prop2.textContent ="Signif=45.5,EnergyFlux100=1.1e-11cgs,Var_idx=8.3,Sig_Cur=15.1";
+                break;
+                case '196.5873 -60.7199':
+                  g_prop1.textContent ="Name=4FGL J1306.3-6043,GLON=304.8,GLAT=2.1,Class=MSP,PSR J1306-6043";
+                  g_prop2.textContent ="Signif=52.6,EnergyFlux100=2.8e-11cgs,Var_idx=19.3,Sig_Cur=16.0";
+                break;
+                case '197.9484 -34.5097':
+                  g_prop1.textContent ="Name=4FGL J1311.7-3430,GLON=307.7,GLAT=28.2,Class=MSP,PSR J1311-3430";
+                  g_prop2.textContent ="Signif=121.6,EnergyFlux100=6.1e-11cgs,Var_idx=18.3,Sig_Cur=19.2";
+                break;
+                case '198.1894 0.842':
+                  g_prop1.textContent ="Name=4FGL J1312.7+0050,GLON=314.8,GLAT=63.2,Class=MSP,PSR J1312+0051";
+                  g_prop2.textContent ="Signif=48.6,EnergyFlux100=1.5e-11cgs,Var_idx=11.6,Sig_Cur=16.6";
+                break;
+                case '203.7679 -56.9471':
+                  g_prop1.textContent ="Name=4FGL J1335.0-5656,GLON=308.9,GLAT=5.4,Class=MSP,PSR J1335-5656";
+                  g_prop2.textContent ="Signif=21.8,EnergyFlux100=8.3e-12cgs,Var_idx=7.3,Sig_Cur=6.4";
+                break;
+                case '210.1581 -14.547':
+                  g_prop1.textContent ="Name=4FGL J1400.6-1432,GLON=327.0,GLAT=45.1,Class=MSP,PSR J1400-1431";
+                  g_prop2.textContent ="Signif=26.3,EnergyFlux100=6.4e-12cgs,Var_idx=11.6,Sig_Cur=9.7";
+                break;
+                case '210.6919 13.1072':
+                  g_prop1.textContent ="Name=4FGL J1402.7+1306,GLON=356.4,GLAT=68.2,Class=MSP,PSR J1402+1306";
+                  g_prop2.textContent ="Signif=12.1,EnergyFlux100=1.7e-12cgs,Var_idx=19.4,Sig_Cur=6.5";
+                break;
+                case '217.8727 -47.1945':
+                  g_prop1.textContent ="Name=4FGL J1431.4-4711,GLON=320.0,GLAT=12.3,Class=MSP,PSR J1431-4715";
+                  g_prop2.textContent ="Signif=11.4,EnergyFlux100=4.7e-12cgs,Var_idx=12.5,Sig_Cur=3.4";
+                break;
+                case '221.6541 -47.0276':
+                  g_prop1.textContent ="Name=4FGL J1446.6-4701,GLON=322.5,GLAT=11.4,Class=MSP,PSR J1446-4701";
+                  g_prop2.textContent ="Signif=23.0,EnergyFlux100=7.3e-12cgs,Var_idx=10.7,Sig_Cur=6.1";
+                break;
+                case '223.9993 -33.5279':
+                  g_prop1.textContent ="Name=4FGL J1455.9-3331,GLON=330.8,GLAT=22.5,Class=MSP,PSR J1455-3330";
+                  g_prop2.textContent ="Signif=5.6,EnergyFlux100=1.2e-12cgs,Var_idx=6.1,Sig_Cur=3.3";
+                break;
+                case '228.3728 -25.8271':
+                  g_prop1.textContent ="Name=4FGL J1513.4-2549,GLON=338.9,GLAT=27.0,Class=MSP,PSR J1513-2550";
+                  g_prop2.textContent ="Signif=24.7,EnergyFlux100=7.4e-12cgs,Var_idx=15.6,Sig_Cur=7.0";
+                break;
+                case '228.5757 -49.7711':
+                  g_prop1.textContent ="Name=4FGL J1514.3-4946,GLON=325.2,GLAT=6.8,Class=MSP,PSR J1514-4946";
+                  g_prop2.textContent ="Signif=84.5,EnergyFlux100=4.2e-11cgs,Var_idx=8.5,Sig_Cur=20.0";
+                break;
+                case '231.6709 -27.7327':
+                  g_prop1.textContent ="Name=4FGL J1526.6-2743,GLON=340.2,GLAT=23.7,Class=MSP,PSR J1526-2744";
+                  g_prop2.textContent ="Signif=13.3,EnergyFlux100=3.1e-12cgs,Var_idx=8.3,Sig_Cur=5.0";
+                break;
+                case '234.1003 -49.8164':
+                  g_prop1.textContent ="Name=4FGL J1536.4-4948,GLON=328.2,GLAT=4.8,Class=MSP,PSR J1536-4948";
+                  g_prop2.textContent ="Signif=115.6,EnergyFlux100=8.1e-11cgs,Var_idx=12.8,Sig_Cur=21.7";
+                break;
+                case '235.9227 -51.8149':
+                  g_prop1.textContent ="Name=4FGL J1543.6-5148,GLON=327.9,GLAT=2.5,Class=MSP,PSR J1543-5149";
+                  g_prop2.textContent ="Signif=19.4,EnergyFlux100=1.7e-11cgs,Var_idx=13.0,Sig_Cur=6.7";
+                break;
+                case '236.0179 49.6524':
+                  g_prop1.textContent ="Name=4FGL J1544.0+4939,GLON=79.2,GLAT=50.2,Class=MSP,PSR J1544+4937";
+                  g_prop2.textContent ="Signif=16.6,EnergyFlux100=2.2e-12cgs,Var_idx=12.6,Sig_Cur=6.0";
+                break;
+                case '238.2833 54.6413':
+                  g_prop1.textContent ="Name=4FGL J1553.1+5438,GLON=85.6,GLAT=47.2,Class=MSP,PSR J1552+5437";
+                  g_prop2.textContent ="Signif=20.4,EnergyFlux100=2.7e-12cgs,Var_idx=8.0,Sig_Cur=5.6";
+                break;
+                case '238.9256 -29.1371':
+                  g_prop1.textContent ="Name=4FGL J1555.7-2908,GLON=344.5,GLAT=18.5,Class=MSP,PSR J1555-2908";
+                  g_prop2.textContent ="Signif=13.1,EnergyFlux100=5.3e-12cgs,Var_idx=14.9,Sig_Cur=4.0";
+                break;
+                case '240.2267 -30.9102':
+                  g_prop1.textContent ="Name=4FGL J1600.9-3054,GLON=344.1,GLAT=16.4,Class=MSP,PSR J1600-3053";
+                  g_prop2.textContent ="Signif=31.0,EnergyFlux100=7.8e-12cgs,Var_idx=13.9,Sig_Cur=11.0";
+                break;
+                case '243.6415 -22.5044':
+                  g_prop1.textContent ="Name=4FGL J1614.5-2230,GLON=352.6,GLAT=20.2,Class=MSP,PSR J1614-2230";
+                  g_prop2.textContent ="Signif=67.6,EnergyFlux100=2.6e-11cgs,Var_idx=10.9,Sig_Cur=21.8";
+                break;
+                case '245.752 -3.264':
+                  g_prop1.textContent ="Name=4FGL J1623.0-0315,GLON=10.7,GLAT=30.7,Class=MSP,PSR J1622-0315";
+                  g_prop2.textContent ="Signif=21.1,EnergyFlux100=6.7e-12cgs,Var_idx=8.3,Sig_Cur=6.1";
+                break;
+                case '245.9865 -69.6069':
+                  g_prop1.textContent ="Name=4FGL J1623.9-6936,GLON=319.6,GLAT=-14.0,Class=MSP,PSR J1623-6936";
+                  g_prop2.textContent ="Signif=16.6,EnergyFlux100=3.5e-12cgs,Var_idx=20.4,Sig_Cur=4.8";
+                break;
+                case '246.287 -0.3491':
+                  g_prop1.textContent ="Name=4FGL J1625.1-0020,GLON=13.9,GLAT=31.8,Class=MSP,PSR J1625-0021";
+                  g_prop2.textContent ="Signif=65.9,EnergyFlux100=2.1e-11cgs,Var_idx=6.5,Sig_Cur=20.8";
+                break;
+                case '246.94 32.3213':
+                  g_prop1.textContent ="Name=4FGL J1627.7+3219,GLON=53.0,GLAT=43.2,Class=MSP,PSR J1627+3219";
+                  g_prop2.textContent ="Signif=25.6,EnergyFlux100=4.0e-12cgs,Var_idx=14.0,Sig_Cur=9.0";
+                break;
+                case '247.0387 -32.0747':
+                  g_prop1.textContent ="Name=4FGL J1628.1-3204,GLON=347.5,GLAT=11.5,Class=MSP,PSR J1628-3205";
+                  g_prop2.textContent ="Signif=25.5,EnergyFlux100=1.1e-11cgs,Var_idx=8.7,Sig_Cur=8.6";
+                break;
+                case '247.6628 37.5825':
+                  g_prop1.textContent ="Name=4FGL J1630.6+3734,GLON=60.3,GLAT=43.2,Class=MSP,PSR J1630+3734";
+                  g_prop2.textContent ="Signif=33.7,EnergyFlux100=6.1e-12cgs,Var_idx=13.2,Sig_Cur=9.6";
+                break;
+                case '250.0258 22.3774':
+                  g_prop1.textContent ="Name=4FGL J1640.1+2222,GLON=41.0,GLAT=38.3,Class=MSP,PSR J1640+2224";
+                  g_prop2.textContent ="Signif=14.0,EnergyFlux100=2.3e-12cgs,Var_idx=11.7,Sig_Cur=6.0";
+                break;
+                case '250.3029 80.8292':
+                  g_prop1.textContent ="Name=4FGL J1641.2+8049,GLON=113.8,GLAT=31.8,Class=MSP,PSR J1641+8049";
+                  g_prop2.textContent ="Signif=16.1,EnergyFlux100=2.0e-12cgs,Var_idx=8.9,Sig_Cur=5.7";
+                break;
+                case '252.458 -30.1821':
+                  g_prop1.textContent ="Name=4FGL J1649.8-3010,GLON=352.0,GLAT=9.2,Class=MSP,PSR J1649-3012";
+                  g_prop2.textContent ="Signif=23.8,EnergyFlux100=9.1e-12cgs,Var_idx=10.5,Sig_Cur=7.9";
+                break;
+                case '253.4011 -1.9737':
+                  g_prop1.textContent ="Name=4FGL J1653.6-0158,GLON=16.6,GLAT=24.9,Class=MSP,PSR J1653-0158";
+                  g_prop2.textContent ="Signif=67.0,EnergyFlux100=3.5e-11cgs,Var_idx=24.0,Sig_Cur=15.5";
+                break;
+                case '254.6511 -53.3955':
+                  g_prop1.textContent ="Name=4FGL J1658.6-5323,GLON=334.9,GLAT=-6.6,Class=MSP,PSR J1658-5324";
+                  g_prop2.textContent ="Signif=39.9,EnergyFlux100=2.0e-11cgs,Var_idx=10.9,Sig_Cur=13.7";
+                break;
+                case '258.4701 7.7927':
+                  g_prop1.textContent ="Name=4FGL J1713.8+0747,GLON=28.8,GLAT=25.2,Class=MSP,PSR J1713+0747";
+                  g_prop2.textContent ="Signif=27.7,EnergyFlux100=7.5e-12cgs,Var_idx=11.1,Sig_Cur=9.4";
+                break;
+                case '262.7031 -23.06':
+                  g_prop1.textContent ="Name=4FGL J1730.8-2303,GLON=3.2,GLAT=5.9,Class=MSP,PSR J1730-2304";
+                  g_prop2.textContent ="Signif=9.3,EnergyFlux100=8.7e-12cgs,Var_idx=14.6,Sig_Cur=5.9";
+                break;
+                case '263.1811 -50.8377':
+                  g_prop1.textContent ="Name=4FGL J1732.7-5050,GLON=340.0,GLAT=-9.5,Class=MSP,PSR J1732-5049";
+                  g_prop2.textContent ="Signif=17.5,EnergyFlux100=6.0e-12cgs,Var_idx=35.5,Sig_Cur=5.2";
+                break;
+                case '265.3668 13.9093':
+                  g_prop1.textContent ="Name=4FGL J1741.4+1354,GLON=37.9,GLAT=21.7,Class=MSP,PSR J1741+1351";
+                  g_prop2.textContent ="Signif=16.6,EnergyFlux100=3.3e-12cgs,Var_idx=9.1,Sig_Cur=6.5";
+                break;
+                case '266.0003 -76.3152':
+                  g_prop1.textContent ="Name=4FGL J1744.0-7618,GLON=317.1,GLAT=-22.5,Class=MSP,PSR J1744-7619";
+                  g_prop2.textContent ="Signif=67.7,EnergyFlux100=2.0e-11cgs,Var_idx=11.5,Sig_Cur=22.0";
+                break;
+                case '266.1153 -11.5874':
+                  g_prop1.textContent ="Name=4FGL J1744.4-1135,GLON=14.8,GLAT=9.2,Class=MSP,PSR J1744-1134";
+                  g_prop2.textContent ="Signif=56.7,EnergyFlux100=3.6e-11cgs,Var_idx=11.9,Sig_Cur=20.7";
+                break;
+                case '266.3994 10.2947':
+                  g_prop1.textContent ="Name=4FGL J1745.5+1017,GLON=34.9,GLAT=19.2,Class=MSP,PSR J1745+1017";
+                  g_prop2.textContent ="Signif=26.8,EnergyFlux100=7.2e-12cgs,Var_idx=15.0,Sig_Cur=9.1";
+                break;
+                case '266.946 -40.6231':
+                  g_prop1.textContent ="Name=4FGL J1747.7-4037,GLON=350.2,GLAT=-6.4,Class=MSP,PSR J1747-4036";
+                  g_prop2.textContent ="Signif=25.4,EnergyFlux100=1.4e-11cgs,Var_idx=8.2,Sig_Cur=7.8";
+                break;
+                case '269.4489 -60.5374':
+                  g_prop1.textContent ="Name=4FGL J1757.7-6032,GLON=333.0,GLAT=-17.2,Class=MSP,PSR J1757-6032";
+                  g_prop2.textContent ="Signif=24.5,EnergyFlux100=4.4e-12cgs,Var_idx=6.0,Sig_Cur=7.1";
+                break;
+                case '270.791 -67.1347':
+                  g_prop1.textContent ="Name=4FGL J1803.1-6708,GLON=326.8,GLAT=-20.4,Class=MSP,PSR J1803-6707";
+                  g_prop2.textContent ="Signif=22.9,EnergyFlux100=4.9e-12cgs,Var_idx=23.6,Sig_Cur=5.7";
+                break;
+                case '271.4247 6.2556':
+                  g_prop1.textContent ="Name=4FGL J1805.6+0615,GLON=33.4,GLAT=13.0,Class=MSP,PSR J1805+0615";
+                  g_prop2.textContent ="Signif=18.7,EnergyFlux100=4.8e-12cgs,Var_idx=14.4,Sig_Cur=6.7";
+                break;
+                case '272.6497 17.747':
+                  g_prop1.textContent ="Name=4FGL J1810.5+1744,GLON=44.6,GLAT=16.8,Class=MSP,PSR J1810+1744";
+                  g_prop2.textContent ="Signif=50.7,EnergyFlux100=2.4e-11cgs,Var_idx=16.0,Sig_Cur=11.0";
+                break;
+                case '272.8324 -24.055':
+                  g_prop1.textContent ="Name=4FGL J1811.3-2403,GLON=7.1,GLAT=-2.5,Class=MSP,PSR J1811-2405";
+                  g_prop2.textContent ="Signif=11.3,EnergyFlux100=1.3e-11cgs,Var_idx=12.5,Sig_Cur=3.1";
+                break;
+                case '274.1489 45.173':
+                  g_prop1.textContent ="Name=4FGL J1816.5+4510,GLON=72.8,GLAT=24.7,Class=MSP,PSR J1816+4510";
+                  g_prop2.textContent ="Signif=47.6,EnergyFlux100=9.9e-12cgs,Var_idx=9.3,Sig_Cur=12.7";
+                break;
+                case '275.8915 -30.3495':
+                  g_prop1.textContent ="Name=4FGL J1823.5-3020,GLON=2.8,GLAT=-7.9,Class=MSP,PSR J1823-3021A";
+                  g_prop2.textContent ="Signif=32.1,EnergyFlux100=1.4e-11cgs,Var_idx=7.0,Sig_Cur=7.3";
+                break;
+                case '276.0484 10.2329':
+                  g_prop1.textContent ="Name=4FGL J1824.1+1013,GLON=39.1,GLAT=10.7,Class=MSP,PSR J1824+1014";
+                  g_prop2.textContent ="Signif=20.7,EnergyFlux100=6.5e-12cgs,Var_idx=9.5,Sig_Cur=5.5";
+                break;
+                case '276.0679 -6.3576':
+                  g_prop1.textContent ="Name=4FGL J1824.2-0621,GLON=24.2,GLAT=3.1,Class=MSP,PSR J1824-0621";
+                  g_prop2.textContent ="Signif=25.4,EnergyFlux100=1.1e-11cgs,Var_idx=12.9,Sig_Cur=9.5";
+                break;
+                case '276.1614 -24.8701':
+                  g_prop1.textContent ="Name=4FGL J1824.6-2452,GLON=7.8,GLAT=-5.6,Class=MSP,PSR J1824-2452A";
+                  g_prop2.textContent ="Signif=34.5,EnergyFlux100=2.4e-11cgs,Var_idx=11.8,Sig_Cur=9.9";
+                break;
+                case '276.9076 -8.8271':
+                  g_prop1.textContent ="Name=4FGL J1827.6-0849,GLON=22.4,GLAT=1.2,Class=MSP,PSR J1827-0849";
+                  g_prop2.textContent ="Signif=21.6,EnergyFlux100=3.0e-11cgs,Var_idx=7.9,Sig_Cur=4.7";
+                break;
+                case '278.2605 -38.6702':
+                  g_prop1.textContent ="Name=4FGL J1833.0-3840,GLON=356.0,GLAT=-13.3,Class=MSP,PSR J1833-3840";
+                  g_prop2.textContent ="Signif=9.8,EnergyFlux100=2.7e-12cgs,Var_idx=16.5,Sig_Cur=4.5";
+                break;
+                case '278.9396 -32.971':
+                  g_prop1.textContent ="Name=4FGL J1835.7-3258,GLON=1.6,GLAT=-11.4,Class=MSP,PSR J1835-3259B";
+                  g_prop2.textContent ="Signif=13.9,EnergyFlux100=5.3e-12cgs,Var_idx=13.6,Sig_Cur=4.5";
+                break;
+                case '280.937 -11.242':
+                  g_prop1.textContent ="Name=4FGL J1843.7-1114,GLON=22.0,GLAT=-3.4,Class=MSP,PSR J1843-1113";
+                  g_prop2.textContent ="Signif=22.7,EnergyFlux100=2.1e-11cgs,Var_idx=17.0,Sig_Cur=6.5";
+                break;
+                case '283.0739 -13.1595':
+                  g_prop1.textContent ="Name=4FGL J1852.2-1309,GLON=21.3,GLAT=-6.1,Class=MSP,PSR J1852-1310";
+                  g_prop2.textContent ="Signif=10.6,EnergyFlux100=3.8e-12cgs,Var_idx=24.7,Sig_Cur=5.1";
+                break;
+                case '283.9946 -14.5908':
+                  g_prop1.textContent ="Name=4FGL J1855.9-1435,GLON=20.4,GLAT=-7.6,Class=MSP,PSR J1855-1436";
+                  g_prop2.textContent ="Signif=12.6,EnergyFlux100=5.3e-12cgs,Var_idx=7.6,Sig_Cur=2.8";
+                break;
+                case '284.5752 -22.2805':
+                  g_prop1.textContent ="Name=4FGL J1858.3-2216,GLON=13.6,GLAT=-11.4,Class=MSP,PSR J1858-2216";
+                  g_prop2.textContent ="Signif=34.2,EnergyFlux100=1.1e-11cgs,Var_idx=11.5,Sig_Cur=12.5";
+                break;
+                case '284.576 -54.4123':
+                  g_prop1.textContent ="Name=4FGL J1858.3-5424,GLON=342.0,GLAT=-22.7,Class=MSP,PSR J1858-5422";
+                  g_prop2.textContent ="Signif=19.1,EnergyFlux100=4.4e-12cgs,Var_idx=12.0,Sig_Cur=5.3";
+                break;
+                case '285.3702 -1.4391':
+                  g_prop1.textContent ="Name=4FGL J1901.4-0126,GLON=32.8,GLAT=-2.9,Class=MSP,PSR J1901-0125";
+                  g_prop2.textContent ="Signif=28.8,EnergyFlux100=2.0e-11cgs,Var_idx=12.0,Sig_Cur=8.0";
+                break;
+                case '285.5105 -51.09':
+                  g_prop1.textContent ="Name=4FGL J1902.0-5105,GLON=345.7,GLAT=-22.4,Class=MSP,PSR J1902-5105";
+                  g_prop2.textContent ="Signif=51.6,EnergyFlux100=2.4e-11cgs,Var_idx=9.8,Sig_Cur=12.5";
+                break;
+                case '285.8622 -70.8886':
+                  g_prop1.textContent ="Name=4FGL J1903.4-7053,GLON=324.4,GLAT=-26.5,Class=MSP,PSR J1903-7051";
+                  g_prop2.textContent ="Signif=30.0,EnergyFlux100=5.3e-12cgs,Var_idx=9.1,Sig_Cur=9.7";
+                break;
+                case '287.2387 21.0604':
+                  g_prop1.textContent ="Name=4FGL J1908.9+2103,GLON=53.7,GLAT=5.8,Class=MSP,PSR J1908+2105";
+                  g_prop2.textContent ="Signif=13.2,EnergyFlux100=5.4e-12cgs,Var_idx=19.4,Sig_Cur=3.4";
+                break;
+                case '290.2928 19.5117':
+                  g_prop1.textContent ="Name=4FGL J1921.1+1930,GLON=53.6,GLAT=2.5,Class=MSP,PSR J1921+1929";
+                  g_prop2.textContent ="Signif=7.9,EnergyFlux100=4.0e-12cgs,Var_idx=11.1,Sig_Cur=3.4";
+                break;
+                case '290.357 1.6066':
+                  g_prop1.textContent ="Name=4FGL J1921.4+0136,GLON=37.8,GLAT=-5.9,Class=MSP,PSR J1921+0137";
+                  g_prop2.textContent ="Signif=20.9,EnergyFlux100=1.0e-11cgs,Var_idx=7.9,Sig_Cur=6.2";
+                break;
+                case '294.9221 21.5918':
+                  g_prop1.textContent ="Name=4FGL J1939.6+2135,GLON=57.5,GLAT=-0.3,Class=MSP,PSR J1939+2134";
+                  g_prop2.textContent ="Signif=17.1,EnergyFlux100=2.2e-11cgs,Var_idx=11.8,Sig_Cur=7.5";
+                break;
+                case '296.6322 -54.0496':
+                  g_prop1.textContent ="Name=4FGL J1946.5-5402,GLON=343.9,GLAT=-29.6,Class=MSP,PSR J1946-5403";
+                  g_prop2.textContent ="Signif=32.1,EnergyFlux100=9.1e-12cgs,Var_idx=7.2,Sig_Cur=12.5";
+                break;
+                case '299.899 20.8085':
+                  g_prop1.textContent ="Name=4FGL J1959.5+2048,GLON=59.2,GLAT=-4.7,Class=MSP,PSR J1959+2048";
+                  g_prop2.textContent ="Signif=36.8,EnergyFlux100=1.8e-11cgs,Var_idx=13.4,Sig_Cur=11.8";
+                break;
+                case '301.6243 1.798':
+                  g_prop1.textContent ="Name=4FGL J2006.4+0147,GLON=43.4,GLAT=-15.8,Class=MSP,PSR J2006+0148";
+                  g_prop2.textContent ="Signif=15.1,EnergyFlux100=3.2e-12cgs,Var_idx=4.6,Sig_Cur=5.3";
+                break;
+                case '304.3518 6.0492':
+                  g_prop1.textContent ="Name=4FGL J2017.4+0602,GLON=48.6,GLAT=-16.0,Class=MSP,PSR J2017+0603";
+                  g_prop2.textContent ="Signif=87.2,EnergyFlux100=3.5e-11cgs,Var_idx=14.1,Sig_Cur=25.0";
+                break;
+                case '304.4414 -16.2039':
+                  g_prop1.textContent ="Name=4FGL J2017.7-1612,GLON=27.3,GLAT=-26.2,Class=MSP,PSR J2017-1614";
+                  g_prop2.textContent ="Signif=23.8,EnergyFlux100=6.0e-12cgs,Var_idx=11.4,Sig_Cur=5.7";
+                break;
+                case '307.3765 -42.6285':
+                  g_prop1.textContent ="Name=4FGL J2029.5-4237,GLON=358.2,GLAT=-35.5,Class=MSP,PSR J2029-4239";
+                  g_prop2.textContent ="Signif=12.3,EnergyFlux100=2.5e-12cgs,Var_idx=10.8,Sig_Cur=6.7";
+                break;
+                case '308.7571 36.5371':
+                  g_prop1.textContent ="Name=4FGL J2035.0+3632,GLON=76.6,GLAT=-2.3,Class=MSP,PSR J2034+3632";
+                  g_prop2.textContent ="Signif=32.2,EnergyFlux100=1.3e-11cgs,Var_idx=12.0,Sig_Cur=13.7";
+                break;
+                case '309.8557 -36.2714':
+                  g_prop1.textContent ="Name=4FGL J2039.4-3616,GLON=6.3,GLAT=-36.5,Class=MSP,PSR J2039-3616";
+                  g_prop2.textContent ="Signif=14.7,EnergyFlux100=3.5e-12cgs,Var_idx=19.2,Sig_Cur=5.2";
+                break;
+                case '309.8974 -56.2836':
+                  g_prop1.textContent ="Name=4FGL J2039.5-5617,GLON=341.3,GLAT=-37.1,Class=MSP,PSR J2039-5617";
+                  g_prop2.textContent ="Signif=52.9,EnergyFlux100=1.5e-11cgs,Var_idx=20.7,Sig_Cur=10.7";
+                break;
+                case '310.5609 2.7581':
+                  g_prop1.textContent ="Name=4FGL J2042.2+0245,GLON=49.0,GLAT=-23.0,Class=MSP,PSR J2042+0246";
+                  g_prop2.textContent ="Signif=20.7,EnergyFlux100=6.1e-12cgs,Var_idx=12.7,Sig_Cur=9.0";
+                break;
+                case '310.838 17.1861':
+                  g_prop1.textContent ="Name=4FGL J2043.3+1711,GLON=61.9,GLAT=-15.3,Class=MSP,PSR J2043+1711";
+                  g_prop2.textContent ="Signif=76.3,EnergyFlux100=2.9e-11cgs,Var_idx=10.2,Sig_Cur=18.3";
+                break;
+                case '311.8404 10.8606':
+                  g_prop1.textContent ="Name=4FGL J2047.3+1051,GLON=57.1,GLAT=-19.7,Class=MSP,PSR J2047+1053";
+                  g_prop2.textContent ="Signif=18.1,EnergyFlux100=3.9e-12cgs,Var_idx=17.3,Sig_Cur=4.6";
+                break;
+                case '312.7676 -8.4344':
+                  g_prop1.textContent ="Name=4FGL J2051.0-0826,GLON=39.2,GLAT=-30.4,Class=MSP,PSR J2051-0827";
+                  g_prop2.textContent ="Signif=14.0,EnergyFlux100=2.4e-12cgs,Var_idx=11.7,Sig_Cur=6.3";
+                break;
+                case '313.1937 12.3162':
+                  g_prop1.textContent ="Name=4FGL J2052.7+1218,GLON=59.1,GLAT=-20.0,Class=MSP,PSR J2052+1219";
+                  g_prop2.textContent ="Signif=13.9,EnergyFlux100=4.3e-12cgs,Var_idx=8.9,Sig_Cur=2.7";
+                break;
+                case '318.7845 54.8206':
+                  g_prop1.textContent ="Name=4FGL J2115.1+5449,GLON=95.0,GLAT=4.1,Class=MSP,PSR J2115+5448";
+                  g_prop2.textContent ="Signif=21.8,EnergyFlux100=7.3e-12cgs,Var_idx=9.6,Sig_Cur=8.6";
+                break;
+                case '319.2575 13.7449':
+                  g_prop1.textContent ="Name=4FGL J2117.0+1344,GLON=64.2,GLAT=-23.9,Class=MSP,PSR J2116+1345";
+                  g_prop2.textContent ="Signif=13.7,EnergyFlux100=2.9e-12cgs,Var_idx=18.6,Sig_Cur=4.5";
+                break;
+                case '321.1919 -33.9786':
+                  g_prop1.textContent ="Name=4FGL J2124.7-3358,GLON=10.9,GLAT=-45.4,Class=MSP,PSR J2124-3358";
+                  g_prop2.textContent ="Signif=103.8,EnergyFlux100=3.9e-11cgs,Var_idx=10.4,Sig_Cur=33.9";
+                break;
+                case '322.4649 -4.4815':
+                  g_prop1.textContent ="Name=4FGL J2129.8-0428,GLON=48.9,GLAT=-37.0,Class=MSP,PSR J2129-0429";
+                  g_prop2.textContent ="Signif=31.2,EnergyFlux100=6.9e-12cgs,Var_idx=8.2,Sig_Cur=9.3";
+                break;
+                case '331.3984 60.2694':
+                  g_prop1.textContent ="Name=4FGL J2205.5+6016,GLON=103.7,GLAT=3.7,Class=MSP,PSR J2205+6012";
+                  g_prop2.textContent ="Signif=5.5,EnergyFlux100=4.2e-12cgs,Var_idx=7.1,Sig_Cur=1.7";
+                break;
+                case '333.6695 30.0061':
+                  g_prop1.textContent ="Name=4FGL J2214.6+3000,GLON=86.9,GLAT=-21.7,Class=MSP,PSR J2214+3000";
+                  g_prop2.textContent ="Signif=104.6,EnergyFlux100=3.2e-11cgs,Var_idx=13.2,Sig_Cur=29.9";
+                break;
+                case '333.9018 51.5876':
+                  g_prop1.textContent ="Name=4FGL J2215.6+5135,GLON=99.9,GLAT=-4.2,Class=MSP,PSR J2215+5135";
+                  g_prop2.textContent ="Signif=52.0,EnergyFlux100=1.9e-11cgs,Var_idx=25.2,Sig_Cur=12.1";
+                break;
+                case '338.6906 9.732':
+                  g_prop1.textContent ="Name=4FGL J2234.7+0943,GLON=76.3,GLAT=-40.4,Class=MSP,PSR J2234+0944";
+                  g_prop2.textContent ="Signif=38.5,EnergyFlux100=1.0e-11cgs,Var_idx=23.5,Sig_Cur=10.3";
+                break;
+                case '340.438 -52.6084':
+                  g_prop1.textContent ="Name=4FGL J2241.7-5236,GLON=337.5,GLAT=-54.9,Class=MSP,PSR J2241-5236";
+                  g_prop2.textContent ="Signif=55.1,EnergyFlux100=2.5e-11cgs,Var_idx=8.7,Sig_Cur=25.9";
+                break;
+                case '344.2162 -10.4076':
+                  g_prop1.textContent ="Name=4FGL J2256.8-1024,GLON=59.2,GLAT=-58.3,Class=MSP,PSR J2256-1024";
+                  g_prop2.textContent ="Signif=35.1,EnergyFlux100=8.0e-12cgs,Var_idx=22.4,Sig_Cur=8.6";
+                break;
+                case '345.6918 44.7182':
+                  g_prop1.textContent ="Name=4FGL J2302.7+4443,GLON=103.4,GLAT=-14.0,Class=MSP,PSR J2302+4442";
+                  g_prop2.textContent ="Signif=109.5,EnergyFlux100=3.9e-11cgs,Var_idx=6.0,Sig_Cur=29.3";
+                break;
+                case '347.5183 -5.9251':
+                  g_prop1.textContent ="Name=4FGL J2310.0-0555,GLON=69.7,GLAT=-57.9,Class=MSP,PSR J2310-0555";
+                  g_prop2.textContent ="Signif=28.8,EnergyFlux100=5.7e-12cgs,Var_idx=13.7,Sig_Cur=9.8";
+                break;
+                case '349.3349 14.5651':
+                  g_prop1.textContent ="Name=4FGL J2317.3+1433,GLON=91.4,GLAT=-42.5,Class=MSP,PSR J2317+1439";
+                  g_prop2.textContent ="Signif=4.8,EnergyFlux100=9.0e-13cgs,Var_idx=18.2,Sig_Cur=3.0";
+                break;
+                case '353.286 -55.4638':
+                  g_prop1.textContent ="Name=4FGL J2333.1-5527,GLON=324.1,GLAT=-58.3,Class=MSP,PSR J2333-5526";
+                  g_prop2.textContent ="Signif=25.2,EnergyFlux100=4.3e-12cgs,Var_idx=6.1,Sig_Cur=5.7";
+                break;
+                case '354.9106 -5.5511':
+                  g_prop1.textContent ="Name=4FGL J2339.6-0533,GLON=81.3,GLAT=-62.5,Class=MSP,PSR J2339-0533";
+                  g_prop2.textContent ="Signif=93.8,EnergyFlux100=2.9e-11cgs,Var_idx=12.3,Sig_Cur=20.1";
+                break;
+                case '31.404 64.828':
+                  g_prop1.textContent ="Name=4FGL J0205.6+6449e,GLON=130.7,GLAT=3.1,Class=PWN,3C 58";
+                  g_prop2.textContent ="Signif=8.2,EnergyFlux100=1.5e-11cgs,Var_idx=5.3,Sig_Cur=1.0";
+                break;
+                case '128.6 -45.7':
+                  g_prop1.textContent ="Name=4FGL J0834.3-4542e,GLON=263.9,GLAT=-3.2,Class=PWN,Vela X";
+                  g_prop2.textContent ="Signif=32.5,EnergyFlux100=1.7e-10cgs,Var_idx=9.3,Sig_Cur=1.3";
+                break;
+                case '195.75 -63.2':
+                  g_prop1.textContent ="Name=4FGL J1303.0-6312e,GLON=304.2,GLAT=-0.4,Class=PWN,HESS J1303-631";
+                  g_prop2.textContent ="Signif=20.2,EnergyFlux100=2.8e-11cgs,Var_idx=9.2,Sig_Cur=1.6";
+                break;
+                case '208.802 -64.345':
+                  g_prop1.textContent ="Name=4FGL J1355.2-6420e,GLON=309.8,GLAT=-2.3,Class=PWN,HESS J1356-645";
+                  g_prop2.textContent ="Signif=11.1,EnergyFlux100=7.4e-12cgs,Var_idx=18.0,Sig_Cur=0.8";
+                break;
+                case '215.082 -60.782':
+                  g_prop1.textContent ="Name=4FGL J1420.3-6046e,GLON=313.6,GLAT=0.2,Class=PWN,HESS J1420-607";
+                  g_prop2.textContent ="Signif=14.1,EnergyFlux100=4.5e-11cgs,Var_idx=14.4,Sig_Cur=0.0";
+                break;
+                case '228.571 -59.163':
+                  g_prop1.textContent ="Name=4FGL J1514.2-5909e,GLON=320.3,GLAT=-1.2,Class=PWN,MSH 15-52";
+                  g_prop2.textContent ="Signif=43.2,EnergyFlux100=5.4e-11cgs,Var_idx=11.8,Sig_Cur=1.0";
+                break;
+                case '238.11 -56.21':
+                  g_prop1.textContent ="Name=4FGL J1552.4-5612e,GLON=326.2,GLAT=-1.7,Class=PWN,MSH 15-56";
+                  g_prop2.textContent ="Signif=9.3,EnergyFlux100=1.3e-11cgs,Var_idx=8.7,Sig_Cur=2.4";
+                break;
+                case '244.06 -50.91':
+                  g_prop1.textContent ="Name=4FGL J1616.2-5054e,GLON=332.4,GLAT=-0.1,Class=PWN,HESS J1616-508";
+                  g_prop2.textContent ="Signif=32.4,EnergyFlux100=1.1e-10cgs,Var_idx=13.3,Sig_Cur=0.6";
+                break;
+                case '276.111 -13.839':
+                  g_prop1.textContent ="Name=4FGL J1824.4-1350e,GLON=17.6,GLAT=-0.4,Class=PWN,HESS J1825-137";
+                  g_prop2.textContent ="Signif=27.3,EnergyFlux100=1.5e-10cgs,Var_idx=16.7,Sig_Cur=3.3";
+                break;
+                case '280.23 -5.55':
+                  g_prop1.textContent ="Name=4FGL J1840.9-0532e,GLON=26.8,GLAT=-0.2,Class=PWN,HESS J1841-055";
+                  g_prop2.textContent ="Signif=26.5,EnergyFlux100=1.4e-10cgs,Var_idx=14.3,Sig_Cur=0.4";
+                break;
+                case '284.449 2.774':
+                  g_prop1.textContent ="Name=4FGL J1857.7+0246e,GLON=36.1,GLAT=-0.1,Class=PWN,HESS J1857+026";
+                  g_prop2.textContent ="Signif=17.9,EnergyFlux100=8.2e-11cgs,Var_idx=11.5,Sig_Cur=0.6";
+                break;
+                case '35.36 62.69':
+                  g_prop1.textContent ="Name=4FGL J0221.4+6241e,GLON=133.0,GLAT=1.6,Class=SNR,HBH 3";
+                  g_prop2.textContent ="Signif=18.7,EnergyFlux100=2.9e-11cgs,Var_idx=10.3,Sig_Cur=5.9";
+                break;
+                case '66.425 55.371':
+                  g_prop1.textContent ="Name=4FGL J0425.6+5522e,GLON=150.2,GLAT=4.3,Class=SNR,SNR G150.3+04.5";
+                  g_prop2.textContent ="Signif=31.5,EnergyFlux100=5.9e-11cgs,Var_idx=14.6,Sig_Cur=3.6";
+                break;
+                case '75.08 46.66':
+                  g_prop1.textContent ="Name=4FGL J0500.3+4639e,GLON=160.4,GLAT=2.7,Class=SNR,HBH 9";
+                  g_prop2.textContent ="Signif=21.9,EnergyFlux100=3.0e-11cgs,Var_idx=9.7,Sig_Cur=6.1";
+                break;
+                case '85.1 27.94':
+                  g_prop1.textContent ="Name=4FGL J0540.3+2756e,GLON=180.2,GLAT=-1.5,Class=SNR,Sim 147";
+                  g_prop2.textContent ="Signif=28.0,EnergyFlux100=7.0e-11cgs,Var_idx=14.0,Sig_Cur=3.5";
+                break;
+                case '94.31 22.58':
+                  g_prop1.textContent ="Name=4FGL J0617.2+2234e,GLON=189.0,GLAT=3.0,Class=SNR,IC 443";
+                  g_prop2.textContent ="Signif=93.7,EnergyFlux100=4.5e-10cgs,Var_idx=16.1,Sig_Cur=24.6";
+                break;
+                case '99.86 6.93':
+                  g_prop1.textContent ="Name=4FGL J0639.4+0655e,GLON=205.4,GLAT=0.5,Class=SNR,Monoceros";
+                  g_prop2.textContent ="Signif=19.8,EnergyFlux100=1.0e-10cgs,Var_idx=8.7,Sig_Cur=10.4";
+                break;
+                case '125.544 -42.889':
+                  g_prop1.textContent ="Name=4FGL J0822.1-4253e,GLON=260.3,GLAT=-3.4,Class=SNR,Puppis A";
+                  g_prop2.textContent ="Signif=70.0,EnergyFlux100=7.4e-11cgs,Var_idx=8.9,Sig_Cur=8.0";
+                break;
+                case '132.987 -46.342':
+                  g_prop1.textContent ="Name=4FGL J0851.9-4620e,GLON=266.3,GLAT=-1.2,Class=SNR,RX J0852.0-4622";
+                  g_prop2.textContent ="Signif=58.3,EnergyFlux100=1.2e-10cgs,Var_idx=13.0,Sig_Cur=2.3";
+                break;
+                case '150.0 -53.2':
+                  g_prop1.textContent ="Name=4FGL J1000.0-5312e,GLON=278.9,GLAT=1.5,Class=SNR,SNR G279.0+01.1";
+                  g_prop2.textContent ="Signif=19.2,EnergyFlux100=3.5e-11cgs,Var_idx=10.8,Sig_Cur=4.0";
+                break;
+                case '182.13 -52.73':
+                  g_prop1.textContent ="Name=4FGL J1208.5-5243e,GLON=296.4,GLAT=9.6,Class=SNR,SNR G296.5+10.0";
+                  g_prop2.textContent ="Signif=17.6,EnergyFlux100=1.3e-11cgs,Var_idx=6.4,Sig_Cur=0.7";
+                break;
+                case '220.76 -62.45':
+                  g_prop1.textContent ="Name=4FGL J1443.0-6227e,GLON=315.4,GLAT=-2.3,Class=SNR,RCW 86";
+                  g_prop2.textContent ="Signif=15.2,EnergyFlux100=9.2e-12cgs,Var_idx=17.0,Sig_Cur=1.8";
+                break;
+                case '233.5 -57.2':
+                  g_prop1.textContent ="Name=4FGL J1533.9-5712e,GLON=323.6,GLAT=-1.0,Class=SNR,HESS J1534-571";
+                  g_prop2.textContent ="Signif=6.3,EnergyFlux100=2.6e-12cgs,Var_idx=10.6,Sig_Cur=0.6";
+                break;
+                case '238.25 -56.13':
+                  g_prop1.textContent ="Name=4FGL J1552.9-5607e,GLON=326.3,GLAT=-1.7,Class=SNR,MSH 15-56";
+                  g_prop2.textContent ="Signif=23.3,EnergyFlux100=5.1e-11cgs,Var_idx=6.9,Sig_Cur=4.7";
+                break;
+                case '243.83 -51.78':
+                  g_prop1.textContent ="Name=4FGL J1615.3-5146e,GLON=331.7,GLAT=-0.7,Class=SNR,HESS J1614-518";
+                  g_prop2.textContent ="Signif=22.3,EnergyFlux100=4.7e-11cgs,Var_idx=8.1,Sig_Cur=3.7";
+                break;
+                case '249.079 -47.523':
+                  g_prop1.textContent ="Name=4FGL J1636.3-4731e,GLON=337.1,GLAT=-0.1,Class=SNR,SNR G337.0-00.1";
+                  g_prop2.textContent ="Signif=27.5,EnergyFlux100=9.2e-11cgs,Var_idx=6.8,Sig_Cur=5.1";
+                break;
+                case '258.39 -39.76':
+                  g_prop1.textContent ="Name=4FGL J1713.5-3945e,GLON=347.3,GLAT=-0.5,Class=SNR,RX J1713.7-3946";
+                  g_prop2.textContent ="Signif=30.5,EnergyFlux100=7.1e-11cgs,Var_idx=6.0,Sig_Cur=3.7";
+                break;
+                case '270.34 -23.44':
+                  g_prop1.textContent ="Name=4FGL J1801.3-2326e,GLON=6.5,GLAT=-0.3,Class=SNR,W 28";
+                  g_prop2.textContent ="Signif=33.3,EnergyFlux100=2.6e-10cgs,Var_idx=12.4,Sig_Cur=8.6";
+                break;
+                case '271.4083 -21.6117':
+                  g_prop1.textContent ="Name=4FGL J1805.6-2136e,GLON=8.6,GLAT=-0.2,Class=SNR,W 30";
+                  g_prop2.textContent ="Signif=6.4,EnergyFlux100=6.1e-11cgs,Var_idx=15.1,Sig_Cur=2.1";
+                break;
+                case '278.531 -7.11':
+                  g_prop1.textContent ="Name=4FGL J1834.1-0706e,GLON=24.6,GLAT=0.6,Class=SNR,SNR G024.7+00.6";
+                  g_prop2.textContent ="Signif=27.0,EnergyFlux100=5.9e-11cgs,Var_idx=6.2,Sig_Cur=4.0";
+                break;
+                case '283.99 1.355':
+                  g_prop1.textContent ="Name=4FGL J1855.9+0121e,GLON=34.7,GLAT=-0.4,Class=SNR,W 44";
+                  g_prop2.textContent ="Signif=76.7,EnergyFlux100=4.6e-10cgs,Var_idx=9.1,Sig_Cur=27.5";
+                break;
+                case '290.818 14.145':
+                  g_prop1.textContent ="Name=4FGL J1923.2+1408e,GLON=49.1,GLAT=-0.5,Class=SNR,W 51C";
+                  g_prop2.textContent ="Signif=108.6,EnergyFlux100=3.2e-10cgs,Var_idx=24.9,Sig_Cur=16.0";
+                break;
+                case '291.31 16.3':
+                  g_prop1.textContent ="Name=4FGL J1925.2+1618e,GLON=51.2,GLAT=0.1,Class=SNR,SNR G51.3+0.1";
+                  g_prop2.textContent ="Signif=17.8,EnergyFlux100=4.2e-11cgs,Var_idx=7.9,Sig_Cur=1.1";
+                break;
+                case '305.27 40.52':
+                  g_prop1.textContent ="Name=4FGL J2021.0+4031e,GLON=78.2,GLAT=2.2,Class=SNR,gamma Cygni";
+                  g_prop2.textContent ="Signif=35.3,EnergyFlux100=1.0e-10cgs,Var_idx=11.9,Sig_Cur=3.0";
+                break;
+                case '311.241 50.489':
+                  g_prop1.textContent ="Name=4FGL J2044.9+5029e,GLON=88.8,GLAT=4.7,Class=SNR,HBH 21";
+                  g_prop2.textContent ="Signif=46.2,EnergyFlux100=7.8e-11cgs,Var_idx=17.9,Sig_Cur=14.5";
+                break;
+                case '312.75 30.83':
+                  g_prop1.textContent ="Name=4FGL J2051.0+3049e,GLON=74.1,GLAT=-8.5,Class=SNR,Cygnus Loop";
+                  g_prop2.textContent ="Signif=91.0,EnergyFlux100=1.0e-10cgs,Var_idx=7.4,Sig_Cur=17.9";
+                break;
+                case '345.494 58.92':
+                  g_prop1.textContent ="Name=4FGL J2301.9+5855e,GLON=109.2,GLAT=-1.0,Class=SNR,CTB 109";
+                  g_prop2.textContent ="Signif=25.7,EnergyFlux100=1.8e-11cgs,Var_idx=9.4,Sig_Cur=2.1";
+                break;
+                case '169.77 -61.45':
+                  g_prop1.textContent ="Name=4FGL J1119.0-6127e,GLON=292.1,GLAT=-0.5,Class=SPP,SNR G292.2-0.5";
+                  g_prop2.textContent ="Signif=10.4,EnergyFlux100=2.4e-11cgs,Var_idx=7.8,Sig_Cur=1.5";
+                break;
+                case '271.191 -21.735':
+                  g_prop1.textContent ="Name=4FGL J1804.7-2144e,GLON=8.4,GLAT=-0.1,Class=SPP,HESS J1804-216";
+                  g_prop2.textContent ="Signif=16.8,EnergyFlux100=1.1e-10cgs,Var_idx=16.6,Sig_Cur=1.0";
+                break;
+                case '272.59 -19.43':
+                  g_prop1.textContent ="Name=4FGL J1810.3-1925e,GLON=11.0,GLAT=-0.1,Class=SPP,HESS J1809-193";
+                  g_prop2.textContent ="Signif=11.4,EnergyFlux100=7.5e-11cgs,Var_idx=12.5,Sig_Cur=1.2";
+                break;
+                case '278.64 -8.78':
+                  g_prop1.textContent ="Name=4FGL J1834.5-0846e,GLON=23.2,GLAT=-0.3,Class=SPP,W 41";
+                  g_prop2.textContent ="Signif=25.6,EnergyFlux100=1.0e-10cgs,Var_idx=3.7,Sig_Cur=1.7";
+                break;
+                case '298.6 32.87':
+                  g_prop1.textContent ="Name=4FGL J1954.4+3252e,GLON=68.9,GLAT=2.6,Class=SPP,CTB 80";
+                  g_prop2.textContent ="Signif=10.7,EnergyFlux100=2.7e-11cgs,Var_idx=9.4,Sig_Cur=2.2";
+                break;
+                case '336.68 60.88':
+                  g_prop1.textContent ="Name=4FGL J2226.7+6052e,GLON=106.2,GLAT=2.8,Class=SPP,SNR G106.3+02.7";
+                  g_prop2.textContent ="Signif=7.7,EnergyFlux100=4.4e-12cgs,Var_idx=14.9,Sig_Cur=0.9";
+                break;
+                case '4.3949 -5.2347':
+                  g_prop1.textContent ="Name=4FGL J0017.5-0514,GLON=101.2,GLAT=-66.7,Class=FSRQ,PMN J0017-0512";
+                  g_prop2.textContent ="Signif=28.7,EnergyFlux100=1.1e-11cgs,Var_idx=336.5,Sig_Cur=3.9";
+                break;
+                case '32.6946 -51.0218':
+                  g_prop1.textContent ="Name=4FGL J0210.7-5101,GLON=276.1,GLAT=-61.8,Class=FSRQ,PKS 0208-512";
+                  g_prop2.textContent ="Signif=190.4,EnergyFlux100=9.5e-11cgs,Var_idx=13149.0,Sig_Cur=15.9";
+                break;
+                case '35.281 35.9359':
+                  g_prop1.textContent ="Name=4FGL J0221.1+3556,GLON=142.6,GLAT=-23.5,Class=FSRQ,B2 0218+357";
+                  g_prop2.textContent ="Signif=129.5,EnergyFlux100=7.6e-11cgs,Var_idx=3609.5,Sig_Cur=7.3";
+                break;
+                case '39.4737 28.8044':
+                  g_prop1.textContent ="Name=4FGL J0237.8+2848,GLON=149.5,GLAT=-28.5,Class=FSRQ,4C +28.07";
+                  g_prop2.textContent ="Signif=178.4,EnergyFlux100=1.2e-10cgs,Var_idx=7848.6,Sig_Cur=15.3";
+                break;
+                case '60.975 -36.087':
+                  g_prop1.textContent ="Name=4FGL J0403.9-3605,GLON=237.7,GLAT=-48.5,Class=FSRQ,PKS 0402-362";
+                  g_prop2.textContent ="Signif=146.0,EnergyFlux100=6.5e-11cgs,Var_idx=6772.7,Sig_Cur=15.2";
+                break;
+                case '65.826 -1.3342':
+                  g_prop1.textContent ="Name=4FGL J0423.3-0120,GLON=195.3,GLAT=-33.1,Class=FSRQ,PKS 0420-01";
+                  g_prop2.textContent ="Signif=74.6,EnergyFlux100=3.5e-11cgs,Var_idx=1353.1,Sig_Cur=7.3";
+                break;
+                case '74.2608 -23.4149':
+                  g_prop1.textContent ="Name=4FGL J0457.0-2324,GLON=223.7,GLAT=-34.9,Class=FSRQ,PKS 0454-234";
+                  g_prop2.textContent ="Signif=247.9,EnergyFlux100=1.8e-10cgs,Var_idx=4174.1,Sig_Cur=18.6";
+                break;
+                case '82.7364 13.5402':
+                  g_prop1.textContent ="Name=4FGL J0530.9+1332,GLON=191.4,GLAT=-11.0,Class=FSRQ,PKS 0528+134";
+                  g_prop2.textContent ="Signif=27.5,EnergyFlux100=2.3e-11cgs,Var_idx=537.0,Sig_Cur=6.7";
+                break;
+                case '83.172 7.5493':
+                  g_prop1.textContent ="Name=4FGL J0532.6+0732,GLON=196.8,GLAT=-13.7,Class=FSRQ,OG 050";
+                  g_prop2.textContent ="Signif=80.0,EnergyFlux100=5.3e-11cgs,Var_idx=809.2,Sig_Cur=7.9";
+                break;
+                case '84.9052 14.5443':
+                  g_prop1.textContent ="Name=4FGL J0539.6+1432,GLON=191.6,GLAT=-8.7,Class=FSRQ,TXS 0536+145";
+                  g_prop2.textContent ="Signif=16.6,EnergyFlux100=1.0e-11cgs,Var_idx=215.5,Sig_Cur=2.8";
+                break;
+                case '100.4371 -3.3466':
+                  g_prop1.textContent ="Name=4FGL J0641.7-0320,GLON=214.8,GLAT=-3.7,Class=FSRQ,PMN J0641-0320";
+                  g_prop2.textContent ="Signif=20.6,EnergyFlux100=2.1e-11cgs,Var_idx=430.5,Sig_Cur=5.6";
+                break;
+                case '103.606 45.2446':
+                  g_prop1.textContent ="Name=4FGL J0654.4+4514,GLON=171.2,GLAT=19.4,Class=FSRQ,B3 0650+453";
+                  g_prop2.textContent ="Signif=36.3,EnergyFlux100=1.2e-11cgs,Var_idx=817.9,Sig_Cur=2.9";
+                break;
+                case '111.324 14.4212':
+                  g_prop1.textContent ="Name=4FGL J0725.2+1425,GLON=203.6,GLAT=13.9,Class=FSRQ,4C +14.23";
+                  g_prop2.textContent ="Signif=75.8,EnergyFlux100=3.5e-11cgs,Var_idx=2616.0,Sig_Cur=6.6";
+                break;
+                case '127.7015 24.1727':
+                  g_prop1.textContent ="Name=4FGL J0830.8+2410,GLON=200.0,GLAT=31.9,Class=FSRQ,S3 0827+24";
+                  g_prop2.textContent ="Signif=41.5,EnergyFlux100=1.5e-11cgs,Var_idx=1599.2,Sig_Cur=6.8";
+                break;
+                case '130.3418 70.8887':
+                  g_prop1.textContent ="Name=4FGL J0841.3+7053,GLON=143.5,GLAT=34.4,Class=FSRQ,4C +71.07";
+                  g_prop2.textContent ="Signif=73.2,EnergyFlux100=3.7e-11cgs,Var_idx=4904.2,Sig_Cur=16.0";
+                break;
+                case '158.4849 60.8493':
+                  g_prop1.textContent ="Name=4FGL J1033.9+6050,GLON=147.8,GLAT=49.1,Class=FSRQ,S4 1030+61";
+                  g_prop2.textContent ="Signif=101.0,EnergyFlux100=4.0e-11cgs,Var_idx=1596.8,Sig_Cur=11.1";
+                break;
+                case '162.1067 71.7297':
+                  g_prop1.textContent ="Name=4FGL J1048.4+7143,GLON=135.4,GLAT=42.3,Class=FSRQ,S5 1044+71";
+                  g_prop2.textContent ="Signif=190.0,EnergyFlux100=9.7e-11cgs,Var_idx=12782.3,Sig_Cur=15.5";
+                break;
+                case '178.3505 49.5169':
+                  g_prop1.textContent ="Name=4FGL J1153.4+4931,GLON=145.6,GLAT=65.0,Class=FSRQ,4C +49.22";
+                  g_prop2.textContent ="Signif=43.3,EnergyFlux100=1.1e-11cgs,Var_idx=1416.6,Sig_Cur=3.2";
+                break;
+                case '186.2277 21.3814':
+                  g_prop1.textContent ="Name=4FGL J1224.9+2122,GLON=255.1,GLAT=81.7,Class=FSRQ,4C +21.35";
+                  g_prop2.textContent ="Signif=205.5,EnergyFlux100=1.4e-10cgs,Var_idx=28289.1,Sig_Cur=8.7";
+                break;
+                case '187.2675 2.0454':
+                  g_prop1.textContent ="Name=4FGL J1229.0+0202,GLON=289.9,GLAT=64.4,Class=FSRQ,3C 273";
+                  g_prop2.textContent ="Signif=135.4,EnergyFlux100=9.8e-11cgs,Var_idx=8013.2,Sig_Cur=10.1";
+                break;
+                case '194.0415 -5.7887':
+                  g_prop1.textContent ="Name=4FGL J1256.1-0547,GLON=305.1,GLAT=57.1,Class=FSRQ,3C 279";
+                  g_prop2.textContent ="Signif=319.3,EnergyFlux100=4.2e-10cgs,Var_idx=33299.4,Sig_Cur=24.9";
+                break;
+                case '214.6229 35.7192':
+                  g_prop1.textContent ="Name=4FGL J1418.4+3543,GLON=63.2,GLAT=69.6,Class=FSRQ,87GB 141615.9+355650";
+                  g_prop2.textContent ="Signif=60.9,EnergyFlux100=1.7e-11cgs,Var_idx=1775.5,Sig_Cur=4.3";
+                break;
+                case '216.9866 -42.106':
+                  g_prop1.textContent ="Name=4FGL J1427.9-4206,GLON=321.4,GLAT=17.3,Class=FSRQ,PKS 1424-41";
+                  g_prop2.textContent ="Signif=305.4,EnergyFlux100=3.3e-10cgs,Var_idx=17461.4,Sig_Cur=27.2";
+                break;
+                case '224.3657 -35.6527':
+                  g_prop1.textContent ="Name=4FGL J1457.4-3539,GLON=329.9,GLAT=20.5,Class=FSRQ,PKS 1454-354";
+                  g_prop2.textContent ="Signif=81.3,EnergyFlux100=3.9e-11cgs,Var_idx=3870.6,Sig_Cur=11.0";
+                break;
+                case '226.1033 10.4978':
+                  g_prop1.textContent ="Name=4FGL J1504.4+1029,GLON=11.4,GLAT=54.6,Class=FSRQ,PKS 1502+106";
+                  g_prop2.textContent ="Signif=243.1,EnergyFlux100=1.8e-10cgs,Var_idx=15469.7,Sig_Cur=21.2";
+                break;
+                case '228.2147 -9.1064':
+                  g_prop1.textContent ="Name=4FGL J1512.8-0906,GLON=351.3,GLAT=40.1,Class=FSRQ,PKS 1510-089";
+                  g_prop2.textContent ="Signif=245.4,EnergyFlux100=3.7e-10cgs,Var_idx=10537.1,Sig_Cur=13.5";
+                break;
+                case '246.515 -29.8486':
+                  g_prop1.textContent ="Name=4FGL J1626.0-2950,GLON=348.8,GLAT=13.3,Class=FSRQ,PKS B1622-297";
+                  g_prop2.textContent ="Signif=45.1,EnergyFlux100=3.4e-11cgs,Var_idx=610.2,Sig_Cur=5.8";
+                break;
+                case '248.8168 38.1401':
+                  g_prop1.textContent ="Name=4FGL J1635.2+3808,GLON=61.1,GLAT=42.3,Class=FSRQ,4C +38.41";
+                  g_prop2.textContent ="Signif=173.7,EnergyFlux100=1.3e-10cgs,Var_idx=10882.6,Sig_Cur=23.0";
+                break;
+                case '250.119 39.7626':
+                  g_prop1.textContent ="Name=4FGL J1640.4+3945,GLON=63.4,GLAT=41.4,Class=FSRQ,NRAO 512";
+                  g_prop2.textContent ="Signif=40.3,EnergyFlux100=2.3e-11cgs,Var_idx=475.8,Sig_Cur=1.5";
+                break;
+                case '250.7341 39.8164':
+                  g_prop1.textContent ="Name=4FGL J1642.9+3948,GLON=63.5,GLAT=41.0,Class=FSRQ,3C 345";
+                  g_prop2.textContent ="Signif=65.0,EnergyFlux100=3.6e-11cgs,Var_idx=685.8,Sig_Cur=4.5";
+                break;
+                case '263.2632 -13.0858':
+                  g_prop1.textContent ="Name=4FGL J1733.0-1305,GLON=12.0,GLAT=10.8,Class=FSRQ,PKS 1730-13";
+                  g_prop2.textContent ="Signif=65.7,EnergyFlux100=5.4e-11cgs,Var_idx=1229.2,Sig_Cur=8.2";
+                break;
+                case '278.4101 -21.0574':
+                  g_prop1.textContent ="Name=4FGL J1833.6-2103,GLON=12.2,GLAT=-5.7,Class=FSRQ,PKS 1830-211";
+                  g_prop2.textContent ="Signif=203.6,EnergyFlux100=3.5e-10cgs,Var_idx=37330.2,Sig_Cur=22.2";
+                break;
+                case '282.105 32.295':
+                  g_prop1.textContent ="Name=4FGL J1848.4+3217,GLON=62.0,GLAT=14.7,Class=FSRQ,B2 1846+32A";
+                  g_prop2.textContent ="Signif=34.0,EnergyFlux100=1.6e-11cgs,Var_idx=768.0,Sig_Cur=5.9";
+                break;
+                case '282.3192 67.0909':
+                  g_prop1.textContent ="Name=4FGL J1849.2+6705,GLON=97.5,GLAT=25.0,Class=FSRQ,S4 1849+67";
+                  g_prop2.textContent ="Signif=80.5,EnergyFlux100=3.4e-11cgs,Var_idx=2557.6,Sig_Cur=8.1";
+                break;
+                case '303.8924 37.176':
+                  g_prop1.textContent ="Name=4FGL J2015.5+3710,GLON=74.9,GLAT=1.2,Class=FSRQ,MG2 J201534+3710";
+                  g_prop2.textContent ="Signif=28.3,EnergyFlux100=7.2e-11cgs,Var_idx=267.6,Sig_Cur=9.8";
+                break;
+                case '321.5948 -46.0978':
+                  g_prop1.textContent ="Name=4FGL J2126.3-4605,GLON=353.6,GLAT=-45.6,Class=FSRQ,PKS 2123-463";
+                  g_prop2.textContent ="Signif=28.1,EnergyFlux100=1.0e-11cgs,Var_idx=634.4,Sig_Cur=2.9";
+                break;
+                case '326.7829 9.5181':
+                  g_prop1.textContent ="Name=4FGL J2147.1+0931,GLON=65.8,GLAT=-32.2,Class=FSRQ,PKS 2144+092";
+                  g_prop2.textContent ="Signif=42.0,EnergyFlux100=2.1e-11cgs,Var_idx=700.6,Sig_Cur=4.5";
+                break;
+                case '326.8268 -75.6024':
+                  g_prop1.textContent ="Name=4FGL J2147.3-7536,GLON=315.8,GLAT=-36.5,Class=FSRQ,PKS 2142-75";
+                  g_prop2.textContent ="Signif=77.8,EnergyFlux100=3.9e-11cgs,Var_idx=4073.6,Sig_Cur=7.5";
+                break;
+                case '337.4258 -8.5447':
+                  g_prop1.textContent ="Name=4FGL J2229.7-0832,GLON=55.2,GLAT=-51.7,Class=FSRQ,PKS 2227-08";
+                  g_prop2.textContent ="Signif=65.9,EnergyFlux100=3.6e-11cgs,Var_idx=1070.6,Sig_Cur=7.5";
+                break;
+                case '338.1525 11.7306':
+                  g_prop1.textContent ="Name=4FGL J2232.6+1143,GLON=77.4,GLAT=-38.6,Class=FSRQ,CTA 102";
+                  g_prop2.textContent ="Signif=340.6,EnergyFlux100=3.7e-10cgs,Var_idx=89796.5,Sig_Cur=27.9";
+                break;
+                case '343.4963 16.1506':
+                  g_prop1.textContent ="Name=4FGL J2253.9+1609,GLON=86.1,GLAT=-38.2,Class=FSRQ,3C 454.3";
+                  g_prop2.textContent ="Signif=448.0,EnergyFlux100=7.4e-10cgs,Var_idx=96038.1,Sig_Cur=42.7";
+                break;
+                case '347.7682 34.4223':
+                  g_prop1.textContent ="Name=4FGL J2311.0+3425,GLON=100.4,GLAT=-24.0,Class=FSRQ,B2 2308+34";
+                  g_prop2.textContent ="Signif=95.3,EnergyFlux100=4.1e-11cgs,Var_idx=2648.0,Sig_Cur=9.3";
+                break;
+                case '352.3294 -49.9324':
+                  g_prop1.textContent ="Name=4FGL J2329.3-4955,GLON=332.0,GLAT=-62.3,Class=FSRQ,PKS 2326-502";
+                  g_prop2.textContent ="Signif=175.2,EnergyFlux100=8.8e-11cgs,Var_idx=18326.2,Sig_Cur=18.2";
+                break;
+                case '356.303 -15.9182':
+                  g_prop1.textContent ="Name=4FGL J2345.2-1555,GLON=65.7,GLAT=-71.0,Class=FSRQ,PMN J2345-1555";
+                  g_prop2.textContent ="Signif=123.7,EnergyFlux100=6.6e-11cgs,Var_idx=4658.1,Sig_Cur=12.3";
+                break;
+                case '12.6753 -9.4936':
+                  g_prop1.textContent ="Name=4FGL J0050.7-0929,GLON=122.3,GLAT=-72.4,Class=BLL,PKS 0048-09";
+                  g_prop2.textContent ="Signif=87.7,EnergyFlux100=3.6e-11cgs,Var_idx=170.8,Sig_Cur=6.0";
+                break;
+                case '18.0294 22.7515':
+                  g_prop1.textContent ="Name=4FGL J0112.1+2245,GLON=129.1,GLAT=-39.9,Class=BLL,S2 0109+22";
+                  g_prop2.textContent ="Signif=155.2,EnergyFlux100=8.3e-11cgs,Var_idx=1002.5,Sig_Cur=9.5";
+                break;
+                case '32.8091 10.8569':
+                  g_prop1.textContent ="Name=4FGL J0211.2+1051,GLON=152.6,GLAT=-47.4,Class=BLL,MG1 J021114+1051";
+                  g_prop2.textContent ="Signif=108.5,EnergyFlux100=5.9e-11cgs,Var_idx=605.8,Sig_Cur=5.7";
+                break;
+                case '35.6696 43.0357':
+                  g_prop1.textContent ="Name=4FGL J0222.6+4302,GLON=140.1,GLAT=-16.8,Class=BLL,3C 66A";
+                  g_prop2.textContent ="Signif=187.0,EnergyFlux100=1.3e-10cgs,Var_idx=1811.1,Sig_Cur=7.4";
+                break;
+                case '39.668 16.6179':
+                  g_prop1.textContent ="Name=4FGL J0238.6+1637,GLON=156.8,GLAT=-39.1,Class=BLL,PKS 0235+164";
+                  g_prop2.textContent ="Signif=144.6,EnergyFlux100=9.1e-11cgs,Var_idx=6005.1,Sig_Cur=13.6";
+                break;
+                case '45.8625 -24.1225':
+                  g_prop1.textContent ="Name=4FGL J0303.4-2407,GLON=214.6,GLAT=-60.2,Class=BLL,PKS 0301-243";
+                  g_prop2.textContent ="Signif=114.1,EnergyFlux100=4.8e-11cgs,Var_idx=532.8,Sig_Cur=3.9";
+                break;
+                case '83.0022 -48.4607':
+                  g_prop1.textContent ="Name=4FGL J0532.0-4827,GLON=255.0,GLAT=-32.8,Class=BLL,PMN J0531-4827";
+                  g_prop2.textContent ="Signif=75.4,EnergyFlux100=2.6e-11cgs,Var_idx=3813.0,Sig_Cur=6.6";
+                break;
+                case '84.7089 -44.0862':
+                  g_prop1.textContent ="Name=4FGL J0538.8-4405,GLON=250.1,GLAT=-31.1,Class=BLL,PKS 0537-441";
+                  g_prop2.textContent ="Signif=249.9,EnergyFlux100=1.5e-10cgs,Var_idx=10390.0,Sig_Cur=15.3";
+                break;
+                case '110.4882 71.3405':
+                  g_prop1.textContent ="Name=4FGL J0721.9+7120,GLON=144.0,GLAT=28.0,Class=BLL,S5 0716+71";
+                  g_prop2.textContent ="Signif=318.8,EnergyFlux100=2.1e-10cgs,Var_idx=3680.9,Sig_Cur=17.6";
+                break;
+                case '122.4617 52.3143':
+                  g_prop1.textContent ="Name=4FGL J0809.8+5218,GLON=166.2,GLAT=32.9,Class=BLL,1ES 0806+524";
+                  g_prop2.textContent ="Signif=105.4,EnergyFlux100=4.1e-11cgs,Var_idx=360.9,Sig_Cur=2.9";
+                break;
+                case '133.7071 20.1159':
+                  g_prop1.textContent ="Name=4FGL J0854.8+2006,GLON=206.8,GLAT=35.8,Class=BLL,OJ 287";
+                  g_prop2.textContent ="Signif=108.1,EnergyFlux100=5.3e-11cgs,Var_idx=1014.8,Sig_Cur=5.1";
+                break;
+                case '149.6897 65.5678':
+                  g_prop1.textContent ="Name=4FGL J0958.7+6534,GLON=145.7,GLAT=43.1,Class=BLL,S4 0954+65";
+                  g_prop2.textContent ="Signif=137.7,EnergyFlux100=5.5e-11cgs,Var_idx=4527.5,Sig_Cur=8.5";
+                break;
+                case '164.624 1.5641':
+                  g_prop1.textContent ="Name=4FGL J1058.4+0133,GLON=251.5,GLAT=52.8,Class=BLL,4C +01.28";
+                  g_prop2.textContent ="Signif=102.2,EnergyFlux100=5.8e-11cgs,Var_idx=672.5,Sig_Cur=4.1";
+                break;
+                case '164.6652 56.4634':
+                  g_prop1.textContent ="Name=4FGL J1058.6+5627,GLON=149.6,GLAT=54.4,Class=BLL,TXS 1055+567";
+                  g_prop2.textContent ="Signif=101.1,EnergyFlux100=3.0e-11cgs,Var_idx=214.8,Sig_Cur=5.0";
+                break;
+                case '166.1187 38.207':
+                  g_prop1.textContent ="Name=4FGL J1104.4+3812,GLON=179.8,GLAT=65.0,Class=BLL,Mkn 421";
+                  g_prop2.textContent ="Signif=363.7,EnergyFlux100=4.0e-10cgs,Var_idx=1694.4,Sig_Cur=4.3";
+                break;
+                case '184.4762 30.1177':
+                  g_prop1.textContent ="Name=4FGL J1217.9+3007,GLON=188.8,GLAT=82.1,Class=BLL,B2 1215+30";
+                  g_prop2.textContent ="Signif=150.4,EnergyFlux100=9.3e-11cgs,Var_idx=780.5,Sig_Cur=6.6";
+                break;
+                case '216.7558 23.8013':
+                  g_prop1.textContent ="Name=4FGL J1427.0+2348,GLON=29.5,GLAT=68.2,Class=BLL,PKS 1424+240";
+                  g_prop2.textContent ="Signif=171.1,EnergyFlux100=1.1e-10cgs,Var_idx=689.5,Sig_Cur=9.5";
+                break;
+                case '238.9313 11.1884':
+                  g_prop1.textContent ="Name=4FGL J1555.7+1111,GLON=21.9,GLAT=44.0,Class=BLL,PG 1553+113";
+                  g_prop2.textContent ="Signif=130.3,EnergyFlux100=1.9e-10cgs,Var_idx=254.8,Sig_Cur=11.5";
+                break;
+                case '253.4738 39.7595':
+                  g_prop1.textContent ="Name=4FGL J1653.8+3945,GLON=63.6,GLAT=38.9,Class=BLL,Mkn 501";
+                  g_prop2.textContent ="Signif=186.9,EnergyFlux100=1.2e-10cgs,Var_idx=704.2,Sig_Cur=3.0";
+                break;
+                case '302.3595 -48.8248':
+                  g_prop1.textContent ="Name=4FGL J2009.4-4849,GLON=350.4,GLAT=-32.6,Class=BLL,PKS 2005-489";
+                  g_prop2.textContent ="Signif=75.7,EnergyFlux100=3.2e-11cgs,Var_idx=178.5,Sig_Cur=3.5";
+                break;
+                case '330.6946 42.2821':
+                  g_prop1.textContent ="Name=4FGL J2202.7+4216,GLON=92.6,GLAT=-10.4,Class=BLL,BL Lac";
+                  g_prop2.textContent ="Signif=343.2,EnergyFlux100=4.0e-10cgs,Var_idx=25730.7,Sig_Cur=17.6";
+                break;
+                case '339.1444 -14.5557':
+                  g_prop1.textContent ="Name=4FGL J2236.5-1433,GLON=47.9,GLAT=-56.2,Class=BLL,PKS 2233-148";
+                  g_prop2.textContent ="Signif=114.0,EnergyFlux100=5.4e-11cgs,Var_idx=1889.9,Sig_Cur=9.2";
+                break;
+                case '80.737 -36.4686':
+                  g_prop1.textContent ="Name=4FGL J0522.9-3628,GLON=240.6,GLAT=-32.7,Class=AGN,PKS 0521-36";
+                  g_prop2.textContent ="Signif=116.3,EnergyFlux100=5.2e-11cgs,Var_idx=868.3,Sig_Cur=6.4";
+                break;
+                case '132.5126 51.1414':
+                  g_prop1.textContent ="Name=4FGL J0850.0+5108,GLON=167.6,GLAT=39.1,Class=NLSY1,SBS 0846+513";
+                  g_prop2.textContent ="Signif=53.1,EnergyFlux100=1.4e-11cgs,Var_idx=1350.4,Sig_Cur=5.1";
+                break;
+                case '147.2443 0.3717':
+                  g_prop1.textContent ="Name=4FGL J0948.9+0022,GLON=236.6,GLAT=38.7,Class=NLSY1,PMN J0948+0022";
+                  g_prop2.textContent ="Signif=60.8,EnergyFlux100=3.6e-11cgs,Var_idx=1018.8,Sig_Cur=10.9";
+                break;
+                case '226.2726 3.4472':
+                  g_prop1.textContent ="Name=4FGL J1505.0+0326,GLON=2.2,GLAT=50.3,Class=NLSY1,PKS 1502+036";
+                  g_prop2.textContent ="Signif=36.5,EnergyFlux100=1.6e-11cgs,Var_idx=80.4,Sig_Cur=4.0";
+                break;
+                case '251.2318 26.3465':
+                  g_prop1.textContent ="Name=4FGL J1644.9+2620,GLON=46.3,GLAT=38.4,Class=NLSY1,MG2 J164443+2618";
+                  g_prop2.textContent ="Signif=16.0,EnergyFlux100=6.6e-12cgs,Var_idx=73.8,Sig_Cur=1.7";
+                break;
+                case '49.2147 41.3464':
+                  g_prop1.textContent ="Name=4FGL J0316.8+4120,GLON=150.2,GLAT=-13.7,Class=RDG,IC 310";
+                  g_prop2.textContent ="Signif=11.0,EnergyFlux100=3.3e-12cgs,Var_idx=31.8,Sig_Cur=0.0";
+                break;
+                case '49.9575 41.5121':
+                  g_prop1.textContent ="Name=4FGL J0319.8+4130,GLON=150.6,GLAT=-13.3,Class=RDG,NGC 1275";
+                  g_prop2.textContent ="Signif=251.5,EnergyFlux100=2.9e-10cgs,Var_idx=6460.0,Sig_Cur=19.7";
+                break;
+                case '50.67 -37.21':
+                  g_prop1.textContent ="Name=4FGL J0322.6-3712e,GLON=240.2,GLAT=-56.7,Class=RDG,Fornax A";
+                  g_prop2.textContent ="Signif=19.4,EnergyFlux100=6.1e-12cgs,Var_idx=15.5,Sig_Cur=1.5";
+                break;
+                case '68.2618 5.3696':
+                  g_prop1.textContent ="Name=4FGL J0433.0+0522,GLON=190.3,GLAT=-27.4,Class=RDG,3C 120";
+                  g_prop2.textContent ="Signif=27.0,EnergyFlux100=1.8e-11cgs,Var_idx=334.7,Sig_Cur=5.6";
+                break;
+                case '201.0 -43.5':
+                  g_prop1.textContent ="Name=4FGL J1324.0-4330e,GLON=309.2,GLAT=19.0,Class=RDG,Cen A Lobes";
+                  g_prop2.textContent ="Signif=36.8,EnergyFlux100=5.4e-11cgs,Var_idx=17.6,Sig_Cur=2.3";
+                break;
+                case '201.3813 -43.0165':
+                  g_prop1.textContent ="Name=4FGL J1325.5-4300,GLON=309.5,GLAT=19.4,Class=RDG,Cen A";
+                  g_prop2.textContent ="Signif=77.7,EnergyFlux100=5.9e-11cgs,Var_idx=37.3,Sig_Cur=3.7";
+                break;
+                case '95.7296 33.4335':
+                  g_prop1.textContent ="Name=4FGL J0622.9+3326,GLON=179.9,GLAT=9.2,Class=BCU,B2 0619+33";
+                  g_prop2.textContent ="Signif=53.3,EnergyFlux100=2.8e-11cgs,Var_idx=2808.7,Sig_Cur=4.6";
+                break;
+                case '14.5 -72.75':
+                  g_prop1.textContent ="Name=4FGL J0058.0-7245e,GLON=302.3,GLAT=-44.4,Class=GAL,SMC";
+                  g_prop2.textContent ="Signif=32.6,EnergyFlux100=2.5e-11cgs,Var_idx=20.0,Sig_Cur=6.5";
+                break;
+                case '80.0 -68.75':
+                  g_prop1.textContent ="Name=4FGL J0519.9-6845e,GLON=279.4,GLAT=-33.4,Class=GAL,LMC";
+                  g_prop2.textContent ="Signif=52.9,EnergyFlux100=1.1e-10cgs,Var_idx=8.8,Sig_Cur=15.8";
+                break;
+                case '40.1426 61.2287':
+                  g_prop1.textContent ="Name=4FGL J0240.5+6113,GLON=135.7,GLAT=1.1,Class=HMB,LSI +61 303";
+                  g_prop2.textContent ="Signif=261.3,EnergyFlux100=4.6e-10cgs,Var_idx=348.2,Sig_Cur=32.8";
+                break;
+                case '83.8065 -67.6013':
+                  g_prop1.textContent ="Name=4FGL J0535.2-6736,GLON=277.8,GLAT=-32.2,Class=HMB,LMC P3";
+                  g_prop2.textContent ="Signif=20.2,EnergyFlux100=9.2e-12cgs,Var_idx=9.6,Sig_Cur=5.9";
+                break;
+                case '154.7417 -58.9433':
+                  g_prop1.textContent ="Name=4FGL J1018.9-5856,GLON=284.4,GLAT=-1.7,Class=HMB,1FGL J1018.6-5856";
+                  g_prop2.textContent ="Signif=92.2,EnergyFlux100=2.4e-10cgs,Var_idx=16.1,Sig_Cur=24.2";
+                break;
+                case '195.7274 -63.8304':
+                  g_prop1.textContent ="Name=4FGL J1302.9-6349,GLON=304.2,GLAT=-1.0,Class=HMB,PSR B1259-63";
+                  g_prop2.textContent ="Signif=7.3,EnergyFlux100=4.4e-12cgs,Var_idx=58.9,Sig_Cur=2.6";
+                break;
+                case '211.2982 -61.3321':
+                  g_prop1.textContent ="Name=4FGL J1405.1-6119,GLON=311.7,GLAT=0.3,Class=HMB,4FGL J1405.1-6119";
+                  g_prop2.textContent ="Signif=27.0,EnergyFlux100=8.8e-11cgs,Var_idx=6.1,Sig_Cur=10.2";
+                break;
+                case '276.5637 -14.8496':
+                  g_prop1.textContent ="Name=4FGL J1826.2-1450,GLON=16.9,GLAT=-1.3,Class=HMB,LS 5039";
+                  g_prop2.textContent ="Signif=63.6,EnergyFlux100=3.0e-10cgs,Var_idx=11.6,Sig_Cur=8.3";
+                break;
+                case '278.2404 -9.2332':
+                  g_prop1.textContent ="Name=4FGL J1832.9-0913,GLON=22.6,GLAT=-0.1,Class=HMB,HESS J1832-093";
+                  g_prop2.textContent ="Signif=10.9,EnergyFlux100=2.8e-11cgs,Var_idx=14.1,Sig_Cur=5.9";
+                break;
+                case '308.1166 40.9434':
+                  g_prop1.textContent ="Name=4FGL J2032.4+4056,GLON=79.8,GLAT=0.7,Class=HMB,Cyg X-3";
+                  g_prop2.textContent ="Signif=20.6,EnergyFlux100=6.1e-11cgs,Var_idx=361.2,Sig_Cur=7.4";
+                break;
+                case '66.9577 -67.0818':
+                  g_prop1.textContent ="Name=4FGL J0427.8-6704,GLON=279.1,GLAT=-38.6,Class=LMB,1SXPS J042749.2-670434";
+                  g_prop2.textContent ="Signif=30.5,EnergyFlux100=8.8e-12cgs,Var_idx=15.9,Sig_Cur=1.0";
+                break;
+                case '155.9446 0.6499':
+                  g_prop1.textContent ="Name=4FGL J1023.7+0038,GLON=243.5,GLAT=45.8,Class=LMB,PSR J1023+0038";
+                  g_prop2.textContent ="Signif=82.4,EnergyFlux100=3.6e-11cgs,Var_idx=1628.2,Sig_Cur=11.0";
+                break;
+                case '161.2774 -59.6822':
+                  g_prop1.textContent ="Name=4FGL J1045.1-5940,GLON=287.6,GLAT=-0.6,Class=BIN,Eta Carinae";
+                  g_prop2.textContent ="Signif=109.9,EnergyFlux100=1.8e-10cgs,Var_idx=73.9,Sig_Cur=13.9";
+                break;
+                case '159.0564 -59.6039':
+                  g_prop1.textContent ="Name=4FGL J1036.2-5936,GLON=286.6,GLAT=-1.1,Class=NOV,V906 Car";
+                  g_prop2.textContent ="Signif=18.8,EnergyFlux100=2.1e-11cgs,Var_idx=992.1,Sig_Cur=2.7";
+                break;
+                case '208.3473 -59.1776':
+                  g_prop1.textContent ="Name=4FGL J1353.3-5910,GLON=310.8,GLAT=2.7,Class=NOV,V1369 Cen";
+                  g_prop2.textContent ="Signif=2.4,EnergyFlux100=2.7e-12cgs,Var_idx=35.9,Sig_Cur=2.8";
+                break;
+                case '267.5839 -6.7408':
+                  g_prop1.textContent ="Name=4FGL J1750.3-0644,GLON=19.8,GLAT=10.3,Class=NOV,RS Oph";
+                  g_prop2.textContent ="Signif=6.5,EnergyFlux100=2.6e-12cgs,Var_idx=525.4,Sig_Cur=2.3";
+                break;
+                case '279.4162 -29.0674':
+                  g_prop1.textContent ="Name=4FGL J1837.6-2904,GLON=5.3,GLAT=-10.1,Class=NOV,V5668 Sgr";
+                  g_prop2.textContent ="Signif=10.9,EnergyFlux100=5.3e-12cgs,Var_idx=22.9,Sig_Cur=3.8";
+                break;
+                case '155.828 -57.794':
+                  g_prop1.textContent ="Name=4FGL J1023.3-5747e,GLON=284.2,GLAT=-0.4,Class=SFR,Westerlund 2";
+                  g_prop2.textContent ="Signif=15.1,EnergyFlux100=5.1e-11cgs,Var_idx=13.0,Sig_Cur=0.0";
+                break;
+                case '246.75 -24.531':
+                  g_prop1.textContent ="Name=4FGL J1626.9-2431e,GLON=353.1,GLAT=16.7,Class=SFR,rho Ophiuchi";
+                  g_prop2.textContent ="Signif=22.4,EnergyFlux100=3.5e-11cgs,Var_idx=19.9,Sig_Cur=4.1";
+                break;
+                case '307.17 41.17':
+                  g_prop1.textContent ="Name=4FGL J2028.6+4110e,GLON=79.6,GLAT=1.4,Class=SFR,Cygnus X";
+                  g_prop2.textContent ="Signif=87.7,EnergyFlux100=1.2e-09cgs,Var_idx=26.4,Sig_Cur=8.3";
+                break;
+                case '266.4147 -28.997':
+                  g_prop1.textContent ="Name=4FGL J1745.6-2859,GLON=360.0,GLAT=-0.0,Class=GC,Galactic Center";
+                  g_prop2.textContent ="Signif=56.6,EnergyFlux100=3.8e-10cgs,Var_idx=7.1,Sig_Cur=10.9";
+                break;
+  
+          
+                default:
+                  g_prop1.textContent ="Name=4FGL J1704.1-4140,GLON=344.7,GLAT=-0.2";
+                  g_prop2.textContent ="Signif=5.3,EnergyFlux100=1.2e-11cgs,Var_idx=10.2,Sig_Cur=2.1";
+                  // coverfact.textContent ="X-ray Covering faction=0.98";
+                  // all_clas.textContent ="All classifications: 1LMXB 3YSO 1HM-STAR 1LM-STAR ";
+                  // conf_clas.textContent ="Confident (CT>=2) classifications: 1YSO 1LM-STAR ";
+                  
+              }
+              DescChange.textContent = mySelect.value // name
+            }
+          }
+        
+        </script>    
+    
+        <div>
+            <h3><u>(classification) summary</u></h3>
+            <!-- <h4>
+                 Conf_95_SemiMajor <p id="DescChange"></p>
+            </h4> -->
+            <li id="g_prop1">Name=4FGL J0002.8+6217,GLON=117.3,GLAT=-0.1,Class=PSR,PSR J0002+6216</li>
+            <li id="g_prop2">Signif=35.8,EnergyFlux100=1.9e-11cgs,Var_idx=15.4,Sig_Cur=12.0</li>
+            <!-- <li id="coverfact">X-ray Covering faction=0.96;CLASS1=nan;ASSOC1=nan</li>
+            <li id="all_clas">All classifications: 13NS 1AGN 11LMXB 1HMXB 10CV 106YSO 2HM-STAR 5LM-STAR</li>
+            <li id="conf_clas">Confident (CT>=2) classifications of significant sources (S/N>=5): 4NS 1HMXB 1CV 55YSO 1HM-STAR 2LM-STAR</li>
+            <li id="comments">Comment: </li> -->
+            <!-- <LI> <B>Sky area:</B> 3.76% of sky => 1551°^2
+            <LI> <B>Associated coverage map:</B> <A HREF="Moc.fits">MOC</A>
+            <LI> <B>Original data access template:</B> <A HREF="HpxFinder/metadata.xml">metadata.xml</A>
+            <LI> <B>Property file:</B> <A HREF="properties">properties</A>
+            <LI> <B>Base URL:<p id="hipsBase"></p></B>  -->
+          </div>
+    
+    </TD>
+    </TR>
+    </TABLE>
+    
+    
+    This survey can be displayed by <A HREF="https://aladin.u-strasbg.fr/AladinLite">Aladin Lite</A> (see above), 
+    by <A HREF="https://aladin.u-strasbg.fr/java/nph-aladin.pl?frame=downloading">Aladin Desktop</A> client
+    (just open the base URL) or any other HiPS aware clients.
+    <HR>
+    <!-- <I>(*) HiPS is a recommended <A HREF="www.ivoa.net">International Virtual Observatory Alliance</A> standard:<A HREF="www.ivoa.net/documents/HiPS">HiPS REC</A>. 
+    The HiPS technology allows a dedicated client to access an astronomical survey at any location and at any scale. 
+    HiPS has been invented by <A HREF="https://aladin.u-strasbg.fr/hips">CDS-Universit&eacute; de Strasbourg/CNRS</A> (<A HREF="http://cdsads.u-strasbg.fr/abs/2015A%26A...578A.114F">2015A&amp;A...578A.114F</A>). It is based on HEALPix sky tessellation and it is designed for astronomical scientifical usages (low distorsion, true pixel values...).</I><script type="text/javascript">
+    document.getElementById("hipsBase").innerHTML=hipsDir;
+    </script> -->
+    
+    
+    
+    </HTML>
+    
+    
