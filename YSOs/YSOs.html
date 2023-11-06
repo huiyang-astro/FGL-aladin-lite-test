@@ -5,7 +5,7 @@
         <script type="text/javascript">
     var hipsDir=null;</script>
     </HEAD>
-    <H1> Identified 4FGL-DR4 Sources</H1>
+    <H1> YSOs red (two cp merged) green (no WISE cp) </H1>
     <!-- This Web resource contains HiPS(*) components for <B>ESO EPO</B> progressive survey. -->
     <TABLE>
     <TR>
@@ -22,8 +22,10 @@
   Base 
   <input id="DSS" type="radio" name="survey" value="P/DSS2/Color"><label for="DSS"> <label> <A HREF="https://alasky.cds.unistra.fr/DSS/DSSColor/">Optical (DSS2)</A>
   <input id="2MASS" type="radio" name="survey" value="P/2MASS/Color"><label for="2MASS"> <label> <A HREF="https://alasky.cds.unistra.fr/2MASS/Color/">2MASS</A>
-  <input id="WISE" type="radio" name="survey" value="WISE"><label for="WISE"> <label> <A HREF="https://alasky.cds.unistra.fr/AllWISE/RGB-W4-W2-W1/">AllWISE</A>
-  <input id="VLASS1.1" type="radio" name="survey" value="VLASS1.1" checked><label for="VLASS1.1"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS1.1v2/Quicklook/">VLASS1.1</A>
+  <input id="WISE" type="radio" name="survey" value="WISE" checked><label for="WISE"> <label> <A HREF="https://alasky.cds.unistra.fr/AllWISE/RGB-W4-W2-W1/">AllWISE</A>
+  <input id="SPITZER" type="radio" name="survey" value="SPITZER"><label for="SPITZER"> <label> <A HREF="https://alasky.cds.unistra.fr/Spitzer/SpitzerI1I2I4color/">SPITZER</A>
+        
+  <input id="VLASS1.1" type="radio" name="survey" value="VLASS1.1"><label for="VLASS1.1"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS1.1v2/Quicklook/">VLASS1.1</A>
   <input id="VLASS1.2" type="radio" name="survey" value="VLASS1.2"><label for="VLASS1.2"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS1.2v2/Quicklook/">VLASS1.2</A>
   <input id="VLASS2.1" type="radio" name="survey" value="VLASS2.1"><label for="VLASS2.1"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS2.1/Quicklook/">VLASS2.1</A>
   <input id="VLASS2.2" type="radio" name="survey" value="VLASS2.2"><label for="VLASS2.2"> <label> <A HREF="http://archive-new.nrao.edu/vlass/HiPS/VLASS2.2/Quicklook/">VLASS2.2</A>
@@ -64,11 +66,7 @@
     <script type="text/javascript">
     
     
-    var fields =  [{name:"NGC 7822", coord:"0.563625 67.43325"},
-                {name:"IRAS 00013+6817", coord:"1.0160417 68.5593611"},
-                {name:"NGC 1333", coord:"52.2698333 31.3363056"},
-                {name:"IC 348", coord:"56.12625 32.1291111"},
-                {name:"LkHalpha 101", coord:"67.5410833 35.2692222"},
+    var fields =  [{name:"LkHalpha 101", coord:"67.5410833 35.2692222"},
                 {name:"NGC 2068-2071", coord:"86.6814167 0.1261667"},
                 {name:"ONC Flank S", coord:"83.774125 -5.6521944"},
                 {name:"ONC Flank N", coord:"83.8099167 -4.8304167"},
@@ -90,19 +88,14 @@
                 {name:"DR21", coord:"309.756655 42.327191"},
                 {name:"Eagle", coord:"274.7 -13.806667"},
                 {name:"Flame", coord:"85.427917 -1.912222"},
-                {name:"Lagon", coord:"270.904167 -24.386667"},
                 {name:"M17", coord:"275.195833 -16.171667"},
                 {name:"N1893", coord:"80.683333 33.411667"},
-                {name:"N2264", coord:"100.241667 9.895"},
                 {name:"N2362", coord:"109.670833 -24.955"},
                 {name:"N3576", coord:"167.9575 -61.303889"},
-                {name:"N6334", coord:"260.212 -36.115"},
-                {name:"N6357", coord:"261.625 -34.2"},
                 {name:"Orion", coord:"83.822083 -5.391111"},
                 {name:"RCW36", coord:"134.75375 -43.736111"},
                 {name:"RCW38", coord:"134.772917 -47.510944"},
                 {name:"Roset", coord:"97.916667 4.963333"},
-                {name:"Trifi", coord:"270.675 -22.971667"},
                 {name:"W3", coord:"36.767083 61.874194"},
                 {name:"W4", coord:"38.175 61.45"},
                 {name:"W40", coord:"277.8604 -2.0728"}]
@@ -164,7 +157,7 @@
         fieldSelect.blur();
     });
     
-    var target = '0.563625 67.43325';
+    var target = '67.5410833 35.2692222';
     fieldSelect.value = target;
     var fov = 12 / 60.;
     const params = new URLSearchParams(location.search);
@@ -232,13 +225,13 @@
                 canvasCtx.fillStyle = '#eee';
                 // canvasCtx.fillText(source.data['name'], source.x + xShift, source.y -4);
     
-                // object type is displayed only if fov<2°
-                if (fov>0.05) {
-                    return;
-                }
-                canvasCtx.font = '12px Arial'
-                canvasCtx.fillStyle = '#abc';
-                canvasCtx.fillText(source.data['Class'], source.x + 2 + xShift, source.y + 10);
+                // // object type is displayed only if fov<2°
+                // if (fov>0.05) {
+                //     return;
+                // }
+                // canvasCtx.font = '12px Arial'
+                // canvasCtx.fillStyle = '#abc';
+                // canvasCtx.fillText(source.data['Class'], source.x + 2 + xShift, source.y + 10);
             };
     
             // define custom draw function
@@ -290,7 +283,7 @@
               const opacity = $(this).val();
               aladin.getOverlayImageLayer().setOpacity(opacity);
           });
-          aladin.setBaseImageLayer('http://archive-new.nrao.edu/vlass/HiPS/VLASS1.1v2/Quicklook/');
+          aladin.setBaseImageLayer('CDS/P/allWISE/color');
   
           aladin.setOverlayImageLayer('cxc.harvard.edu/P/cda/hips/allsky/rgb');
   
@@ -302,6 +295,8 @@
                   aladin.setBaseImageLayer("CDS/P/DSS2/color");
               } else if (surveyName === "WISE") {
                   aladin.setBaseImageLayer("CDS/P/allWISE/color");
+              } else if (surveyName === "SPITZER") {
+                  aladin.setBaseImageLayer("CDS/P/SPITZER/color");
               } else if (surveyName === "RACS-m") {
                   // aladin.setBaseImageLayer("https://casda.csiro.au/hips/RACS/mid/I/");
                   aladin.setBaseImageLayer("CSIRO/P/RACS/mid/I");
@@ -352,9 +347,9 @@
           hips2.hide();
           aladin.addCatalog(hips2);
   
-          var hips = A.catalogHiPS('https://data.darts.isas.jaxa.jp/pub/HiPS/SWIFT-XRT_Catalogue/', {onClick: 'showPopup',  sourceSize: 10,  name: 'XRT',shape:'circle'});
-          hips.hide(); 
-          aladin.addCatalog(hips);
+        //   var hips = A.catalogHiPS('https://data.darts.isas.jaxa.jp/pub/HiPS/SWIFT-XRT_Catalogue/', {onClick: 'showPopup',  sourceSize: 10,  name: 'XRT',shape:'circle'});
+        //   hips.hide(); 
+        //   aladin.addCatalog(hips);
   
            // var hips5 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/4XMM-DR13.vot', {onClick: 'showPopup', sourceSize: 10,  name:'XMM',shape:'circle', color:'orange'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
            var hips5 = A.catalogHiPS('https://data.darts.isas.jaxa.jp/pub/HiPS/XMM-EPIC_Catalogue/', {onClick: 'showTable', sourceSize: 10, name: 'XMM',shape:'circle' });
@@ -362,30 +357,38 @@
            aladin.addCatalog(hips5);
   
            var hips6 = A.catalogHiPS('https://data.darts.isas.jaxa.jp/pub/HiPS/CHANDRA_Catalogue/', {onClick: 'showPopup', sourceSize: 10, name: 'CSC',shape:'circle',color:'orange' });
-          //  hips6.hide();
+           hips6.hide();
            aladin.addCatalog(hips6);
   
-          var hips4 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/4FGL-DR4.vot', {onClick: 'showPopup', sourceSize: 10,  name:'4FGL',shape:'circle'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
-          hips4.hide(); 
-          aladin.addCatalog(hips4);
+        //   var hips4 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/4FGL-DR4.vot', {onClick: 'showPopup', sourceSize: 10,  name:'4FGL',shape:'circle'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+        //   hips4.hide(); 
+        //   aladin.addCatalog(hips4);
   
-          var hips9 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/ATNF_NS.vot', {onClick: 'showPopup', sourceSize: 10,  name:'ATNF'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
-          hips9.hide(); 
-          aladin.addCatalog(hips9);
+        //   var hips9 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/ATNF_NS.vot', {onClick: 'showPopup', sourceSize: 10,  name:'ATNF'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+        //   hips9.hide(); 
+        //   aladin.addCatalog(hips9);
   
-          var hips3 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/BlackCAT.vot', {onClick: 'showPopup', sourceSize: 10,  name:'BlackCAT'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
-          hips3.hide(); 
-          aladin.addCatalog(hips3);
+        //   var hips3 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/BlackCAT.vot', {onClick: 'showPopup', sourceSize: 10,  name:'BlackCAT'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+        //   hips3.hide(); 
+        //   aladin.addCatalog(hips3);
           
-          var hips10 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/TeVCat.vot', {onClick: 'showPopup', sourceSize: 10,  name:'TeVCat'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
-          hips10.hide();  
-          aladin.addCatalog(hips10);
+        //   var hips10 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/TeVCat.vot', {onClick: 'showPopup', sourceSize: 10,  name:'TeVCat'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+        //   hips10.hide();  
+        //   aladin.addCatalog(hips10);
   
-          var hips7 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/SNR.vot', {onClick: 'showPopup', sourceSize: 10,  name:'SNR'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
-            aladin.addCatalog(hips7);
+        //   var hips7 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/SNR_aladin-lite-example/main/files/catalogs/SNR.vot', {onClick: 'showPopup', sourceSize: 10,  name:'SNR'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+        //     aladin.addCatalog(hips7);
   
-          var hips14 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_IDF.vot', {onClick: 'showPopup', sourceSize: 10,  name:'counterpart'}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+          var hips14 = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/YSOs.vot', {onClick: 'showTable', sourceSize: 300,  name: 'yso',shape: drawFunction}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
           aladin.addCatalog(hips14);
+
+          var hips15 = A.catalogHiPS('https://axel.cds.unistra.fr/HiPSCatService/II/328/allwise/', {onClick: 'showPopup', sourceSize: 10, name: 'allwise',shape:'circle',color:'magenta' });
+          hips15.hide();
+          aladin.addCatalog(hips15);
+
+           var hips16 = A.catalogHiPS('https://axel.cds.unistra.fr/HiPSCatService/II/365/catwise/', {onClick: 'showPopup', sourceSize: 10, name: 'catwise',shape:'circle',color:'yellow' });
+           hips16.hide();
+           aladin.addCatalog(hips16);
   
   
             // 'gold', 'orange', 'magenta', 'red', 'blue'
@@ -393,6 +396,41 @@
           
         var overlay = A.graphicOverlay({color: '#ee2345', lineWidth: 3});
             aladin.addOverlay(overlay);
+            overlay.addFootprints([
+              A.circle(67.5410833,35.2692222,3./60), // LkHalpha 101
+              A.circle(86.6814167,0.1261667,3./60), // NGC 2068-2071
+            //   A.circle(83.774125,-5.6521944,3./60), // keep the field, ONC Flank S
+            //   A.circle(83.8099167,-4.8304167,3./60), // keep the field, ONC Flank N
+            //   A.circle(83.8476667,-5.1175278,3./60), // keep the field, OMC 2-3
+              A.circle(91.9422917,-6.3815556,3./60), // Mon R2
+              A.circle(92.7062917,-6.1960278,2./60), // GGD 12-15
+              A.circle(258.096875,-38.4792778,5./60), // RCW 120
+              A.circle(277.4845833,1.2198611,3./60), // Serpens Main
+            //   A.circle(277.5106667,-2.0617222,3./60), // keep the field, Serpens South
+              A.circle(301.7804089, 27.4834219,2./60), // IRAS 20050+2720
+              A.circle(306.8515,37.3819167,3.5/60), // Sh 2-106
+              A.circle(328.37425,47.2562222,3./60), // IC 5146
+              A.circle(328.45825,62.5861667,3./60), // NGC 7160
+            //   A.circle(339.7002083,75.1973333,3./60), // keep the field, LDN 1251B
+              A.circle(343.9138333,62.6364444,20./60), // Cep OB3b, remove the field
+              A.circle(344.058875,62.0382778,3./60), // Cep A
+            //   A.circle(346.4559167,62.5075556,3./60), // Cep C, keep the field
+              A.circle(161.079167,-59.889167,25./60), // Car, remove the field
+              A.circle(309.756655,42.327191,4./60), // DR21
+              A.circle(274.7,-13.806667,10./60), // Eagle, remove the field
+              A.circle(85.427917,-1.912222,15./60), // Flame, remove the field
+              A.circle(275.195833,-16.171667,15./60), // M17, remove the field
+              A.circle(80.7243253, 33.4456257,5./60), // N1893
+              A.circle(109.670833,-24.955,3./60), // N2362
+              A.circle(167.9575,-61.303889,15./60),  // N3576, remove the field
+              A.circle(83.8230882,-5.3625885,10./60), // Orion
+              A.circle(134.8667896, -43.7554535,2./60), // RCW36
+              A.circle(134.772917,-47.510944,3./60), // RCW38
+              A.circle(97.916667,4.963333,3./60), // Roset
+              A.circle(36.4310256, 62.0932307,3./60), // W3
+              A.circle(38.175,61.45,3./60), // W4
+              A.circle(277.8604,-2.0728,5./60) // W40, remove the field
+              ]);
                         // overlay.add(); // radius in degrees , use the polygon to use the calculated coordinates of ellipses
     
               
