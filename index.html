@@ -3582,7 +3582,7 @@ if (params.has('fov')) {
         cat.addSources([A.marker(287.7754545517915, 9.092623945111608, {popupTitle: '2CXO J191106.1+090533', popupDesc: '287.775455 9.092624 0.36" <a target="_blank" href="https://simbad.u-strasbg.fr/simbad/sim-coo?CooDefinedFrames=none&CooEpoch=2000&Coord=287.7754545517915%209.092623945111608&submit=submit%20query&Radius.unit=arcsec&CooEqui=2000&CooFrame=FK5&Radius=20">Simbad</a><br/>Fb=9.4e-15 HR_h(ms)=0.9 P_intra=0.93<br/>0 CP(s)<br/>Classified as NS 87&plusmn14% (CT=3.3)<br/>with X-ray features only:  NS 57&plusmn19% (CT=1.6)<br/>'})]);
         cat.addSources([A.marker(206.4813719219129, -62.88544032906076, {popupTitle: '2CXO J134555.5-625307', popupDesc: '206.481372 -62.885440 1.61" <a target="_blank" href="https://simbad.u-strasbg.fr/simbad/sim-coo?CooDefinedFrames=none&CooEpoch=2000&Coord=206.4813719219129%20-62.88544032906076&submit=submit%20query&Radius.unit=arcsec&CooEqui=2000&CooFrame=FK5&Radius=20">Simbad</a><br/>Fb=8.3e-15 HR_h(ms)=-0.0 P_intra=0.31<br/>3 CP(s)(p_c=16.6% p_any=99.1%)<br/>1st CP (p_i=40%): G=15.4 <br/>Classified as HM-STAR 45&plusmn18% (CT=0.6)<br/>2nd CP (p_i=34%): J=13.4 <br/>Classified as LM-STAR 41&plusmn10% (CT=0.4)<br/>Without CP classified as NS 88&plusmn17% (CT=2.2)<br/>Combined classified as NS 28&plusmn4% (CT=0.6)<br/>'})]);
 
-        var hips = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_11042023_all_class_color.vot', {onClick: 'showTable', sourceSize: 100,  name: 'CSC',shape: drawFunction,filter: myFilterFunction}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
+        var hips = A.catalogFromURL('https://raw.githubusercontent.com/huiyang-astro/FGL-aladin-lite-test/main/FGL_11132023_all_class_color.vot', {onClick: 'showTable', sourceSize: 100,  name: 'CSC',shape: drawFunction,filter: myFilterFunction}); //,displayLabel: true, labelColumn: 'Class', labelColor: 'cyan', labelFont: '20px sans-serif', onClick: 'showTable',
          aladin.addCatalog(hips);
         
         $('input[type=radio][name=otype]').change(function() {
@@ -3661,8 +3661,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J0025.3+6408,GLON=120.1,GLAT=1.4";
               g_prop2.textContent ="Signif=17.0,EnergyFlux100=1.1e-11cgs,Var_idx=6.9,Sig_Cur=0.3";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=snr;ASSOC1=Tycho";
-              all_clas.textContent ="All classifications: 1NS 2LMXB 1LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1LMXB ";
+              all_clas.textContent ="All classifications: 3NS 1YSO ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2NS ";
               comment.textContent ="Comment: ";
             break;
             case '14.5904 -46.056':
@@ -3678,14 +3678,14 @@ if (params.has('fov')) {
               g_prop2.textContent ="Signif=5.3,EnergyFlux100=1.2e-12cgs,Var_idx=10.9,Sig_Cur=0.0";
               coverfact.textContent ="X-ray Covering faction=0.44;CLASS1=nan;ASSOC1=nan";
               all_clas.textContent ="All classifications: 1AGN ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1AGN ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
             case '70.7103 36.164':
               g_prop1.textContent ="Name=4FGL J0442.8+3609,GLON=166.4,GLAT=-6.5";
               g_prop2.textContent ="Signif=7.8,EnergyFlux100=6.0e-12cgs,Var_idx=12.7,Sig_Cur=2.7";
               coverfact.textContent ="X-ray Covering faction=0.85;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 4NS 6AGN 2LMXB 2CV ";
+              all_clas.textContent ="All classifications: 4NS 7AGN 1LMXB 2CV ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2AGN ";
               comment.textContent ="Comment: ";
             break;
@@ -3693,7 +3693,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J0524.8-6938,GLON=280.3,GLAT=-32.8";
               g_prop2.textContent ="Signif=4.0,EnergyFlux100=1.6e-12cgs,Var_idx=12.8,Sig_Cur=0.7";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=snr;ASSOC1=LMC SNR N 132D";
-              all_clas.textContent ="All classifications: 9NS 2AGN 4LMXB 1CV 1HM-STAR ";
+              all_clas.textContent ="All classifications: 8NS 4AGN 3LMXB 1CV 1HM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LMXB ";
               comment.textContent ="Comment: ";
             break;
@@ -3701,8 +3701,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J0526.7+4254,GLON=166.2,GLAT=4.3";
               g_prop2.textContent ="Signif=12.8,EnergyFlux100=7.3e-12cgs,Var_idx=8.2,Sig_Cur=4.5";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=snr;ASSOC1=SNR G166.0+04.3";
-              all_clas.textContent ="All classifications: 5NS 11AGN 3LMXB 4LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 3AGN ";
+              all_clas.textContent ="All classifications: 5NS 11AGN 2LMXB 1CV 4LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 4AGN ";
               comment.textContent ="Comment: ";
             break;
             case '84.4553 -69.1646':
@@ -3710,7 +3710,7 @@ if (params.has('fov')) {
               g_prop2.textContent ="Signif=22.8,EnergyFlux100=1.6e-11cgs,Var_idx=27.0,Sig_Cur=1.0";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=pwn;ASSOC1=N 157B";
               all_clas.textContent ="All classifications: 1NS 1LMXB 2HM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1HM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2HM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '88.014 2.9417':
@@ -3741,7 +3741,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J0639.1-8009,GLON=291.9,GLAT=-27.2";
               g_prop2.textContent ="Signif=5.1,EnergyFlux100=2.0e-12cgs,Var_idx=22.1,Sig_Cur=2.1";
               coverfact.textContent ="X-ray Covering faction=0.72;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 7NS 20AGN 3LMXB 1CV ";
+              all_clas.textContent ="All classifications: 7NS 19AGN 4LMXB 1CV ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 10AGN ";
               comment.textContent ="Comment: ";
             break;
@@ -3749,8 +3749,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J0737.4+6535,GLON=150.6,GLAT=29.3";
               g_prop2.textContent ="Signif=6.9,EnergyFlux100=1.2e-12cgs,Var_idx=35.6,Sig_Cur=1.5";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 9NS 14AGN 4LMXB ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2NS 3AGN ";
+              all_clas.textContent ="All classifications: 11NS 10AGN 6LMXB ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2AGN 1LMXB ";
               comment.textContent ="Comment: ";
             break;
             case '127.3296 37.4958':
@@ -3765,16 +3765,16 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J0859.2-4729,GLON=267.9,GLAT=-1.0";
               g_prop2.textContent ="Signif=17.9,EnergyFlux100=2.0e-11cgs,Var_idx=7.1,Sig_Cur=4.4";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 61NS 13AGN 24LMXB 44CV 116YSO 8HM-STAR 2LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2LMXB 11CV 44YSO 1HM-STAR ";
+              all_clas.textContent ="All classifications: 53NS 33AGN 19LMXB 1HMXB 34CV 119YSO 6HM-STAR 3LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 3CV 38YSO ";
               comment.textContent ="Comment: ";
             break;
             case '134.8271 -43.7125':
               g_prop1.textContent ="Name=4FGL J0859.3-4342,GLON=265.1,GLAT=1.5";
               g_prop2.textContent ="Signif=8.8,EnergyFlux100=9.0e-12cgs,Var_idx=14.5,Sig_Cur=4.2";
               coverfact.textContent ="X-ray Covering faction=0.96;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 12NS 3AGN 9LMXB 1HMXB 10CV 105YSO 4HM-STAR 5LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 3NS 1LMXB 1HMXB 2CV 57YSO 2HM-STAR 4LM-STAR ";
+              all_clas.textContent ="All classifications: 14NS 6AGN 5LMXB 2HMXB 8CV 105YSO 4HM-STAR 5LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 52YSO 2HM-STAR 2LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '134.9591 -45.5039':
@@ -3838,15 +3838,15 @@ if (params.has('fov')) {
               g_prop2.textContent ="Signif=10.4,EnergyFlux100=1.4e-11cgs,Var_idx=5.1,Sig_Cur=3.5";
               coverfact.textContent ="X-ray Covering faction=0.17;CLASS1=nan;ASSOC1=nan";
               all_clas.textContent ="All classifications: 2LMXB 1CV 10YSO 4LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LMXB 4LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 3LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '161.6761 -60.1734':
               g_prop1.textContent ="Name=4FGL J1046.7-6010,GLON=288.0,GLAT=-1.0";
               g_prop2.textContent ="Signif=17.5,EnergyFlux100=2.3e-11cgs,Var_idx=16.1,Sig_Cur=7.3";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 2NS 12LMXB 8CV 23YSO 1HM-STAR 16LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1LMXB 1CV 4YSO 5LM-STAR ";
+              all_clas.textContent ="All classifications: 3NS 16LMXB 5CV 22YSO 1HM-STAR 15LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LMXB 3YSO 5LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '162.1366 -59.3923':
@@ -3885,8 +3885,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1115.1-6118,GLON=291.6,GLAT=-0.6";
               g_prop2.textContent ="Signif=16.9,EnergyFlux100=2.6e-11cgs,Var_idx=7.3,Sig_Cur=1.7";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 80NS 2AGN 33LMXB 25CV 8YSO 29HM-STAR 4LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 5NS 4LMXB 3CV 3HM-STAR ";
+              all_clas.textContent ="All classifications: 72NS 4AGN 32LMXB 36CV 16YSO 17HM-STAR 4LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2NS 2CV 2HM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '169.0939 18.3047':
@@ -3909,7 +3909,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1256.9+2736,GLON=54.6,GLAT=88.7";
               g_prop2.textContent ="Signif=5.6,EnergyFlux100=1.8e-12cgs,Var_idx=12.6,Sig_Cur=1.6";
               coverfact.textContent ="X-ray Covering faction=0.71;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 3NS 22AGN 2LMXB ";
+              all_clas.textContent ="All classifications: 4NS 23AGN ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 8AGN ";
               comment.textContent ="Comment: ";
             break;
@@ -3917,8 +3917,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1312.6-6231c,GLON=305.4,GLAT=0.2";
               g_prop2.textContent ="Signif=10.7,EnergyFlux100=9.0e-12cgs,Var_idx=7.8,Sig_Cur=3.9";
               coverfact.textContent ="X-ray Covering faction=0.44;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 8NS 1LMXB 2CV 5YSO 1LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
+              all_clas.textContent ="All classifications: 9NS 2CV 5YSO 1LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
             case '199.3759 -1.8961':
@@ -3941,8 +3941,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1349.5-6206c,GLON=309.7,GLAT=-0.0";
               g_prop2.textContent ="Signif=7.7,EnergyFlux100=2.8e-11cgs,Var_idx=18.0,Sig_Cur=3.8";
               coverfact.textContent ="X-ray Covering faction=0.98;CLASS1=spp;ASSOC1=SNR G309.8+00.0";
-              all_clas.textContent ="All classifications: 1NS 1LMXB 2CV 5YSO 3HM-STAR 4LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
+              all_clas.textContent ="All classifications: 1NS 2LMXB 2CV 5YSO 3HM-STAR 3LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1HM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '208.9524 -61.9326':
@@ -3973,8 +3973,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1416.5-6145,GLON=312.8,GLAT=-0.5";
               g_prop2.textContent ="Signif=5.2,EnergyFlux100=5.4e-12cgs,Var_idx=7.5,Sig_Cur=3.2";
               coverfact.textContent ="X-ray Covering faction=0.67;CLASS1=spp;ASSOC1=SNR G312.4-00.4";
-              all_clas.textContent ="All classifications: 8NS 3LMXB 3CV 7YSO 2HM-STAR 4LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2YSO 1HM-STAR ";
+              all_clas.textContent ="All classifications: 8NS 4LMXB 2CV 7YSO 2HM-STAR 4LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2YSO 2HM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '214.449 -60.9566':
@@ -4005,8 +4005,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1503.6-4146,GLON=327.8,GLAT=14.6";
               g_prop2.textContent ="Signif=5.4,EnergyFlux100=1.8e-12cgs,Var_idx=13.3,Sig_Cur=1.1";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=spp;ASSOC1=SNR G327.6+14.6";
-              all_clas.textContent ="All classifications: 4NS 7AGN 1LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 4AGN ";
+              all_clas.textContent ="All classifications: 1NS 8AGN 2LMXB 1LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2AGN ";
               comment.textContent ="Comment: ";
             break;
             case '227.7398 5.8562':
@@ -4021,7 +4021,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1548.4-5344c,GLON=327.3,GLAT=0.5";
               g_prop2.textContent ="Signif=5.5,EnergyFlux100=1.1e-11cgs,Var_idx=8.9,Sig_Cur=3.0";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=spp;ASSOC1=SNR G327.4+00.4";
-              all_clas.textContent ="All classifications: 1NS 1LMXB 2YSO 6LM-STAR ";
+              all_clas.textContent ="All classifications: 1NS 1LMXB 3YSO 5LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
@@ -4029,16 +4029,16 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1550.8-5424c,GLON=327.2,GLAT=-0.2";
               g_prop2.textContent ="Signif=5.3,EnergyFlux100=9.4e-12cgs,Var_idx=5.8,Sig_Cur=4.5";
               coverfact.textContent ="X-ray Covering faction=0.99;CLASS1=spp;ASSOC1=SNR G327.2-00.1";
-              all_clas.textContent ="All classifications: 2NS 6LMXB 3CV 8YSO 2HM-STAR 2LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LMXB 1YSO ";
+              all_clas.textContent ="All classifications: 4NS 6LMXB 1CV 9YSO 2HM-STAR 1LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1YSO ";
               comment.textContent ="Comment: ";
             break;
             case '238.6142 -55.1151':
               g_prop1.textContent ="Name=4FGL J1554.4-5506,GLON=327.1,GLAT=-1.1";
               g_prop2.textContent ="Signif=4.5,EnergyFlux100=5.3e-12cgs,Var_idx=15.6,Sig_Cur=0.5";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=pwn;ASSOC1=PWN G327.1-1.1";
-              all_clas.textContent ="All classifications: 33NS 1AGN 18LMXB 15CV 11YSO 19HM-STAR 6LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 10NS 5YSO 2HM-STAR 3LM-STAR ";
+              all_clas.textContent ="All classifications: 31NS 1AGN 19LMXB 6CV 24YSO 15HM-STAR 7LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 5NS 3YSO 1HM-STAR 3LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '243.8275 -60.5682':
@@ -4046,7 +4046,7 @@ if (params.has('fov')) {
               g_prop2.textContent ="Signif=4.5,EnergyFlux100=3.8e-12cgs,Var_idx=11.5,Sig_Cur=1.0";
               coverfact.textContent ="X-ray Covering faction=0.96;CLASS1=nan;ASSOC1=nan";
               all_clas.textContent ="All classifications: 1AGN 1LMXB 3LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '244.1575 -50.1507':
@@ -4061,7 +4061,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1619.3-5047,GLON=332.8,GLAT=-0.4";
               g_prop2.textContent ="Signif=7.1,EnergyFlux100=2.1e-11cgs,Var_idx=7.5,Sig_Cur=4.3";
               coverfact.textContent ="X-ray Covering faction=0.15;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1NS 4LMXB 4CV 4YSO 1LM-STAR ";
+              all_clas.textContent ="All classifications: 2NS 4LMXB 3CV 4YSO 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
@@ -4078,7 +4078,7 @@ if (params.has('fov')) {
               g_prop2.textContent ="Signif=9.4,EnergyFlux100=1.8e-11cgs,Var_idx=13.6,Sig_Cur=2.2";
               coverfact.textContent ="X-ray Covering faction=0.96;CLASS1=nan;ASSOC1=nan";
               all_clas.textContent ="All classifications: 10NS 4LMXB 3CV 3YSO 2HM-STAR 3LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1HM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
             case '248.524 -47.7025':
@@ -4086,14 +4086,14 @@ if (params.has('fov')) {
               g_prop2.textContent ="Signif=12.2,EnergyFlux100=3.7e-11cgs,Var_idx=12.8,Sig_Cur=8.0";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
               all_clas.textContent ="All classifications: 2NS 1CV 1LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1CV ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1CV ";
               comment.textContent ="Comment: ";
             break;
             case '249.2441 -47.1687':
               g_prop1.textContent ="Name=4FGL J1636.9-4710c,GLON=337.4,GLAT=0.0";
               g_prop2.textContent ="Signif=12.3,EnergyFlux100=4.8e-11cgs,Var_idx=10.1,Sig_Cur=5.1";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1NS 1CV 1YSO 1HM-STAR 1LM-STAR ";
+              all_clas.textContent ="All classifications: 1NS 1CV 2YSO 1HM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4101,8 +4101,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1638.1-4641c,GLON=337.9,GLAT=0.2";
               g_prop2.textContent ="Signif=5.8,EnergyFlux100=1.7e-11cgs,Var_idx=18.8,Sig_Cur=3.1";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 6NS 5LMXB 1YSO 1HM-STAR 2LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
+              all_clas.textContent ="All classifications: 8NS 3LMXB 2HM-STAR 2LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LMXB ";
               comment.textContent ="Comment: ";
             break;
             case '249.6164 -47.2594':
@@ -4117,7 +4117,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1638.5-4657c,GLON=337.8,GLAT=-0.0";
               g_prop2.textContent ="Signif=13.1,EnergyFlux100=2.7e-11cgs,Var_idx=12.4,Sig_Cur=5.6";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=spp;ASSOC1=SNR G337.8-00.1";
-              all_clas.textContent ="All classifications: 1LMXB 1LM-STAR ";
+              all_clas.textContent ="All classifications: 1YSO 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4157,7 +4157,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1701.9-4625,GLON=340.7,GLAT=-2.8";
               g_prop2.textContent ="Signif=6.5,EnergyFlux100=7.7e-12cgs,Var_idx=15.8,Sig_Cur=3.5";
               coverfact.textContent ="X-ray Covering faction=0.53;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 2NS ";
+              all_clas.textContent ="All classifications: 1NS 1LMXB ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4165,15 +4165,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1704.1-4140,GLON=344.7,GLAT=-0.2";
               g_prop2.textContent ="Signif=5.3,EnergyFlux100=1.2e-11cgs,Var_idx=10.2,Sig_Cur=2.1";
               coverfact.textContent ="X-ray Covering faction=0.98;CLASS1=spp;ASSOC1=SNR G344.7-00.1";
-              all_clas.textContent ="All classifications: 3LMXB 1YSO 3LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LMXB 1LM-STAR ";
+              all_clas.textContent ="All classifications: 2NS 1LMXB 1YSO 3LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '258.5271 -38.1902':
               g_prop1.textContent ="Name=4FGL J1714.1-3811,GLON=348.7,GLAT=0.4";
               g_prop2.textContent ="Signif=12.6,EnergyFlux100=1.7e-11cgs,Var_idx=8.8,Sig_Cur=0.8";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=snr;ASSOC1=SNR G348.7+00.3";
-              all_clas.textContent ="All classifications: 2NS 1YSO 1HM-STAR ";
+              all_clas.textContent ="All classifications: 2NS 1YSO 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1YSO ";
               comment.textContent ="Comment: ";
             break;
@@ -4181,8 +4181,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1718.0-3726,GLON=349.7,GLAT=0.2";
               g_prop2.textContent ="Signif=30.3,EnergyFlux100=4.9e-11cgs,Var_idx=8.2,Sig_Cur=3.4";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=snr;ASSOC1=SNR G349.7+00.2";
-              all_clas.textContent ="All classifications: 1NS 1LMXB ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LMXB ";
+              all_clas.textContent ="All classifications: 2NS ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
             case '259.7563 -40.6473':
@@ -4197,7 +4197,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1720.6-3706,GLON=350.3,GLAT=-0.1";
               g_prop2.textContent ="Signif=7.7,EnergyFlux100=2.0e-11cgs,Var_idx=3.7,Sig_Cur=4.1";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=unk;ASSOC1=1RXS J172051.9-371033";
-              all_clas.textContent ="All classifications: 1LMXB ";
+              all_clas.textContent ="All classifications: 1CV ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4205,7 +4205,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1725.1-3408,GLON=353.3,GLAT=0.8";
               g_prop2.textContent ="Signif=5.2,EnergyFlux100=1.1e-11cgs,Var_idx=7.8,Sig_Cur=1.6";
               coverfact.textContent ="X-ray Covering faction=0.90;CLASS1=unk;ASSOC1=NVSS J172445-341032";
-              all_clas.textContent ="All classifications: 3NS 2LMXB 3CV 6YSO 2HM-STAR 1LM-STAR ";
+              all_clas.textContent ="All classifications: 3NS 2LMXB 2CV 7YSO 2HM-STAR 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4213,16 +4213,16 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1730.4-2131,GLON=4.5,GLAT=6.8";
               g_prop2.textContent ="Signif=4.7,EnergyFlux100=4.1e-12cgs,Var_idx=6.7,Sig_Cur=0.0";
               coverfact.textContent ="X-ray Covering faction=0.81;CLASS1=snr;ASSOC1=Kepler SNR";
-              all_clas.textContent ="All classifications: 23NS 7AGN 10LMXB 5CV 3YSO 3HM-STAR 6LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 5NS 4AGN 1LMXB 1LM-STAR ";
+              all_clas.textContent ="All classifications: 25NS 7AGN 9LMXB 5CV 3YSO 2HM-STAR 6LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 3NS 1AGN 1YSO 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '262.9357 -34.7609':
               g_prop1.textContent ="Name=4FGL J1731.7-3445,GLON=353.5,GLAT=-0.6";
               g_prop2.textContent ="Signif=4.1,EnergyFlux100=4.5e-12cgs,Var_idx=10.9,Sig_Cur=0.9";
               coverfact.textContent ="X-ray Covering faction=0.72;CLASS1=spp;ASSOC1=SNR G353.6-00.7";
-              all_clas.textContent ="All classifications: 4NS 1LMXB 1YSO ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LMXB ";
+              all_clas.textContent ="All classifications: 3NS 2LMXB 1YSO ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
             case '263.2161 -37.4189':
@@ -4277,15 +4277,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1740.6-2808,GLON=0.1,GLAT=1.3";
               g_prop2.textContent ="Signif=4.2,EnergyFlux100=8.7e-12cgs,Var_idx=13.0,Sig_Cur=1.2";
               coverfact.textContent ="X-ray Covering faction=0.99;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 10NS 2LMXB 4CV 2YSO 1HM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2NS 1CV ";
+              all_clas.textContent ="All classifications: 10NS 5CV 3YSO 1HM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
             case '265.367 -30.7829':
               g_prop1.textContent ="Name=4FGL J1741.4-3046c,GLON=358.0,GLAT=-0.2";
               g_prop2.textContent ="Signif=7.7,EnergyFlux100=1.9e-11cgs,Var_idx=7.1,Sig_Cur=4.8";
               coverfact.textContent ="X-ray Covering faction=0.67;CLASS1=unk;ASSOC1=NVSS J174122-304712";
-              all_clas.textContent ="All classifications: 1LMXB 1CV 1YSO ";
+              all_clas.textContent ="All classifications: 1NS 1LMXB 1YSO ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4293,8 +4293,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1742.5-2833,GLON=360.0,GLAT=0.8";
               g_prop2.textContent ="Signif=7.8,EnergyFlux100=1.2e-11cgs,Var_idx=12.6,Sig_Cur=3.8";
               coverfact.textContent ="X-ray Covering faction=0.89;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 8NS 2LMXB 2CV 1YSO 1HM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1CV ";
+              all_clas.textContent ="All classifications: 8NS 2LMXB 2CV 1YSO 1LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
             case '265.972 -31.7266':
@@ -4317,15 +4317,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1744.9-2905,GLON=359.8,GLAT=0.0";
               g_prop2.textContent ="Signif=10.0,EnergyFlux100=3.0e-11cgs,Var_idx=11.1,Sig_Cur=7.7";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=unk;ASSOC1=NVSS J174230-282908";
-              all_clas.textContent ="All classifications: 22NS 1LMXB 6CV 3YSO 1HM-STAR 1LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 6NS 1CV 2YSO ";
+              all_clas.textContent ="All classifications: 21NS 5LMXB 4CV 3YSO 1LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 4NS 1YSO ";
               comment.textContent ="Comment: ";
             break;
             case '266.4178 -31.7572':
               g_prop1.textContent ="Name=4FGL J1745.6-3145,GLON=357.6,GLAT=-1.5";
               g_prop2.textContent ="Signif=7.4,EnergyFlux100=9.2e-12cgs,Var_idx=21.3,Sig_Cur=3.4";
               coverfact.textContent ="X-ray Covering faction=0.49;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1CV ";
+              all_clas.textContent ="All classifications: 1LMXB ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4333,8 +4333,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1746.4-2852,GLON=0.2,GLAT=-0.1";
               g_prop2.textContent ="Signif=25.3,EnergyFlux100=8.7e-11cgs,Var_idx=15.1,Sig_Cur=12.9";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=pwn;ASSOC1=PWN G0.13-0.11";
-              all_clas.textContent ="All classifications: 13NS 1LMXB 3HM-STAR 1LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 4NS ";
+              all_clas.textContent ="All classifications: 12NS 1LMXB 1CV 3HM-STAR 1LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 3NS ";
               comment.textContent ="Comment: ";
             break;
             case '266.9678 -30.1156':
@@ -4349,7 +4349,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1748.3-2906,GLON=0.2,GLAT=-0.6";
               g_prop2.textContent ="Signif=14.7,EnergyFlux100=2.5e-11cgs,Var_idx=12.4,Sig_Cur=5.9";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1NS 1LMXB ";
+              all_clas.textContent ="All classifications: 2LMXB ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4357,7 +4357,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1750.4-3023,GLON=359.3,GLAT=-1.7";
               g_prop2.textContent ="Signif=6.1,EnergyFlux100=6.2e-12cgs,Var_idx=12.2,Sig_Cur=2.5";
               coverfact.textContent ="X-ray Covering faction=0.81;CLASS1=unk;ASSOC1=1RXS J175019.0-302654";
-              all_clas.textContent ="All classifications: 1NS 1LM-STAR ";
+              all_clas.textContent ="All classifications: 1LMXB 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
@@ -4365,7 +4365,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1750.9-2655c,GLON=2.3,GLAT=0.0";
               g_prop2.textContent ="Signif=3.9,EnergyFlux100=1.7e-11cgs,Var_idx=6.3,Sig_Cur=2.3";
               coverfact.textContent ="X-ray Covering faction=0.44;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1NS 1LMXB ";
+              all_clas.textContent ="All classifications: 2LMXB ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4389,7 +4389,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1752.3-3139,GLON=358.4,GLAT=-2.6";
               g_prop2.textContent ="Signif=4.8,EnergyFlux100=7.5e-12cgs,Var_idx=8.5,Sig_Cur=1.8";
               coverfact.textContent ="X-ray Covering faction=0.97;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1CV ";
+              all_clas.textContent ="All classifications: 1LMXB ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4397,7 +4397,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1757.6-2731,GLON=2.6,GLAT=-1.6";
               g_prop2.textContent ="Signif=6.4,EnergyFlux100=7.2e-12cgs,Var_idx=13.7,Sig_Cur=2.9";
               coverfact.textContent ="X-ray Covering faction=0.73;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1HM-STAR 1LM-STAR ";
+              all_clas.textContent ="All classifications: 1CV 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4405,7 +4405,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1800.2-2403c,GLON=5.9,GLAT=-0.3";
               g_prop2.textContent ="Signif=4.9,EnergyFlux100=1.2e-11cgs,Var_idx=6.0,Sig_Cur=0.1";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 6NS 2LMXB 3CV 3YSO 4HM-STAR ";
+              all_clas.textContent ="All classifications: 6NS 2LMXB 2CV 4YSO 3HM-STAR 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
@@ -4429,15 +4429,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1804.9-3001,GLON=1.2,GLAT=-4.2";
               g_prop2.textContent ="Signif=5.8,EnergyFlux100=3.5e-12cgs,Var_idx=6.0,Sig_Cur=3.4";
               coverfact.textContent ="X-ray Covering faction=0.99;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 20NS 8AGN 6LMXB 9CV 3YSO 5HM-STAR 6LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1AGN 2CV 2LM-STAR ";
+              all_clas.textContent ="All classifications: 21NS 10AGN 5LMXB 9CV 3YSO 2HM-STAR 7LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1AGN 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '271.3287 -27.5832':
               g_prop1.textContent ="Name=4FGL J1805.3-2734,GLON=3.4,GLAT=-3.1";
               g_prop2.textContent ="Signif=3.7,EnergyFlux100=5.4e-12cgs,Var_idx=10.1,Sig_Cur=1.6";
               coverfact.textContent ="X-ray Covering faction=0.95;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 2NS 1AGN 2CV 1LM-STAR ";
+              all_clas.textContent ="All classifications: 2NS 1AGN 2LMXB 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4445,7 +4445,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1806.9-2455c,GLON=5.9,GLAT=-2.1";
               g_prop2.textContent ="Signif=6.5,EnergyFlux100=7.7e-12cgs,Var_idx=28.4,Sig_Cur=3.7";
               coverfact.textContent ="X-ray Covering faction=0.66;CLASS1=unk;ASSOC1=1RXS J180700.7-245619";
-              all_clas.textContent ="All classifications: 2CV ";
+              all_clas.textContent ="All classifications: 1NS 1LMXB ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4461,15 +4461,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1811.5-1844,GLON=11.8,GLAT=-0.0";
               g_prop2.textContent ="Signif=10.7,EnergyFlux100=2.9e-11cgs,Var_idx=9.5,Sig_Cur=6.7";
               coverfact.textContent ="X-ray Covering faction=0.84;CLASS1=spp;ASSOC1=SNR G012.0-00.1";
-              all_clas.textContent ="All classifications: 1NS 2CV 1HM-STAR 1LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
+              all_clas.textContent ="All classifications: 1NS 1LMXB 1CV 1HM-STAR 1LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
             case '273.2195 -31.7438':
               g_prop1.textContent ="Name=4FGL J1812.8-3144,GLON=0.5,GLAT=-6.5";
               g_prop2.textContent ="Signif=12.5,EnergyFlux100=5.0e-12cgs,Var_idx=10.2,Sig_Cur=4.0";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1HM-STAR ";
+              all_clas.textContent ="All classifications: 1AGN ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4477,7 +4477,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1816.2-1654c,GLON=13.9,GLAT=-0.1";
               g_prop2.textContent ="Signif=8.2,EnergyFlux100=4.0e-11cgs,Var_idx=5.6,Sig_Cur=6.0";
               coverfact.textContent ="X-ray Covering faction=0.64;CLASS1=unk;ASSOC1=PMN J1816-1649";
-              all_clas.textContent ="All classifications: 3NS 2CV 2YSO 2LM-STAR ";
+              all_clas.textContent ="All classifications: 3NS 1LMXB 1CV 2YSO 2LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4493,15 +4493,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1818.0-1339c,GLON=17.0,GLAT=1.0";
               g_prop2.textContent ="Signif=7.7,EnergyFlux100=1.1e-11cgs,Var_idx=13.7,Sig_Cur=3.0";
               coverfact.textContent ="X-ray Covering faction=0.23;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 6NS 18LMXB 22CV 78YSO 5HM-STAR 8LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1LMXB 2CV 24YSO 1LM-STAR ";
+              all_clas.textContent ="All classifications: 8NS 20LMXB 12CV 85YSO 8HM-STAR 4LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 2CV 24YSO 1HM-STAR 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '274.6388 -20.6156':
               g_prop1.textContent ="Name=4FGL J1818.5-2036,GLON=10.9,GLAT=-2.4";
               g_prop2.textContent ="Signif=4.6,EnergyFlux100=1.2e-11cgs,Var_idx=11.4,Sig_Cur=0.3";
               coverfact.textContent ="X-ray Covering faction=0.48;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 13NS 3AGN 5LMXB 5CV 15YSO 3HM-STAR 5LM-STAR ";
+              all_clas.textContent ="All classifications: 13NS 3AGN 6LMXB 3CV 17YSO 2HM-STAR 5LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 2YSO 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
@@ -4509,15 +4509,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1818.6-1455c,GLON=16.0,GLAT=0.3";
               g_prop2.textContent ="Signif=4.8,EnergyFlux100=2.3e-11cgs,Var_idx=7.6,Sig_Cur=3.4";
               coverfact.textContent ="X-ray Covering faction=0.59;CLASS1=spp;ASSOC1=SNR G015.9+00.2";
-              all_clas.textContent ="All classifications: 14NS 5LMXB 3CV 3YSO 2HM-STAR 4LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 6NS 1LM-STAR ";
+              all_clas.textContent ="All classifications: 15NS 3LMXB 4CV 3YSO 1HM-STAR 5LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 3NS ";
               comment.textContent ="Comment: ";
             break;
             case '275.2866 -14.3715':
               g_prop1.textContent ="Name=4FGL J1821.1-1422,GLON=16.7,GLAT=0.0";
               g_prop2.textContent ="Signif=12.2,EnergyFlux100=4.4e-11cgs,Var_idx=4.0,Sig_Cur=2.9";
               coverfact.textContent ="X-ray Covering faction=0.85;CLASS1=spp;ASSOC1=SNR G016.7+00.1";
-              all_clas.textContent ="All classifications: 1NS 1LMXB 4CV ";
+              all_clas.textContent ="All classifications: 1NS 4CV 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
@@ -4525,7 +4525,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1824.1-1304,GLON=18.2,GLAT=-0.0";
               g_prop2.textContent ="Signif=5.7,EnergyFlux100=3.9e-11cgs,Var_idx=14.8,Sig_Cur=4.7";
               coverfact.textContent ="X-ray Covering faction=0.61;CLASS1=spp;ASSOC1=SNR G018.1-00.1";
-              all_clas.textContent ="All classifications: 1NS 1LMXB ";
+              all_clas.textContent ="All classifications: 1NS 1CV ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4533,7 +4533,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1826.5-1202c,GLON=19.4,GLAT=-0.1";
               g_prop2.textContent ="Signif=6.7,EnergyFlux100=2.7e-11cgs,Var_idx=9.2,Sig_Cur=4.5";
               coverfact.textContent ="X-ray Covering faction=0.55;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1NS 1CV 1YSO ";
+              all_clas.textContent ="All classifications: 1NS 1HMXB 1YSO ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4541,7 +4541,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1828.0-1133,GLON=20.0,GLAT=-0.1";
               g_prop2.textContent ="Signif=13.4,EnergyFlux100=3.2e-11cgs,Var_idx=8.0,Sig_Cur=5.6";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=spp;ASSOC1=SNR G020.0-00.2";
-              all_clas.textContent ="All classifications: 3NS 3LMXB 2CV 1YSO 1LM-STAR ";
+              all_clas.textContent ="All classifications: 5NS 1LMXB 2CV 1YSO 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4549,7 +4549,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1829.4-1256,GLON=18.9,GLAT=-1.1";
               g_prop2.textContent ="Signif=8.6,EnergyFlux100=1.3e-11cgs,Var_idx=6.9,Sig_Cur=3.9";
               coverfact.textContent ="X-ray Covering faction=0.78;CLASS1=spp;ASSOC1=SNR G018.9-01.1";
-              all_clas.textContent ="All classifications: 2NS 3LMXB 2CV 1LM-STAR ";
+              all_clas.textContent ="All classifications: 2NS 2LMXB 1CV 2YSO 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4557,23 +4557,23 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1830.1-0212c,GLON=28.5,GLAT=3.7";
               g_prop2.textContent ="Signif=6.5,EnergyFlux100=1.2e-11cgs,Var_idx=5.9,Sig_Cur=3.4";
               coverfact.textContent ="X-ray Covering faction=0.39;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1NS 8YSO ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 5YSO ";
+              all_clas.textContent ="All classifications: 1NS 1AGN 7YSO ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 4YSO ";
               comment.textContent ="Comment: ";
             break;
             case '277.8287 -2.0565':
               g_prop1.textContent ="Name=4FGL J1831.3-0203c,GLON=28.8,GLAT=3.5";
               g_prop2.textContent ="Signif=5.6,EnergyFlux100=1.4e-11cgs,Var_idx=15.3,Sig_Cur=1.2";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=unk;ASSOC1=NVSS J183128-020523";
-              all_clas.textContent ="All classifications: 2NS 1AGN 6LMXB 4CV 45YSO 3HM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LMXB 22YSO 3HM-STAR ";
+              all_clas.textContent ="All classifications: 4NS 2AGN 5LMXB 2CV 45YSO 3HM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 19YSO 1HM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '278.5715 -8.4585':
               g_prop1.textContent ="Name=4FGL J1834.2-0827c,GLON=23.5,GLAT=-0.1";
               g_prop2.textContent ="Signif=8.6,EnergyFlux100=3.3e-11cgs,Var_idx=10.3,Sig_Cur=5.8";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1NS ";
+              all_clas.textContent ="All classifications: 1HMXB ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4581,15 +4581,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1836.8-2354,GLON=9.9,GLAT=-7.6";
               g_prop2.textContent ="Signif=12.0,EnergyFlux100=5.8e-12cgs,Var_idx=11.2,Sig_Cur=4.5";
               coverfact.textContent ="X-ray Covering faction=0.75;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 2AGN 3LMXB 1HM-STAR 2LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LM-STAR ";
+              all_clas.textContent ="All classifications: 2NS 2AGN 1LMXB 1HM-STAR 2LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1LMXB 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '280.6372 -3.9882':
               g_prop1.textContent ="Name=4FGL J1842.5-0359c,GLON=28.4,GLAT=0.2";
               g_prop2.textContent ="Signif=11.0,EnergyFlux100=3.4e-11cgs,Var_idx=15.2,Sig_Cur=5.9";
               coverfact.textContent ="X-ray Covering faction=0.43;CLASS1=unk;ASSOC1=NVSS J184240-035858";
-              all_clas.textContent ="All classifications: 1NS 4LMXB 1CV 1YSO 1HM-STAR ";
+              all_clas.textContent ="All classifications: 1NS 3LMXB 2CV 1YSO 1HM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4597,16 +4597,16 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1843.7-3227,GLON=2.7,GLAT=-12.7";
               g_prop2.textContent ="Signif=4.0,EnergyFlux100=2.0e-12cgs,Var_idx=8.7,Sig_Cur=1.6";
               coverfact.textContent ="X-ray Covering faction=0.54;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 5NS 9AGN 1LMXB 3CV 2HM-STAR 2LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 3AGN 2LM-STAR ";
+              all_clas.textContent ="All classifications: 7NS 8AGN 2LMXB 2CV 1HM-STAR 2LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 2AGN 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '281.1188 -3.1161':
               g_prop1.textContent ="Name=4FGL J1844.4-0306,GLON=29.4,GLAT=0.1";
               g_prop2.textContent ="Signif=12.3,EnergyFlux100=4.0e-11cgs,Var_idx=8.9,Sig_Cur=6.1";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=unk;ASSOC1=NVSS J184431-030716";
-              all_clas.textContent ="All classifications: 5NS 4LMXB 1CV 4YSO 1HM-STAR 2LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2NS 2YSO ";
+              all_clas.textContent ="All classifications: 6NS 2LMXB 1CV 6YSO 2LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 2YSO ";
               comment.textContent ="Comment: ";
             break;
             case '281.4586 -2.6069':
@@ -4621,15 +4621,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1846.4-0258,GLON=29.7,GLAT=-0.2";
               g_prop2.textContent ="Signif=4.5,EnergyFlux100=6.7e-12cgs,Var_idx=13.7,Sig_Cur=0.0";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=pwn;ASSOC1=Kes 75";
-              all_clas.textContent ="All classifications: 20NS 7LMXB 3CV 3YSO 2HM-STAR 2LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 6NS 1LMXB 1YSO 1LM-STAR ";
+              all_clas.textContent ="All classifications: 23NS 4LMXB 2CV 4YSO 2HM-STAR 2LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 8NS 1YSO 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '281.7396 -2.7998':
               g_prop1.textContent ="Name=4FGL J1846.9-0247c,GLON=29.9,GLAT=-0.3";
               g_prop2.textContent ="Signif=4.2,EnergyFlux100=1.6e-11cgs,Var_idx=15.1,Sig_Cur=3.8";
               coverfact.textContent ="X-ray Covering faction=0.92;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1LM-STAR ";
+              all_clas.textContent ="All classifications: 1YSO ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4637,7 +4637,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1848.6-0202c,GLON=30.8,GLAT=-0.3";
               g_prop2.textContent ="Signif=6.4,EnergyFlux100=2.1e-11cgs,Var_idx=13.1,Sig_Cur=4.7";
               coverfact.textContent ="X-ray Covering faction=0.98;CLASS1=unk;ASSOC1=NVSS J184840-020408";
-              all_clas.textContent ="All classifications: 1NS 1LMXB 1HMXB 2YSO 1HM-STAR ";
+              all_clas.textContent ="All classifications: 1NS 1HMXB 1CV 2YSO 1HM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1HM-STAR ";
               comment.textContent ="Comment: ";
             break;
@@ -4645,8 +4645,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1849.4-0056,GLON=31.9,GLAT=0.0";
               g_prop2.textContent ="Signif=27.9,EnergyFlux100=5.4e-11cgs,Var_idx=17.8,Sig_Cur=5.1";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=snr;ASSOC1=3C 391";
-              all_clas.textContent ="All classifications: 1NS 2CV 1YSO 1HM-STAR 1LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1CV 1HM-STAR ";
+              all_clas.textContent ="All classifications: 1NS 2CV 2YSO 1HM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 1HM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '284.5767 2.1529':
@@ -4669,7 +4669,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1907.6+0703,GLON=41.1,GLAT=-0.4";
               g_prop2.textContent ="Signif=5.5,EnergyFlux100=1.7e-11cgs,Var_idx=10.7,Sig_Cur=1.9";
               coverfact.textContent ="X-ray Covering faction=0.91;CLASS1=snr;ASSOC1=3C 397";
-              all_clas.textContent ="All classifications: 2NS 1LMXB 2YSO 2HM-STAR 2LM-STAR ";
+              all_clas.textContent ="All classifications: 2NS 4YSO 3HM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1YSO ";
               comment.textContent ="Comment: ";
             break;
@@ -4701,8 +4701,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1930.5+1853,GLON=54.1,GLAT=0.3";
               g_prop2.textContent ="Signif=5.0,EnergyFlux100=5.3e-12cgs,Var_idx=14.0,Sig_Cur=1.0";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=pwn;ASSOC1=PWN G54.1+0.3";
-              all_clas.textContent ="All classifications: 11NS 4LMXB 4CV 4YSO 6HM-STAR 3LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 4NS 2LMXB 2YSO ";
+              all_clas.textContent ="All classifications: 12NS 2LMXB 4CV 7YSO 4HM-STAR 3LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 4NS 1LMXB 2YSO ";
               comment.textContent ="Comment: ";
             break;
             case '293.5848 18.9979':
@@ -4717,23 +4717,23 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J1947.7+2744,GLON=63.8,GLAT=1.2";
               g_prop2.textContent ="Signif=14.5,EnergyFlux100=1.0e-11cgs,Var_idx=19.7,Sig_Cur=4.6";
               coverfact.textContent ="X-ray Covering faction=0.89;CLASS1=pwn;ASSOC1=PWN G63.7+1.1";
-              all_clas.textContent ="All classifications: 3NS 1LMXB 1CV 1YSO 6LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2LM-STAR ";
+              all_clas.textContent ="All classifications: 2NS 2AGN 1YSO 7LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 2LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '298.2177 29.4005':
               g_prop1.textContent ="Name=4FGL J1952.8+2924,GLON=65.8,GLAT=1.1";
               g_prop2.textContent ="Signif=12.2,EnergyFlux100=1.2e-11cgs,Var_idx=16.0,Sig_Cur=5.0";
               coverfact.textContent ="X-ray Covering faction=0.62;CLASS1=spp;ASSOC1=SNR G065.7+01.2";
-              all_clas.textContent ="All classifications: 7NS 3AGN 4LMXB 1CV 2LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
+              all_clas.textContent ="All classifications: 9NS 5AGN 1CV 2LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
             case '301.096 33.6554':
               g_prop1.textContent ="Name=4FGL J2004.3+3339,GLON=70.7,GLAT=1.2";
               g_prop2.textContent ="Signif=32.8,EnergyFlux100=3.1e-11cgs,Var_idx=12.1,Sig_Cur=5.1";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=unk;ASSOC1=B2 2002+33";
-              all_clas.textContent ="All classifications: 1LMXB 1CV 1HM-STAR 1LM-STAR ";
+              all_clas.textContent ="All classifications: 1NS 1CV 1HM-STAR 1LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4741,8 +4741,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J2016.2+3712,GLON=75.0,GLAT=1.1";
               g_prop2.textContent ="Signif=10.0,EnergyFlux100=1.5e-11cgs,Var_idx=8.7,Sig_Cur=1.3";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=snr;ASSOC1=VER J2016+372";
-              all_clas.textContent ="All classifications: 2NS 1LMXB 1CV 1LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2NS 1LMXB ";
+              all_clas.textContent ="All classifications: 3NS 1CV 1LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
             case '305.6551 37.2815':
@@ -4757,15 +4757,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J2026.5+3718c,GLON=76.2,GLAT=-0.5";
               g_prop2.textContent ="Signif=7.4,EnergyFlux100=1.0e-11cgs,Var_idx=10.1,Sig_Cur=4.1";
               coverfact.textContent ="X-ray Covering faction=0.27;CLASS1=unk;ASSOC1=NVSS J202726+372249";
-              all_clas.textContent ="All classifications: 26NS 3AGN 6LMXB 12CV 37YSO 1HM-STAR 12LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 5YSO 1LM-STAR ";
+              all_clas.textContent ="All classifications: 27NS 6AGN 5LMXB 1HMXB 6CV 40YSO 1HM-STAR 11LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 4YSO 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '309.6248 42.2085':
               g_prop1.textContent ="Name=4FGL J2038.4+4212,GLON=81.5,GLAT=0.5";
               g_prop2.textContent ="Signif=18.8,EnergyFlux100=3.8e-11cgs,Var_idx=13.0,Sig_Cur=8.2";
               coverfact.textContent ="X-ray Covering faction=0.71;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 5NS 13YSO 2LM-STAR ";
+              all_clas.textContent ="All classifications: 4NS 1LMXB 13YSO 2LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 5YSO ";
               comment.textContent ="Comment: ";
             break;
@@ -4773,7 +4773,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J2052.7+4334,GLON=84.2,GLAT=-0.6";
               g_prop2.textContent ="Signif=5.8,EnergyFlux100=5.7e-12cgs,Var_idx=12.8,Sig_Cur=2.7";
               coverfact.textContent ="X-ray Covering faction=0.39;CLASS1=spp;ASSOC1=SNR G084.2-00.8";
-              all_clas.textContent ="All classifications: 2NS 2LM-STAR ";
+              all_clas.textContent ="All classifications: 1NS 1AGN 2LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4781,8 +4781,8 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J2056.4+4351c,GLON=84.9,GLAT=-1.0";
               g_prop2.textContent ="Signif=9.3,EnergyFlux100=1.2e-11cgs,Var_idx=11.8,Sig_Cur=5.1";
               coverfact.textContent ="X-ray Covering faction=0.63;CLASS1=unk;ASSOC1=1RXS J205549.4+435216";
-              all_clas.textContent ="All classifications: 9NS 9AGN 2LMXB 2CV 41YSO 5LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 3AGN 1CV 10YSO 3LM-STAR ";
+              all_clas.textContent ="All classifications: 9NS 12AGN 3LMXB 1CV 38YSO 5LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 2AGN 12YSO 3LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '314.6752 44.915':
@@ -4797,15 +4797,15 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J2059.1+4403,GLON=85.3,GLAT=-1.2";
               g_prop2.textContent ="Signif=4.6,EnergyFlux100=4.5e-12cgs,Var_idx=9.6,Sig_Cur=2.1";
               coverfact.textContent ="X-ray Covering faction=0.47;CLASS1=unk;ASSOC1=HD 199956";
-              all_clas.textContent ="All classifications: 6NS 3LMXB 15YSO 1HM-STAR 2LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 9YSO 1LM-STAR ";
+              all_clas.textContent ="All classifications: 6NS 1AGN 17YSO 1HM-STAR 2LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 8YSO 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '325.8546 66.1368':
               g_prop1.textContent ="Name=4FGL J2143.4+6608c,GLON=105.5,GLAT=9.9";
               g_prop2.textContent ="Signif=5.5,EnergyFlux100=4.2e-12cgs,Var_idx=12.7,Sig_Cur=1.3";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1NS 1AGN 1LMXB 9YSO 3LM-STAR ";
+              all_clas.textContent ="All classifications: 1NS 1AGN 1LMXB 10YSO 2LM-STAR ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1AGN 6YSO ";
               comment.textContent ="Comment: ";
             break;
@@ -4813,7 +4813,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J2144.7-5640,GLON=337.9,GLAT=-45.8";
               g_prop2.textContent ="Signif=4.8,EnergyFlux100=8.4e-13cgs,Var_idx=15.3,Sig_Cur=1.7";
               coverfact.textContent ="X-ray Covering faction=0.04;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1CV ";
+              all_clas.textContent ="All classifications: 1AGN ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4829,7 +4829,7 @@ if (params.has('fov')) {
               g_prop1.textContent ="Name=4FGL J2236.9+1839,GLON=83.8,GLAT=-33.8";
               g_prop2.textContent ="Signif=4.1,EnergyFlux100=9.5e-13cgs,Var_idx=8.9,Sig_Cur=1.2";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 1CV ";
+              all_clas.textContent ="All classifications: 1AGN ";
               conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): ";
               comment.textContent ="Comment: ";
             break;
@@ -4838,31 +4838,31 @@ if (params.has('fov')) {
               g_prop2.textContent ="Signif=5.2,EnergyFlux100=2.2e-12cgs,Var_idx=14.9,Sig_Cur=0.6";
               coverfact.textContent ="X-ray Covering faction=0.39;CLASS1=nan;ASSOC1=nan";
               all_clas.textContent ="All classifications: 4AGN 1LMXB ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2AGN ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1AGN ";
               comment.textContent ="Comment: ";
             break;
             case '344.128 62.21':
               g_prop1.textContent ="Name=4FGL J2256.5+6212c,GLON=110.0,GLAT=2.3";
               g_prop2.textContent ="Signif=3.6,EnergyFlux100=4.1e-12cgs,Var_idx=8.6,Sig_Cur=1.6";
               coverfact.textContent ="X-ray Covering faction=0.57;CLASS1=nan;ASSOC1=nan";
-              all_clas.textContent ="All classifications: 19NS 4AGN 8LMXB 5CV 72YSO 1HM-STAR 4LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 2CV 32YSO 1LM-STAR ";
+              all_clas.textContent ="All classifications: 16NS 11AGN 6LMXB 4CV 71YSO 1HM-STAR 4LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 32YSO 1HM-STAR 1LM-STAR ";
               comment.textContent ="Comment: ";
             break;
             case '350.8613 58.8173':
               g_prop1.textContent ="Name=4FGL J2323.4+5849,GLON=111.7,GLAT=-2.1";
               g_prop2.textContent ="Signif=86.6,EnergyFlux100=6.2e-11cgs,Var_idx=7.8,Sig_Cur=7.0";
               coverfact.textContent ="X-ray Covering faction=1.00;CLASS1=snr;ASSOC1=Cas A";
-              all_clas.textContent ="All classifications: 1NS 2LMXB ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 2LMXB ";
+              all_clas.textContent ="All classifications: 1NS 1AGN 1LMXB ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS ";
               comment.textContent ="Comment: ";
             break;
             case '359.4717 62.5329':
               g_prop1.textContent ="Name=4FGL J2357.8+6231,GLON=116.8,GLAT=0.3";
               g_prop2.textContent ="Signif=6.4,EnergyFlux100=4.5e-12cgs,Var_idx=9.3,Sig_Cur=4.1";
               coverfact.textContent ="X-ray Covering faction=0.26;CLASS1=spp;ASSOC1=SNR G116.9+00.2";
-              all_clas.textContent ="All classifications: 11NS 9AGN 6LMXB 2CV 12LM-STAR ";
-              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 6AGN 2LMXB 3LM-STAR ";
+              all_clas.textContent ="All classifications: 11NS 10AGN 5LMXB 2CV 12LM-STAR ";
+              conf_clas.textContent ="Confident (CT>=2) classifications of significant sources (S/N>=5): 5AGN 3LM-STAR ";
               comment.textContent ="Comment: ";
             break;
               
@@ -4888,8 +4888,8 @@ if (params.has('fov')) {
         <li id="g_prop1">Name=4FGL J0859.3-4342,GLON=265.1,GLAT=1.5</li>
         <li id="g_prop2">Signif=8.8,EnergyFlux100=9.0e-12cgs,Var_idx=14.5,Sig_Cur=4.2</li>
         <li id="coverfact">X-ray Covering faction=0.96;CLASS1=nan;ASSOC1=nan</li>
-        <li id="all_clas">All classifications: 2NS 2AGN 6LMXB 1HMXB 6CV 105YSO 4HM-STAR 5LM-STAR</li>
-        <li id="conf_clas">Confident (CT>=2) classifications of significant sources (S/N>=5): 1HMXB 1CV 57YSO 2HM-STAR 4LM-STAR</li>
+        <li id="all_clas">All classifications: 14NS 6AGN 5LMXB 2HMXB 8CV 105YSO 4HM-STAR 5LM-STAR</li>
+        <li id="conf_clas">Confident (CT>=2) classifications of significant sources (S/N>=5): 1NS 52YSO 2HM-STAR 2LM-STAR</li>
         <li id="comments">Comment: </li>
         <!-- <LI> <B>Sky area:</B> 3.76% of sky => 1551°^2
         <LI> <B>Associated coverage map:</B> <A HREF="Moc.fits">MOC</A>
