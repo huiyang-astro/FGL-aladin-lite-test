@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 5.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.4" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/VOTable-1.4.xsd">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="name" arraysize="21" datatype="unicodeChar" name="name"/>
+   <FIELD ID="ra" datatype="double" name="ra"/>
+   <FIELD ID="dec" datatype="double" name="dec"/>
+   <FIELD ID="color" arraysize="11" datatype="unicodeChar" name="color"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2CXO J010523.0+602518</TD>
+      <TD>16.3460192</TD>
+      <TD>60.4219363</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J021828.1+571230</TD>
+      <TD>34.6171361</TD>
+      <TD>57.2084482</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J021829.8+570902</TD>
+      <TD>34.6243791</TD>
+      <TD>57.1508041</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J021847.8+570552</TD>
+      <TD>34.6993963</TD>
+      <TD>57.0979129</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J021855.7+570906</TD>
+      <TD>34.7322167</TD>
+      <TD>57.1517923</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J021856.8+571051</TD>
+      <TD>34.736838</TD>
+      <TD>57.1808475</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J021905.5+570112</TD>
+      <TD>34.7731062</TD>
+      <TD>57.0201266</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J021909.2+570806</TD>
+      <TD>34.788604</TD>
+      <TD>57.1350579</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J022715.6+613730</TD>
+      <TD>36.8150673</TD>
+      <TD>61.6252601</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J061254.9+175920</TD>
+      <TD>93.2287992</TD>
+      <TD>17.9891379</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J061754.3+222432</TD>
+      <TD>94.4765158</TD>
+      <TD>22.4090049</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071620.9-292101</TD>
+      <TD>109.0874709</TD>
+      <TD>-29.3504539</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J101702.2-575446</TD>
+      <TD>154.2594021</TD>
+      <TD>-57.9129891</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J101853.3-580753</TD>
+      <TD>154.7223552</TD>
+      <TD>-58.1314863</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J102358.0-574548</TD>
+      <TD>155.9917049</TD>
+      <TD>-57.763597</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J102400.5-574524</TD>
+      <TD>156.0021585</TD>
+      <TD>-57.7566725</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J102400.7-574525</TD>
+      <TD>156.0029383</TD>
+      <TD>-57.7571222</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J102401.3-574529</TD>
+      <TD>156.005764</TD>
+      <TD>-57.758242</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J102401.5-574557</TD>
+      <TD>156.0063111</TD>
+      <TD>-57.7658588</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J102402.6-574534</TD>
+      <TD>156.0110183</TD>
+      <TD>-57.7595445</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J102418.4-574829</TD>
+      <TD>156.0766759</TD>
+      <TD>-57.8083073</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104023.3-595039</TD>
+      <TD>160.0974341</TD>
+      <TD>-59.8442451</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104213.3-590946</TD>
+      <TD>160.5555726</TD>
+      <TD>-59.162887</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104735.3-602923</TD>
+      <TD>161.8971753</TD>
+      <TD>-60.4897387</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104858.9-594108</TD>
+      <TD>162.245754</TD>
+      <TD>-59.6857735</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104904.4-594800</TD>
+      <TD>162.2683574</TD>
+      <TD>-59.8000695</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111132.6-603807</TD>
+      <TD>167.8862009</TD>
+      <TD>-60.6354185</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111141.1-604222</TD>
+      <TD>167.9212517</TD>
+      <TD>-60.7063248</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111503.9-611535</TD>
+      <TD>168.7665717</TD>
+      <TD>-61.2599663</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111506.6-611540</TD>
+      <TD>168.7776103</TD>
+      <TD>-61.2613153</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111506.6-611633</TD>
+      <TD>168.7778977</TD>
+      <TD>-61.2759819</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111507.2-611538</TD>
+      <TD>168.7802853</TD>
+      <TD>-61.2606858</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111507.4-611538</TD>
+      <TD>168.7808651</TD>
+      <TD>-61.2607445</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111507.5-611538</TD>
+      <TD>168.7815712</TD>
+      <TD>-61.260583</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111508.5-611538</TD>
+      <TD>168.7854438</TD>
+      <TD>-61.2606481</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111508.9-611527</TD>
+      <TD>168.7871576</TD>
+      <TD>-61.257524</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111509.1-611533</TD>
+      <TD>168.7879913</TD>
+      <TD>-61.2592446</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J111840.5-612833</TD>
+      <TD>169.6688221</TD>
+      <TD>-61.4758608</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J134631.4-625627</TD>
+      <TD>206.6310794</TD>
+      <TD>-62.9411007</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J135756.0-400419</TD>
+      <TD>209.4835989</TD>
+      <TD>-40.0719583</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J141901.3-605330</TD>
+      <TD>214.7554366</TD>
+      <TD>-60.8918996</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J151317.4-240030</TD>
+      <TD>228.3225193</TD>
+      <TD>-24.0083594</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J155154.0-513710</TD>
+      <TD>237.9751299</TD>
+      <TD>-51.6195526</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J163619.7-471436</TD>
+      <TD>249.0822976</TD>
+      <TD>-47.2433671</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J165418.1-415016</TD>
+      <TD>253.5756035</TD>
+      <TD>-41.8379067</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J165419.7-414911</TD>
+      <TD>253.5820858</TD>
+      <TD>-41.8198694</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J165430.7-364923</TD>
+      <TD>253.6282739</TD>
+      <TD>-36.8233158</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J165436.0-415338</TD>
+      <TD>253.6502649</TD>
+      <TD>-41.8938952</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J170212.5-300122</TD>
+      <TD>255.5523899</TD>
+      <TD>-30.022932</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J171808.7-382604</TD>
+      <TD>259.5365542</TD>
+      <TD>-38.434535</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J181025.5-192019</TD>
+      <TD>272.606404</TD>
+      <TD>-19.3387708</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183924.6-054959</TD>
+      <TD>279.8526451</TD>
+      <TD>-5.8331781</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J184604.0-023921</TD>
+      <TD>281.5169759</TD>
+      <TD>-2.6559177</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J192301.6+141639</TD>
+      <TD>290.7568677</TD>
+      <TD>14.27774</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J192342.8+143027</TD>
+      <TD>290.9283851</TD>
+      <TD>14.5076933</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J200521.6+322058</TD>
+      <TD>301.3401048</TD>
+      <TD>32.3496522</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J201014.1+361035</TD>
+      <TD>302.5591139</TD>
+      <TD>36.1764127</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J201546.6+371532</TD>
+      <TD>303.9441975</TD>
+      <TD>37.258896</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J202144.3+372230</TD>
+      <TD>305.4347604</TD>
+      <TD>37.3751778</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J202147.3+372632</TD>
+      <TD>305.4474979</TD>
+      <TD>37.4423153</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J202220.9+384329</TD>
+      <TD>305.5872256</TD>
+      <TD>38.7248959</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203112.2+411236</TD>
+      <TD>307.8010655</TD>
+      <TD>41.2101947</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203141.6+412820</TD>
+      <TD>307.9235491</TD>
+      <TD>41.472429</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203145.3+411826</TD>
+      <TD>307.9391188</TD>
+      <TD>41.3074959</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203149.6+412826</TD>
+      <TD>307.956977</TD>
+      <TD>41.4739559</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203159.6+411450</TD>
+      <TD>307.9984251</TD>
+      <TD>41.2473687</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203206.2+404829</TD>
+      <TD>308.0261481</TD>
+      <TD>40.8081403</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203213.8+412741</TD>
+      <TD>308.057618</TD>
+      <TD>41.4615705</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203227.2+412156</TD>
+      <TD>308.1134496</TD>
+      <TD>41.3657127</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203237.7+412615</TD>
+      <TD>308.1572272</TD>
+      <TD>41.4377598</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203239.5+405247</TD>
+      <TD>308.1646152</TD>
+      <TD>40.879845</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203239.6+405041</TD>
+      <TD>308.1653069</TD>
+      <TD>40.8448374</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203246.4+412422</TD>
+      <TD>308.1935372</TD>
+      <TD>41.4062673</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203248.4+411608</TD>
+      <TD>308.2017872</TD>
+      <TD>41.2689976</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203250.0+412344</TD>
+      <TD>308.2083585</TD>
+      <TD>41.3957472</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203254.3+411521</TD>
+      <TD>308.2264417</TD>
+      <TD>41.2560445</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203258.9+410430</TD>
+      <TD>308.2454303</TD>
+      <TD>41.0750257</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203259.0+411759</TD>
+      <TD>308.2459129</TD>
+      <TD>41.2998183</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203259.1+412425</TD>
+      <TD>308.2464542</TD>
+      <TD>41.407093</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203259.6+411514</TD>
+      <TD>308.248402</TD>
+      <TD>41.2540888</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203259.7+411419</TD>
+      <TD>308.248962</TD>
+      <TD>41.238816</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203303.8+411736</TD>
+      <TD>308.2661658</TD>
+      <TD>41.2935581</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203305.7+413150</TD>
+      <TD>308.273878</TD>
+      <TD>41.530652</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203310.7+411508</TD>
+      <TD>308.2946553</TD>
+      <TD>41.2522701</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203315.2+412956</TD>
+      <TD>308.3135245</TD>
+      <TD>41.4990205</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203317.3+411454</TD>
+      <TD>308.3224933</TD>
+      <TD>41.2483751</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203317.4+413244</TD>
+      <TD>308.3225676</TD>
+      <TD>41.5456998</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203318.0+412136</TD>
+      <TD>308.3251091</TD>
+      <TD>41.3601955</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203318.2+411739</TD>
+      <TD>308.3261549</TD>
+      <TD>41.2943136</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203326.7+411059</TD>
+      <TD>308.3614203</TD>
+      <TD>41.1831874</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203333.6+412152</TD>
+      <TD>308.3901535</TD>
+      <TD>41.3645121</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203336.9+411611</TD>
+      <TD>308.4041325</TD>
+      <TD>41.2698225</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203338.1+405341</TD>
+      <TD>308.4090246</TD>
+      <TD>40.8947394</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203342.4+412619</TD>
+      <TD>308.4268806</TD>
+      <TD>41.4386871</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203345.0+412232</TD>
+      <TD>308.4375002</TD>
+      <TD>41.3756074</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203346.0+413301</TD>
+      <TD>308.4420581</TD>
+      <TD>41.5502885</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203346.8+410801</TD>
+      <TD>308.4450309</TD>
+      <TD>41.1337254</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203347.7+412041</TD>
+      <TD>308.4491089</TD>
+      <TD>41.344809</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203348.8+411940</TD>
+      <TD>308.4534645</TD>
+      <TD>41.3279358</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203413.5+413502</TD>
+      <TD>308.5562621</TD>
+      <TD>41.5841666</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203424.5+412625</TD>
+      <TD>308.6024683</TD>
+      <TD>41.4403219</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203427.6+412439</TD>
+      <TD>308.615268</TD>
+      <TD>41.4109302</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203547.0+412244</TD>
+      <TD>308.9461282</TD>
+      <TD>41.3791145</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J205849.8+445727</TD>
+      <TD>314.7077652</TD>
+      <TD>44.9576024</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J215407.7+623221</TD>
+      <TD>328.5321527</TD>
+      <TD>62.5391996</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J223653.9+565421</TD>
+      <TD>339.2249122</TD>
+      <TD>56.9058926</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J230251.8+590233</TD>
+      <TD>345.7159339</TD>
+      <TD>59.0427622</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J235456.4+292832</TD>
+      <TD>358.7351515</TD>
+      <TD>29.4756034</TD>
+      <TD>deepskyblue</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

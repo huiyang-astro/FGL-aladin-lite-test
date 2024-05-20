@@ -1,0 +1,2129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 5.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.4" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/VOTable-1.4.xsd">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="name" arraysize="21" datatype="unicodeChar" name="name"/>
+   <FIELD ID="ra" datatype="double" name="ra"/>
+   <FIELD ID="dec" datatype="double" name="dec"/>
+   <FIELD ID="color" arraysize="4" datatype="unicodeChar" name="color"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2CXO J124850.7-412654</TD>
+      <TD>192.2115637</TD>
+      <TD>-41.448478</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032844.0+312052</TD>
+      <TD>52.1836347</TD>
+      <TD>31.3479738</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032846.8+312027</TD>
+      <TD>52.1953574</TD>
+      <TD>31.3410097</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032847.6+312406</TD>
+      <TD>52.1983614</TD>
+      <TD>31.4016943</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032852.0+311546</TD>
+      <TD>52.2170583</TD>
+      <TD>31.2629627</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032855.1+311624</TD>
+      <TD>52.2297477</TD>
+      <TD>31.2734795</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032856.2+312227</TD>
+      <TD>52.2345758</TD>
+      <TD>31.374394</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032902.7+312217</TD>
+      <TD>52.2615644</TD>
+      <TD>31.3714567</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032903.1+312237</TD>
+      <TD>52.2630667</TD>
+      <TD>31.3772046</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032904.6+312028</TD>
+      <TD>52.2691763</TD>
+      <TD>31.3413304</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032907.7+312157</TD>
+      <TD>52.2823258</TD>
+      <TD>31.3658371</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032908.3+312020</TD>
+      <TD>52.2846348</TD>
+      <TD>31.3389964</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032909.1+312144</TD>
+      <TD>52.2881883</TD>
+      <TD>31.3622446</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032909.1+312305</TD>
+      <TD>52.2879358</TD>
+      <TD>31.3848945</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032913.1+312252</TD>
+      <TD>52.3046652</TD>
+      <TD>31.3813706</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032917.6+312244</TD>
+      <TD>52.3235822</TD>
+      <TD>31.3791612</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J032929.7+312102</TD>
+      <TD>52.3740306</TD>
+      <TD>31.350738</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034349.4+321039</TD>
+      <TD>55.9558605</TD>
+      <TD>32.1775916</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034353.7+320730</TD>
+      <TD>55.9738328</TD>
+      <TD>32.1250131</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034355.0+320713</TD>
+      <TD>55.9795647</TD>
+      <TD>32.1205124</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034359.2+320556</TD>
+      <TD>55.9967164</TD>
+      <TD>32.0990052</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034359.6+320154</TD>
+      <TD>55.9986122</TD>
+      <TD>32.0317019</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034402.6+320159</TD>
+      <TD>56.0110657</TD>
+      <TD>32.033206</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034404.4+320453</TD>
+      <TD>56.0183861</TD>
+      <TD>32.0816257</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034405.7+320028</TD>
+      <TD>56.0240999</TD>
+      <TD>32.0079213</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034406.1+320706</TD>
+      <TD>56.0255384</TD>
+      <TD>32.1185827</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034406.7+320753</TD>
+      <TD>56.0282432</TD>
+      <TD>32.1315236</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034407.7+320504</TD>
+      <TD>56.0322759</TD>
+      <TD>32.0845703</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034409.1+320237</TD>
+      <TD>56.0383183</TD>
+      <TD>32.0437655</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034411.6+320312</TD>
+      <TD>56.0485317</TD>
+      <TD>32.0535513</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034417.7+320447</TD>
+      <TD>56.0740958</TD>
+      <TD>32.079874</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034418.0+321053</TD>
+      <TD>56.0753702</TD>
+      <TD>32.1814148</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034418.1+320456</TD>
+      <TD>56.0757643</TD>
+      <TD>32.0824979</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034419.1+320559</TD>
+      <TD>56.079826</TD>
+      <TD>32.0999121</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034419.5+320225</TD>
+      <TD>56.0815946</TD>
+      <TD>32.0403364</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034420.0+320645</TD>
+      <TD>56.0834316</TD>
+      <TD>32.112629</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034421.2+320502</TD>
+      <TD>56.0886089</TD>
+      <TD>32.0839928</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034421.6+320624</TD>
+      <TD>56.0903067</TD>
+      <TD>32.1068632</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034421.6+321037</TD>
+      <TD>56.0900498</TD>
+      <TD>32.1770397</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034421.7+321230</TD>
+      <TD>56.090622</TD>
+      <TD>32.2085595</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034422.2+320542</TD>
+      <TD>56.0929033</TD>
+      <TD>32.0951576</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034422.9+321156</TD>
+      <TD>56.095653</TD>
+      <TD>32.1991663</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034423.5+320933</TD>
+      <TD>56.0981308</TD>
+      <TD>32.1593263</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034423.6+320646</TD>
+      <TD>56.0985972</TD>
+      <TD>32.1128617</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034424.2+321019</TD>
+      <TD>56.101162</TD>
+      <TD>32.1719947</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034424.5+321002</TD>
+      <TD>56.1024283</TD>
+      <TD>32.1673892</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034424.6+321014</TD>
+      <TD>56.1027575</TD>
+      <TD>32.1707713</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034425.7+320905</TD>
+      <TD>56.107196</TD>
+      <TD>32.1515352</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034426.0+320430</TD>
+      <TD>56.1085359</TD>
+      <TD>32.0750979</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034426.6+320820</TD>
+      <TD>56.1111826</TD>
+      <TD>32.1389077</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034427.2+320717</TD>
+      <TD>56.1136775</TD>
+      <TD>32.1215218</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034427.8+320731</TD>
+      <TD>56.1161689</TD>
+      <TD>32.1253693</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034427.9+320519</TD>
+      <TD>56.1166116</TD>
+      <TD>32.0886801</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034428.4+321122</TD>
+      <TD>56.1183433</TD>
+      <TD>32.1895078</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034428.9+320137</TD>
+      <TD>56.1206729</TD>
+      <TD>32.0270405</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034429.2+320115</TD>
+      <TD>56.1218878</TD>
+      <TD>32.020967</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034429.7+321039</TD>
+      <TD>56.1238211</TD>
+      <TD>32.1776751</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034430.2+321135</TD>
+      <TD>56.1261901</TD>
+      <TD>32.1930778</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034430.5+320629</TD>
+      <TD>56.1272132</TD>
+      <TD>32.1082278</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034430.7+320955</TD>
+      <TD>56.128271</TD>
+      <TD>32.1654294</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034431.0+320545</TD>
+      <TD>56.1292627</TD>
+      <TD>32.0960016</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034431.3+320928</TD>
+      <TD>56.1306096</TD>
+      <TD>32.1580025</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034431.6+320653</TD>
+      <TD>56.1319095</TD>
+      <TD>32.1147814</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034432.5+320842</TD>
+      <TD>56.1357453</TD>
+      <TD>32.1450594</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034432.5+320855</TD>
+      <TD>56.1357033</TD>
+      <TD>32.1487562</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034432.7+320413</TD>
+      <TD>56.136579</TD>
+      <TD>32.0703255</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034432.7+320837</TD>
+      <TD>56.1364137</TD>
+      <TD>32.1436759</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034432.7+320915</TD>
+      <TD>56.1364961</TD>
+      <TD>32.1543005</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034433.1+321529</TD>
+      <TD>56.1382643</TD>
+      <TD>32.2580817</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034433.2+320939</TD>
+      <TD>56.1387316</TD>
+      <TD>32.1609243</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034434.2+321049</TD>
+      <TD>56.142719</TD>
+      <TD>32.1803905</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034434.4+315800</TD>
+      <TD>56.1437049</TD>
+      <TD>31.9668471</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034434.4+320624</TD>
+      <TD>56.1435105</TD>
+      <TD>32.1068805</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034434.8+320633</TD>
+      <TD>56.1452893</TD>
+      <TD>32.1092704</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034434.8+320953</TD>
+      <TD>56.1452515</TD>
+      <TD>32.1648091</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034434.9+321530</TD>
+      <TD>56.1456384</TD>
+      <TD>32.2586105</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034435.0+320736</TD>
+      <TD>56.1459644</TD>
+      <TD>32.126877</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034435.3+320735</TD>
+      <TD>56.1473463</TD>
+      <TD>32.1266504</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034435.3+321004</TD>
+      <TD>56.1474408</TD>
+      <TD>32.1679864</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034435.6+320452</TD>
+      <TD>56.1486756</TD>
+      <TD>32.0812563</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034435.9+320924</TD>
+      <TD>56.149725</TD>
+      <TD>32.1567185</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034436.9+320833</TD>
+      <TD>56.154127</TD>
+      <TD>32.1427104</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034437.3+321223</TD>
+      <TD>56.1557335</TD>
+      <TD>32.2066505</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034437.8+320803</TD>
+      <TD>56.1577909</TD>
+      <TD>32.1344408</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034437.9+321136</TD>
+      <TD>56.1582541</TD>
+      <TD>32.1935071</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034438.1+321021</TD>
+      <TD>56.1588743</TD>
+      <TD>32.1725289</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034438.3+321259</TD>
+      <TD>56.1598482</TD>
+      <TD>32.2165033</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034438.4+320735</TD>
+      <TD>56.1601958</TD>
+      <TD>32.1265272</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034438.6+320841</TD>
+      <TD>56.161244</TD>
+      <TD>32.144954</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034438.8+320636</TD>
+      <TD>56.1619496</TD>
+      <TD>32.1100572</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034439.1+320918</TD>
+      <TD>56.1631384</TD>
+      <TD>32.1550356</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034439.1+320944</TD>
+      <TD>56.1632614</TD>
+      <TD>32.1624108</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034439.2+320735</TD>
+      <TD>56.1634646</TD>
+      <TD>32.1264891</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034439.4+321007</TD>
+      <TD>56.1642567</TD>
+      <TD>32.1688585</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034440.1+320912</TD>
+      <TD>56.1672984</TD>
+      <TD>32.1535363</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034440.7+321306</TD>
+      <TD>56.1698742</TD>
+      <TD>32.2184632</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034441.2+321024</TD>
+      <TD>56.1720081</TD>
+      <TD>32.1735909</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034441.7+321201</TD>
+      <TD>56.1737766</TD>
+      <TD>32.200545</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034441.9+320859</TD>
+      <TD>56.1749821</TD>
+      <TD>32.1499341</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034442.1+320901</TD>
+      <TD>56.1755236</TD>
+      <TD>32.1505013</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034442.6+320619</TD>
+      <TD>56.1775457</TD>
+      <TD>32.1053473</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034443.0+321014</TD>
+      <TD>56.1792246</TD>
+      <TD>32.1707549</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034443.3+320131</TD>
+      <TD>56.1805613</TD>
+      <TD>32.0254694</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034443.5+320742</TD>
+      <TD>56.1812788</TD>
+      <TD>32.1285367</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034443.6+321047</TD>
+      <TD>56.182064</TD>
+      <TD>32.1799324</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034444.6+320730</TD>
+      <TD>56.186085</TD>
+      <TD>32.125057</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034444.8+321105</TD>
+      <TD>56.1868081</TD>
+      <TD>32.1848429</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034444.9+321336</TD>
+      <TD>56.1872772</TD>
+      <TD>32.2267552</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034445.2+321055</TD>
+      <TD>56.1883543</TD>
+      <TD>32.1820209</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034445.5+321110</TD>
+      <TD>56.1899794</TD>
+      <TD>32.1862204</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034447.5+321055</TD>
+      <TD>56.1983158</TD>
+      <TD>32.1820406</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034452.0+320446</TD>
+      <TD>56.2169237</TD>
+      <TD>32.0795087</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034453.7+320651</TD>
+      <TD>56.2238834</TD>
+      <TD>32.1143764</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J034454.6+320439</TD>
+      <TD>56.2277811</TD>
+      <TD>32.07775</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J041817.1+282842</TD>
+      <TD>64.5712788</TD>
+      <TD>28.4784066</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J042335.3+250302</TD>
+      <TD>65.8974811</TD>
+      <TD>25.0507855</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J043136.1+181343</TD>
+      <TD>67.9005263</TD>
+      <TD>18.2286482</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J043138.3+181357</TD>
+      <TD>67.9099489</TD>
+      <TD>18.2326082</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J043334.5+242105</TD>
+      <TD>68.3939886</TD>
+      <TD>24.3515759</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J043339.3+175152</TD>
+      <TD>68.4140893</TD>
+      <TD>17.8644866</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J044008.0+260525</TD>
+      <TD>70.033445</TD>
+      <TD>26.0904043</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J044116.8+283959</TD>
+      <TD>70.3200881</TD>
+      <TD>28.6666306</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J045423.6+170953</TD>
+      <TD>73.5986002</TD>
+      <TD>17.1649237</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J045510.9+302159</TD>
+      <TD>73.7957523</TD>
+      <TD>30.366411</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J045846.2+295036</TD>
+      <TD>74.6927932</TD>
+      <TD>29.8435095</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053414.1-053653</TD>
+      <TD>83.5590648</TD>
+      <TD>-5.6149657</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053419.5-053019</TD>
+      <TD>83.5814524</TD>
+      <TD>-5.5055013</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053426.1-052630</TD>
+      <TD>83.6089888</TD>
+      <TD>-5.4417834</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053428.5-052457</TD>
+      <TD>83.6189032</TD>
+      <TD>-5.415905</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053428.5-053032</TD>
+      <TD>83.6188726</TD>
+      <TD>-5.5090415</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053435.1-053432</TD>
+      <TD>83.6466381</TD>
+      <TD>-5.5756638</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053436.5-053617</TD>
+      <TD>83.6522462</TD>
+      <TD>-5.6047803</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053437.4-053452</TD>
+      <TD>83.6560783</TD>
+      <TD>-5.5811445</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053438.2-052423</TD>
+      <TD>83.6592337</TD>
+      <TD>-5.4064918</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053439.1-053402</TD>
+      <TD>83.6629616</TD>
+      <TD>-5.567333</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053439.8-053006</TD>
+      <TD>83.6660363</TD>
+      <TD>-5.5018265</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053440.7-052809</TD>
+      <TD>83.6699913</TD>
+      <TD>-5.469219</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053441.6-052652</TD>
+      <TD>83.6737417</TD>
+      <TD>-5.448018</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053441.7-053648</TD>
+      <TD>83.6738194</TD>
+      <TD>-5.6135728</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053442.1-053303</TD>
+      <TD>83.6757681</TD>
+      <TD>-5.5509919</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053442.7-052837</TD>
+      <TD>83.6780179</TD>
+      <TD>-5.4770372</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053446.2-053907</TD>
+      <TD>83.6928706</TD>
+      <TD>-5.6522168</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053446.9-053414</TD>
+      <TD>83.6957437</TD>
+      <TD>-5.5707236</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053447.8-053046</TD>
+      <TD>83.6995376</TD>
+      <TD>-5.5129055</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053448.1-054229</TD>
+      <TD>83.7006227</TD>
+      <TD>-5.7081397</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053448.2-053010</TD>
+      <TD>83.700963</TD>
+      <TD>-5.5027861</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053449.5-052903</TD>
+      <TD>83.7065487</TD>
+      <TD>-5.4842653</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053451.0-054349</TD>
+      <TD>83.7128345</TD>
+      <TD>-5.7304444</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053452.6-052945</TD>
+      <TD>83.7193249</TD>
+      <TD>-5.4958476</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053453.4-054004</TD>
+      <TD>83.7228327</TD>
+      <TD>-5.6678693</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053454.3-045413</TD>
+      <TD>83.7263382</TD>
+      <TD>-4.9037332</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053454.9-054644</TD>
+      <TD>83.7288276</TD>
+      <TD>-5.779002</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053455.1-044828</TD>
+      <TD>83.7296862</TD>
+      <TD>-4.8078012</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053455.8-054126</TD>
+      <TD>83.7325527</TD>
+      <TD>-5.6906774</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053456.8-044605</TD>
+      <TD>83.7367089</TD>
+      <TD>-4.768068</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053457.1-053329</TD>
+      <TD>83.7381146</TD>
+      <TD>-5.5581385</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053457.7-054357</TD>
+      <TD>83.7404621</TD>
+      <TD>-5.7326659</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053458.0-053758</TD>
+      <TD>83.7416998</TD>
+      <TD>-5.6330027</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053458.2-054150</TD>
+      <TD>83.7427401</TD>
+      <TD>-5.6972746</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053458.2-054505</TD>
+      <TD>83.7427298</TD>
+      <TD>-5.7516568</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053458.5-053249</TD>
+      <TD>83.743909</TD>
+      <TD>-5.5471534</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053459.1-053621</TD>
+      <TD>83.7462664</TD>
+      <TD>-5.6059867</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053459.2-054559</TD>
+      <TD>83.7468392</TD>
+      <TD>-5.7664782</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053500.8-053808</TD>
+      <TD>83.7534641</TD>
+      <TD>-5.6355743</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053501.3-054113</TD>
+      <TD>83.7555844</TD>
+      <TD>-5.6871835</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053502.9-044832</TD>
+      <TD>83.7624115</TD>
+      <TD>-4.8090573</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053503.2-044921</TD>
+      <TD>83.7635244</TD>
+      <TD>-4.8225515</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053503.6-045053</TD>
+      <TD>83.7654089</TD>
+      <TD>-4.848104</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053504.7-044709</TD>
+      <TD>83.7699962</TD>
+      <TD>-4.7858398</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053505.0-053643</TD>
+      <TD>83.7711565</TD>
+      <TD>-5.6121947</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053505.3-053428</TD>
+      <TD>83.7722364</TD>
+      <TD>-5.5746153</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053505.7-053355</TD>
+      <TD>83.774081</TD>
+      <TD>-5.5654889</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053505.7-053839</TD>
+      <TD>83.7741245</TD>
+      <TD>-5.6443189</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053505.8-044843</TD>
+      <TD>83.7743651</TD>
+      <TD>-4.8120664</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053506.7-045002</TD>
+      <TD>83.778205</TD>
+      <TD>-4.8339019</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053508.0-053244</TD>
+      <TD>83.7834631</TD>
+      <TD>-5.5456168</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053508.1-045331</TD>
+      <TD>83.7839032</TD>
+      <TD>-4.8920803</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053508.2-053704</TD>
+      <TD>83.784278</TD>
+      <TD>-5.6180384</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053508.6-044652</TD>
+      <TD>83.7862041</TD>
+      <TD>-4.7812672</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053508.8-053149</TD>
+      <TD>83.7869594</TD>
+      <TD>-5.5302986</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053510.3-054633</TD>
+      <TD>83.79308</TD>
+      <TD>-5.776102</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053511.8-053155</TD>
+      <TD>83.7995249</TD>
+      <TD>-5.5320687</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053512.3-054318</TD>
+      <TD>83.8015678</TD>
+      <TD>-5.7218512</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053513.0-053934</TD>
+      <TD>83.8042245</TD>
+      <TD>-5.6596737</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053513.3-045145</TD>
+      <TD>83.8055627</TD>
+      <TD>-4.862519</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053513.6-044258</TD>
+      <TD>83.8069781</TD>
+      <TD>-4.7163678</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053514.2-054317</TD>
+      <TD>83.8092123</TD>
+      <TD>-5.7216039</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053514.4-053246</TD>
+      <TD>83.8102421</TD>
+      <TD>-5.5463001</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053514.6-053911</TD>
+      <TD>83.8111838</TD>
+      <TD>-5.6530698</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053514.7-053416</TD>
+      <TD>83.811522</TD>
+      <TD>-5.5713457</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053514.8-053805</TD>
+      <TD>83.8120493</TD>
+      <TD>-5.6348915</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053515.7-045054</TD>
+      <TD>83.8155939</TD>
+      <TD>-4.8483978</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053516.7-044544</TD>
+      <TD>83.8196803</TD>
+      <TD>-4.7624424</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053517.1-054153</TD>
+      <TD>83.8214985</TD>
+      <TD>-5.6982911</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053517.4-053215</TD>
+      <TD>83.8226939</TD>
+      <TD>-5.5377767</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053517.5-054048</TD>
+      <TD>83.8231041</TD>
+      <TD>-5.6801513</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053517.8-044452</TD>
+      <TD>83.8243622</TD>
+      <TD>-4.7479436</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053518.1-045309</TD>
+      <TD>83.8256493</TD>
+      <TD>-4.8858598</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053518.3-045323</TD>
+      <TD>83.8266524</TD>
+      <TD>-4.88996</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053518.6-054109</TD>
+      <TD>83.8277338</TD>
+      <TD>-5.686002</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053519.5-053158</TD>
+      <TD>83.831511</TD>
+      <TD>-5.533024</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053520.2-053217</TD>
+      <TD>83.8345612</TD>
+      <TD>-5.5381386</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053520.2-054651</TD>
+      <TD>83.8341926</TD>
+      <TD>-5.7808751</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053520.6-044949</TD>
+      <TD>83.8359615</TD>
+      <TD>-4.8304561</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053521.6-053446</TD>
+      <TD>83.8403992</TD>
+      <TD>-5.5796222</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053522.3-044207</TD>
+      <TD>83.8429688</TD>
+      <TD>-4.7020609</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053522.5-045237</TD>
+      <TD>83.8438173</TD>
+      <TD>-4.8769596</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053522.7-044829</TD>
+      <TD>83.8449422</TD>
+      <TD>-4.8082956</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053522.8-044641</TD>
+      <TD>83.8451446</TD>
+      <TD>-4.7782364</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053523.7-044816</TD>
+      <TD>83.8487537</TD>
+      <TD>-4.8047068</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053524.1-045009</TD>
+      <TD>83.8505857</TD>
+      <TD>-4.83584</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053525.4-054544</TD>
+      <TD>83.8561352</TD>
+      <TD>-5.7624411</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053525.5-045120</TD>
+      <TD>83.8562557</TD>
+      <TD>-4.8557337</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053528.2-063022</TD>
+      <TD>83.8678644</TD>
+      <TD>-6.5062403</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053528.5-063003</TD>
+      <TD>83.8691663</TD>
+      <TD>-6.5010755</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053528.6-044816</TD>
+      <TD>83.869486</TD>
+      <TD>-4.8045927</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053530.4-062707</TD>
+      <TD>83.8766974</TD>
+      <TD>-6.4519808</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053531.6-044107</TD>
+      <TD>83.8818982</TD>
+      <TD>-4.6854838</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053533.0-044358</TD>
+      <TD>83.8875003</TD>
+      <TD>-4.7330092</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053533.3-045111</TD>
+      <TD>83.8888636</TD>
+      <TD>-4.8531154</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053534.4-044020</TD>
+      <TD>83.893571</TD>
+      <TD>-4.6722648</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053534.6-044857</TD>
+      <TD>83.8942625</TD>
+      <TD>-4.8160153</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053536.6-063833</TD>
+      <TD>83.9026259</TD>
+      <TD>-6.6426061</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053538.5-062342</TD>
+      <TD>83.9107989</TD>
+      <TD>-6.3952533</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053540.0-044555</TD>
+      <TD>83.9167034</TD>
+      <TD>-4.7653183</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053542.7-062144</TD>
+      <TD>83.9283055</TD>
+      <TD>-6.3623438</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053544.1-044804</TD>
+      <TD>83.9339405</TD>
+      <TD>-4.8013408</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053544.5-044415</TD>
+      <TD>83.9354198</TD>
+      <TD>-4.7377421</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053550.9-062243</TD>
+      <TD>83.9623066</TD>
+      <TD>-6.3787425</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053553.9-044719</TD>
+      <TD>83.9749595</TD>
+      <TD>-4.7887214</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053559.8-064230</TD>
+      <TD>83.9994747</TD>
+      <TD>-6.7085027</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053613.2-064942</TD>
+      <TD>84.0550681</TD>
+      <TD>-6.8284694</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053623.5-064614</TD>
+      <TD>84.0979641</TD>
+      <TD>-6.7707633</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053625.1-064441</TD>
+      <TD>84.1047618</TD>
+      <TD>-6.7449283</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J053635.7-064249</TD>
+      <TD>84.149036</TD>
+      <TD>-6.7138733</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054603.2-000553</TD>
+      <TD>86.5134666</TD>
+      <TD>-0.0981368</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054609.6-000331</TD>
+      <TD>86.5400179</TD>
+      <TD>-0.0586602</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054612.2-000807</TD>
+      <TD>86.5511076</TD>
+      <TD>-0.1355072</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054613.1-000604</TD>
+      <TD>86.55476</TD>
+      <TD>-0.1013812</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054613.5-000855</TD>
+      <TD>86.5563009</TD>
+      <TD>-0.1488657</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054618.6-000018</TD>
+      <TD>86.5775924</TD>
+      <TD>-0.0052501</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054618.8-000538</TD>
+      <TD>86.578725</TD>
+      <TD>-0.0939083</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054619.0+000329</TD>
+      <TD>86.5794747</TD>
+      <TD>0.0581645</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054622.9+000426</TD>
+      <TD>86.5958255</TD>
+      <TD>0.0740084</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054625.1+000541</TD>
+      <TD>86.6046542</TD>
+      <TD>0.0948072</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054625.9+000708</TD>
+      <TD>86.6080182</TD>
+      <TD>0.1191117</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054629.1+000258</TD>
+      <TD>86.6213736</TD>
+      <TD>0.0496438</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054633.3+000251</TD>
+      <TD>86.6387682</TD>
+      <TD>0.0477068</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054643.1+000052</TD>
+      <TD>86.67972</TD>
+      <TD>0.0145046</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054644.0+001803</TD>
+      <TD>86.6835844</TD>
+      <TD>0.3008872</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054647.3+000407</TD>
+      <TD>86.6970851</TD>
+      <TD>0.068633</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054650.4+002222</TD>
+      <TD>86.7102683</TD>
+      <TD>0.3729426</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054651.8+001938</TD>
+      <TD>86.7159733</TD>
+      <TD>0.3274115</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054652.6+002208</TD>
+      <TD>86.7193374</TD>
+      <TD>0.3690768</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054659.0+002457</TD>
+      <TD>86.7459086</TD>
+      <TD>0.4161034</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054702.9+001838</TD>
+      <TD>86.7623667</TD>
+      <TD>0.3108243</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054703.7+002329</TD>
+      <TD>86.7655558</TD>
+      <TD>0.391462</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054704.3+002320</TD>
+      <TD>86.7681975</TD>
+      <TD>0.3889797</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054704.7+002142</TD>
+      <TD>86.7698015</TD>
+      <TD>0.3619173</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054705.0+001834</TD>
+      <TD>86.7710454</TD>
+      <TD>0.3096553</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054705.1+002201</TD>
+      <TD>86.7713006</TD>
+      <TD>0.3671149</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054705.6+002112</TD>
+      <TD>86.773622</TD>
+      <TD>0.3533821</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054706.1+002032</TD>
+      <TD>86.7756563</TD>
+      <TD>0.3423665</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054706.6+001922</TD>
+      <TD>86.7779038</TD>
+      <TD>0.3228844</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054706.9+000047</TD>
+      <TD>86.7790771</TD>
+      <TD>0.0132674</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054707.2+001932</TD>
+      <TD>86.7802243</TD>
+      <TD>0.3256323</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054707.9+002024</TD>
+      <TD>86.7829841</TD>
+      <TD>0.3401217</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054710.0+002008</TD>
+      <TD>86.7917612</TD>
+      <TD>0.3356781</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054710.3+001721</TD>
+      <TD>86.7931632</TD>
+      <TD>0.2894291</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054710.4+001844</TD>
+      <TD>86.7933492</TD>
+      <TD>0.3123421</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054710.7+001846</TD>
+      <TD>86.7946897</TD>
+      <TD>0.3128408</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054710.9+001914</TD>
+      <TD>86.7957129</TD>
+      <TD>0.3207898</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054712.4+002215</TD>
+      <TD>86.801886</TD>
+      <TD>0.3708856</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054712.9+002206</TD>
+      <TD>86.8037796</TD>
+      <TD>0.3685049</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054713.5+002359</TD>
+      <TD>86.8064202</TD>
+      <TD>0.3998665</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054714.0+000907</TD>
+      <TD>86.8087116</TD>
+      <TD>0.1520215</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J054714.6+002003</TD>
+      <TD>86.8108452</TD>
+      <TD>0.3342815</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J055402.0+014055</TD>
+      <TD>88.5083785</TD>
+      <TD>1.6821929</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071826.4-245453</TD>
+      <TD>109.6100495</TD>
+      <TD>-24.915</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071826.8-245803</TD>
+      <TD>109.6117983</TD>
+      <TD>-24.967566</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071830.0-245944</TD>
+      <TD>109.6250659</TD>
+      <TD>-24.995623</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071837.1-250107</TD>
+      <TD>109.6547272</TD>
+      <TD>-25.0187432</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071838.6-250107</TD>
+      <TD>109.6611378</TD>
+      <TD>-25.0188372</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071839.3-245409</TD>
+      <TD>109.663782</TD>
+      <TD>-24.9025148</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071839.3-250218</TD>
+      <TD>109.6639869</TD>
+      <TD>-25.0384156</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071859.9-250251</TD>
+      <TD>109.7495999</TD>
+      <TD>-25.0475956</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071901.8-250324</TD>
+      <TD>109.7575288</TD>
+      <TD>-25.0569282</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J071903.4-250130</TD>
+      <TD>109.7643207</TD>
+      <TD>-25.0252673</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104107.3-594001</TD>
+      <TD>160.2807299</TD>
+      <TD>-59.6671302</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104245.4-592513</TD>
+      <TD>160.6893242</TD>
+      <TD>-59.4205247</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104248.1-592539</TD>
+      <TD>160.7005001</TD>
+      <TD>-59.4276489</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104250.5-592544</TD>
+      <TD>160.7104957</TD>
+      <TD>-59.4289413</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104301.2-592334</TD>
+      <TD>160.7550961</TD>
+      <TD>-59.3928843</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104306.3-601712</TD>
+      <TD>160.7765841</TD>
+      <TD>-60.2868511</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104323.9-592415</TD>
+      <TD>160.8498441</TD>
+      <TD>-59.4042549</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104325.5-591906</TD>
+      <TD>160.85665</TD>
+      <TD>-59.3185486</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104358.7-592809</TD>
+      <TD>160.9946511</TD>
+      <TD>-59.4693077</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104411.7-592431</TD>
+      <TD>161.048962</TD>
+      <TD>-59.408681</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104418.4-592334</TD>
+      <TD>161.0768043</TD>
+      <TD>-59.3930171</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104425.5-592142</TD>
+      <TD>161.1066331</TD>
+      <TD>-59.3618599</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104427.1-592436</TD>
+      <TD>161.1130237</TD>
+      <TD>-59.4100392</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104433.7-602504</TD>
+      <TD>161.140624</TD>
+      <TD>-60.4180405</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104445.2-592324</TD>
+      <TD>161.1884316</TD>
+      <TD>-59.3900565</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104455.4-592634</TD>
+      <TD>161.2310885</TD>
+      <TD>-59.4429422</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104655.3-601834</TD>
+      <TD>161.7304284</TD>
+      <TD>-60.3095702</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104714.9-600833</TD>
+      <TD>161.8122732</TD>
+      <TD>-60.1425852</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104715.4-600953</TD>
+      <TD>161.8145761</TD>
+      <TD>-60.1647764</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104717.4-600906</TD>
+      <TD>161.8226678</TD>
+      <TD>-60.1517563</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104816.6-595839</TD>
+      <TD>162.0694358</TD>
+      <TD>-59.9776468</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104831.5-601743</TD>
+      <TD>162.1315064</TD>
+      <TD>-60.2954399</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J104836.2-601408</TD>
+      <TD>162.1508681</TD>
+      <TD>-60.2357297</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J162706.7-243815</TD>
+      <TD>246.7782725</TD>
+      <TD>-24.6376905</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J162711.7-243832</TD>
+      <TD>246.7988525</TD>
+      <TD>-24.6423312</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J162718.1-242852</TD>
+      <TD>246.825661</TD>
+      <TD>-24.4813384</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J162738.3-243658</TD>
+      <TD>246.909687</TD>
+      <TD>-24.6162913</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J162738.6-243839</TD>
+      <TD>246.9109788</TD>
+      <TD>-24.6441978</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J162739.4-243915</TD>
+      <TD>246.9143674</TD>
+      <TD>-24.6543393</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182922.7+011032</TD>
+      <TD>277.3446275</TD>
+      <TD>1.1757218</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182925.8-020318</TD>
+      <TD>277.3575658</TD>
+      <TD>-2.0551558</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182931.9+011842</TD>
+      <TD>277.3832077</TD>
+      <TD>1.3118422</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182935.1+012338</TD>
+      <TD>277.3964924</TD>
+      <TD>1.3940634</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182939.8+011756</TD>
+      <TD>277.4160755</TD>
+      <TD>1.2989177</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182942.3+011201</TD>
+      <TD>277.4264225</TD>
+      <TD>1.2004682</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182947.2+012234</TD>
+      <TD>277.4467751</TD>
+      <TD>1.3763836</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182949.5+011705</TD>
+      <TD>277.4566541</TD>
+      <TD>1.284919</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182950.5+010858</TD>
+      <TD>277.460711</TD>
+      <TD>1.1494804</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182953.6+011701</TD>
+      <TD>277.4733556</TD>
+      <TD>1.283798</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182954.3-015823</TD>
+      <TD>277.4764272</TD>
+      <TD>-1.9731873</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182957.9-020103</TD>
+      <TD>277.4913319</TD>
+      <TD>-2.017569</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182958.2-015805</TD>
+      <TD>277.4925803</TD>
+      <TD>-1.9680894</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182959.4-020106</TD>
+      <TD>277.4978049</TD>
+      <TD>-2.0184473</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183000.1-015715</TD>
+      <TD>277.500434</TD>
+      <TD>-1.9542257</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183000.5-020211</TD>
+      <TD>277.5022724</TD>
+      <TD>-2.0364845</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183000.6-020204</TD>
+      <TD>277.5027517</TD>
+      <TD>-2.0346753</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183001.2-020148</TD>
+      <TD>277.5052418</TD>
+      <TD>-2.0301099</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183003.1-020514</TD>
+      <TD>277.5130767</TD>
+      <TD>-2.0874588</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183004.0-020123</TD>
+      <TD>277.5169441</TD>
+      <TD>-2.0231894</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183004.4-020415</TD>
+      <TD>277.5185506</TD>
+      <TD>-2.0710663</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183005.1-020104</TD>
+      <TD>277.5215387</TD>
+      <TD>-2.0179279</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183005.2-020234</TD>
+      <TD>277.5219666</TD>
+      <TD>-2.0428115</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183005.3-020026</TD>
+      <TD>277.5222864</TD>
+      <TD>-2.0074139</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183005.8-020144</TD>
+      <TD>277.5241758</TD>
+      <TD>-2.0290361</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183006.1-020219</TD>
+      <TD>277.5257922</TD>
+      <TD>-2.0387774</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183006.7-020337</TD>
+      <TD>277.528197</TD>
+      <TD>-2.0604993</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183006.9-015632</TD>
+      <TD>277.5288246</TD>
+      <TD>-1.942333</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183007.2-015919</TD>
+      <TD>277.530143</TD>
+      <TD>-1.9887557</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183007.7+011204</TD>
+      <TD>277.5321587</TD>
+      <TD>1.2012107</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183008.7-020610</TD>
+      <TD>277.536293</TD>
+      <TD>-2.1028299</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183009.2-020723</TD>
+      <TD>277.5386792</TD>
+      <TD>-2.1231104</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183010.7-020354</TD>
+      <TD>277.5449633</TD>
+      <TD>-2.0652417</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183011.1+011237</TD>
+      <TD>277.5463406</TD>
+      <TD>1.210521</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183018.2+011417</TD>
+      <TD>277.5759781</TD>
+      <TD>1.2381227</TD>
+      <TD>lime</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

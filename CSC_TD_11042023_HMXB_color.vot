@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 5.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.4" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/VOTable-1.4.xsd">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="name" arraysize="21" datatype="unicodeChar" name="name"/>
+   <FIELD ID="ra" datatype="double" name="ra"/>
+   <FIELD ID="dec" datatype="double" name="dec"/>
+   <FIELD ID="color" arraysize="4" datatype="unicodeChar" name="color"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2CXO J101855.6-585645</TD>
+      <TD>154.7316809</TD>
+      <TD>-58.9460896</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J122637.5-624613</TD>
+      <TD>186.6566342</TD>
+      <TD>-62.7702959</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J131825.0-625815</TD>
+      <TD>199.6044359</TD>
+      <TD>-62.9709762</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J132426.6-620119</TD>
+      <TD>201.111198</TD>
+      <TD>-62.0220906</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J140514.4-611827</TD>
+      <TD>211.3101229</TD>
+      <TD>-61.307719</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J142112.1-624156</TD>
+      <TD>215.3005894</TD>
+      <TD>-62.6989987</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J143308.3-611540</TD>
+      <TD>218.2847194</TD>
+      <TD>-61.2611195</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J162636.5-515630</TD>
+      <TD>246.6521258</TD>
+      <TD>-51.9418252</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J171556.4-385154</TD>
+      <TD>258.9851024</TD>
+      <TD>-38.8650399</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J173527.5-325554</TD>
+      <TD>263.8649521</TD>
+      <TD>-32.9317685</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J174445.7-271344</TD>
+      <TD>266.1907234</TD>
+      <TD>-27.2290257</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183327.7-103524</TD>
+      <TD>278.3657092</TD>
+      <TD>-10.5900965</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J203213.1+412724</TD>
+      <TD>308.0547454</TD>
+      <TD>41.4567408</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J225355.0+624337</TD>
+      <TD>343.4793607</TD>
+      <TD>62.7269904</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J024031.6+611345</TD>
+      <TD>40.1320711</TD>
+      <TD>61.229227</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J033459.9+531023</TD>
+      <TD>53.7495926</TD>
+      <TD>53.1731944</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J060726.6+220547</TD>
+      <TD>91.860927</TD>
+      <TD>22.0965899</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J065814.5-071245</TD>
+      <TD>104.5604599</TD>
+      <TD>-7.2125204</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J065817.2-071235</TD>
+      <TD>104.5720417</TD>
+      <TD>-7.2098094</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J081228.3-311452</TD>
+      <TD>123.1179521</TD>
+      <TD>-31.2478741</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J112057.1-615500</TD>
+      <TD>170.2381782</TD>
+      <TD>-61.9167007</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J134632.5-625523</TD>
+      <TD>206.6357416</TD>
+      <TD>-62.9233286</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J161932.2-494430</TD>
+      <TD>244.8841775</TD>
+      <TD>-49.7418237</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182030.0-143423</TD>
+      <TD>275.1253837</TD>
+      <TD>-14.5732045</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J182615.0-145055</TD>
+      <TD>276.5627356</TD>
+      <TD>-14.8487036</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J183328.3-102408</TD>
+      <TD>278.3679292</TD>
+      <TD>-10.4024283</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J184501.5-043356</TD>
+      <TD>281.2565932</TD>
+      <TD>-4.5656677</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J184536.8+005147</TD>
+      <TD>281.4034665</TD>
+      <TD>0.8632755</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J190447.4+090241</TD>
+      <TD>286.1977867</TD>
+      <TD>9.04484</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J194935.4+301231</TD>
+      <TD>297.3977619</TD>
+      <TD>30.2088341</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J210335.6+454505</TD>
+      <TD>315.8987195</TD>
+      <TD>45.7515404</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J213930.6+565910</TD>
+      <TD>324.8778652</TD>
+      <TD>56.9862495</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J223920.8+611626</TD>
+      <TD>339.8368361</TD>
+      <TD>61.2739927</TD>
+      <TD>peru</TD>
+     </TR>
+     <TR>
+      <TD>2CXO J101011.8-565532</TD>
+      <TD>152.5494237</TD>
+      <TD>-56.925561</TD>
+      <TD>peru</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>
