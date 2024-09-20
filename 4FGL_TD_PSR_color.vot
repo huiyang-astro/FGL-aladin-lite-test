@@ -1,0 +1,1937 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 5.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.4" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/VOTable-1.4.xsd">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="name" arraysize="18" datatype="unicodeChar" name="name"/>
+   <FIELD ID="ra" datatype="double" name="ra"/>
+   <FIELD ID="dec" datatype="double" name="dec"/>
+   <FIELD ID="color" arraysize="4" datatype="unicodeChar" name="color"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>4FGL J0002.8+6217</TD>
+      <TD>0.7201</TD>
+      <TD>62.2905</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0007.0+7303</TD>
+      <TD>1.768</TD>
+      <TD>73.0512</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0023.4+0920</TD>
+      <TD>5.8513</TD>
+      <TD>9.3475</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0030.4+0451</TD>
+      <TD>7.6107</TD>
+      <TD>4.8592</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0034.3-0534</TD>
+      <TD>8.5961</TD>
+      <TD>-5.5809</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0101.1-6422</TD>
+      <TD>15.2997</TD>
+      <TD>-64.3683</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0102.8+4839</TD>
+      <TD>15.7137</TD>
+      <TD>48.6591</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0106.4+4855</TD>
+      <TD>16.6094</TD>
+      <TD>48.9269</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0205.7+6449</TD>
+      <TD>31.4273</TD>
+      <TD>64.8239</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0218.1+4232</TD>
+      <TD>34.5344</TD>
+      <TD>42.5459</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0248.4+6021</TD>
+      <TD>42.1027</TD>
+      <TD>60.3663</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0248.6+4230</TD>
+      <TD>42.1544</TD>
+      <TD>42.5</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0251.0+2605</TD>
+      <TD>42.7587</TD>
+      <TD>26.0936</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0307.8+7443</TD>
+      <TD>46.9724</TD>
+      <TD>74.7167</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0312.1-0921</TD>
+      <TD>48.028</TD>
+      <TD>-9.3541</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0318.2+0254</TD>
+      <TD>49.5675</TD>
+      <TD>2.9073</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0330.1+5038</TD>
+      <TD>52.5476</TD>
+      <TD>50.6337</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0340.3+4130</TD>
+      <TD>55.099</TD>
+      <TD>41.5091</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0357.8+3204</TD>
+      <TD>59.4605</TD>
+      <TD>32.0833</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0359.4+5414</TD>
+      <TD>59.8638</TD>
+      <TD>54.2482</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0418.9+6636</TD>
+      <TD>64.7254</TD>
+      <TD>66.6001</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0437.2-4715</TD>
+      <TD>69.3136</TD>
+      <TD>-47.2545</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0506.1+5028</TD>
+      <TD>76.535</TD>
+      <TD>50.4712</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0514.6-4408</TD>
+      <TD>78.6547</TD>
+      <TD>-44.1358</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0533.8+6800</TD>
+      <TD>83.471</TD>
+      <TD>68.0011</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0534.5+2200</TD>
+      <TD>83.6367</TD>
+      <TD>22.0149</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0540.3-6920</TD>
+      <TD>85.0887</TD>
+      <TD>-69.3383</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0554.1+3107</TD>
+      <TD>88.548</TD>
+      <TD>31.1176</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0605.1+3757</TD>
+      <TD>91.282</TD>
+      <TD>37.9592</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0610.2-2100</TD>
+      <TD>92.5576</TD>
+      <TD>-21.0006</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0613.7-0201</TD>
+      <TD>93.4375</TD>
+      <TD>-2.0217</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0614.1-3329</TD>
+      <TD>93.5422</TD>
+      <TD>-33.4976</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0621.2+2512</TD>
+      <TD>95.3134</TD>
+      <TD>25.2075</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0622.2+3749</TD>
+      <TD>95.5616</TD>
+      <TD>37.8291</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0631.5+1036</TD>
+      <TD>97.8765</TD>
+      <TD>10.6046</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0631.8+0645</TD>
+      <TD>97.9644</TD>
+      <TD>6.7625</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0633.7+0632</TD>
+      <TD>98.4371</TD>
+      <TD>6.545</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0633.9+1746</TD>
+      <TD>98.483</TD>
+      <TD>17.7723</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0646.4-5455</TD>
+      <TD>101.6231</TD>
+      <TD>-54.9244</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0652.9+4707</TD>
+      <TD>103.2355</TD>
+      <TD>47.1259</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0657.4-4658</TD>
+      <TD>104.3598</TD>
+      <TD>-46.9802</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0659.7+1416</TD>
+      <TD>104.9416</TD>
+      <TD>14.2792</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0729.3-1445</TD>
+      <TD>112.3416</TD>
+      <TD>-14.7608</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0734.7-1559</TD>
+      <TD>113.6891</TD>
+      <TD>-15.9917</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0737.9-3041</TD>
+      <TD>114.4766</TD>
+      <TD>-30.69</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0741.0+6618</TD>
+      <TD>115.2539</TD>
+      <TD>66.3123</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0742.8-2822</TD>
+      <TD>115.7091</TD>
+      <TD>-28.3814</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0744.0-2525</TD>
+      <TD>116.0141</TD>
+      <TD>-25.432</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0751.2+1808</TD>
+      <TD>117.8024</TD>
+      <TD>18.1411</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0802.1-5612</TD>
+      <TD>120.5456</TD>
+      <TD>-56.2012</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0835.3-4510</TD>
+      <TD>128.837</TD>
+      <TD>-45.1781</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0843.3+6712</TD>
+      <TD>130.8481</TD>
+      <TD>67.2162</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0908.7-4911</TD>
+      <TD>137.179</TD>
+      <TD>-49.1941</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0922.3+0644</TD>
+      <TD>140.59</TD>
+      <TD>6.7342</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0931.2-1906</TD>
+      <TD>142.8242</TD>
+      <TD>-19.1157</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0941.1-5429</TD>
+      <TD>145.2831</TD>
+      <TD>-54.4873</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0952.1-0607</TD>
+      <TD>148.0477</TD>
+      <TD>-6.129</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0955.3-3949</TD>
+      <TD>148.8467</TD>
+      <TD>-39.8206</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0955.4-6151</TD>
+      <TD>148.8667</TD>
+      <TD>-61.8559</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1008.7-4659</TD>
+      <TD>152.1978</TD>
+      <TD>-46.9854</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1012.1-4235</TD>
+      <TD>153.0499</TD>
+      <TD>-42.5893</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1015.5-6030</TD>
+      <TD>153.897</TD>
+      <TD>-60.5024</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1016.3-5857</TD>
+      <TD>154.0951</TD>
+      <TD>-58.9587</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1019.8-5749</TD>
+      <TD>154.9668</TD>
+      <TD>-57.8279</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1023.0-5745</TD>
+      <TD>155.7749</TD>
+      <TD>-57.7611</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1024.5-0719</TD>
+      <TD>156.1254</TD>
+      <TD>-7.3196</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1028.5-5819</TD>
+      <TD>157.1295</TD>
+      <TD>-58.3179</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1035.4-6720</TD>
+      <TD>158.8645</TD>
+      <TD>-67.338</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1036.5-8318</TD>
+      <TD>159.1499</TD>
+      <TD>-83.3125</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1036.6-4349</TD>
+      <TD>159.1507</TD>
+      <TD>-43.8239</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1044.4-5737</TD>
+      <TD>161.1238</TD>
+      <TD>-57.6258</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1048.2-5832</TD>
+      <TD>162.0575</TD>
+      <TD>-58.5396</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1048.6+2340</TD>
+      <TD>162.1711</TD>
+      <TD>23.6798</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1055.7-6028</TD>
+      <TD>163.9355</TD>
+      <TD>-60.4723</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1056.9-5852</TD>
+      <TD>164.2386</TD>
+      <TD>-58.8806</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1057.9-5227</TD>
+      <TD>164.4976</TD>
+      <TD>-52.4528</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1102.4+0246</TD>
+      <TD>165.6245</TD>
+      <TD>2.7754</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1104.9-6037</TD>
+      <TD>166.2343</TD>
+      <TD>-60.6304</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1105.4-6108</TD>
+      <TD>166.365</TD>
+      <TD>-61.1497</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1111.8-6039</TD>
+      <TD>167.9624</TD>
+      <TD>-60.659</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1112.1-6108</TD>
+      <TD>168.0302</TD>
+      <TD>-61.1341</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1119.1-6127</TD>
+      <TD>169.7757</TD>
+      <TD>-61.4551</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1124.0-3653</TD>
+      <TD>171.0135</TD>
+      <TD>-36.8998</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1124.7-5915</TD>
+      <TD>171.1774</TD>
+      <TD>-59.2611</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1125.6-5825</TD>
+      <TD>171.4087</TD>
+      <TD>-58.4246</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1126.4-6011</TD>
+      <TD>171.6141</TD>
+      <TD>-60.1862</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1135.2-6055</TD>
+      <TD>173.8043</TD>
+      <TD>-60.9297</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1137.6+7527</TD>
+      <TD>174.4247</TD>
+      <TD>75.4583</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1139.2-6247</TD>
+      <TD>174.8191</TD>
+      <TD>-62.7915</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1142.8+0120</TD>
+      <TD>175.7154</TD>
+      <TD>1.34</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1147.7-6618</TD>
+      <TD>176.944</TD>
+      <TD>-66.3136</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1152.0-6107</TD>
+      <TD>178.0226</TD>
+      <TD>-61.1298</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1203.9-6242</TD>
+      <TD>180.9843</TD>
+      <TD>-62.7095</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1207.4-5050</TD>
+      <TD>181.8508</TD>
+      <TD>-50.8495</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1208.2-6237</TD>
+      <TD>182.0529</TD>
+      <TD>-62.6331</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1221.4-0634</TD>
+      <TD>185.3701</TD>
+      <TD>-6.5831</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1224.6-6408</TD>
+      <TD>186.1626</TD>
+      <TD>-64.1383</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1228.0-4853</TD>
+      <TD>187.0101</TD>
+      <TD>-48.8847</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1231.1-1412</TD>
+      <TD>187.7981</TD>
+      <TD>-14.2014</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1231.6-5116</TD>
+      <TD>187.9102</TD>
+      <TD>-51.2672</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1231.6-6511</TD>
+      <TD>187.9169</TD>
+      <TD>-65.1938</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1253.3-5816</TD>
+      <TD>193.3418</TD>
+      <TD>-58.2833</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1259.0-8148</TD>
+      <TD>194.7625</TD>
+      <TD>-81.8163</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1301.6+0834</TD>
+      <TD>195.412</TD>
+      <TD>8.5742</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1302.4-3258</TD>
+      <TD>195.6231</TD>
+      <TD>-32.9694</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1304.4+1203</TD>
+      <TD>196.1153</TD>
+      <TD>12.0616</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1306.3-6043</TD>
+      <TD>196.5873</TD>
+      <TD>-60.7199</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1306.8-4035</TD>
+      <TD>196.7114</TD>
+      <TD>-40.5999</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1311.7-3430</TD>
+      <TD>197.9484</TD>
+      <TD>-34.5097</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1312.7+0050</TD>
+      <TD>198.1894</TD>
+      <TD>0.842</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1335.0-5656</TD>
+      <TD>203.7679</TD>
+      <TD>-56.9471</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1341.7-6216</TD>
+      <TD>205.4337</TD>
+      <TD>-62.2801</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1345.9-2612</TD>
+      <TD>206.4815</TD>
+      <TD>-26.2116</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1350.6-6224</TD>
+      <TD>207.6746</TD>
+      <TD>-62.4133</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1356.6+0234</TD>
+      <TD>209.1639</TD>
+      <TD>2.5773</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1356.9-6432</TD>
+      <TD>209.234</TD>
+      <TD>-64.5401</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1358.3-6026</TD>
+      <TD>209.5981</TD>
+      <TD>-60.4444</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1400.6-1432</TD>
+      <TD>210.1581</TD>
+      <TD>-14.547</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1402.7+1306</TD>
+      <TD>210.6919</TD>
+      <TD>13.1072</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1411.5-6133</TD>
+      <TD>212.8964</TD>
+      <TD>-61.5539</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1413.5-6205</TD>
+      <TD>213.382</TD>
+      <TD>-62.0903</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1417.6-4403</TD>
+      <TD>214.4146</TD>
+      <TD>-44.052</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1418.7-6057</TD>
+      <TD>214.6927</TD>
+      <TD>-60.9654</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1420.0-6048</TD>
+      <TD>215.009</TD>
+      <TD>-60.805</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1422.5-6137</TD>
+      <TD>215.6298</TD>
+      <TD>-61.6311</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1429.9-5911</TD>
+      <TD>217.4914</TD>
+      <TD>-59.1888</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1431.4-4711</TD>
+      <TD>217.8727</TD>
+      <TD>-47.1945</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1440.2-5505</TD>
+      <TD>220.0734</TD>
+      <TD>-55.0855</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1446.6-4701</TD>
+      <TD>221.6541</TD>
+      <TD>-47.0276</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1447.4-5757</TD>
+      <TD>221.8551</TD>
+      <TD>-57.9511</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1455.9-3331</TD>
+      <TD>223.9993</TD>
+      <TD>-33.5279</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1459.5-6053</TD>
+      <TD>224.8752</TD>
+      <TD>-60.8894</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1509.4-5850</TD>
+      <TD>227.3646</TD>
+      <TD>-58.8431</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1513.4-2549</TD>
+      <TD>228.3728</TD>
+      <TD>-25.8271</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1514.3-4946</TD>
+      <TD>228.5757</TD>
+      <TD>-49.7711</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1521.9-5735</TD>
+      <TD>230.493</TD>
+      <TD>-57.5893</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1526.6-2743</TD>
+      <TD>231.6709</TD>
+      <TD>-27.7327</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1528.4-5838</TD>
+      <TD>232.1087</TD>
+      <TD>-58.634</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1531.5-5612</TD>
+      <TD>232.8971</TD>
+      <TD>-56.2103</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1536.4-4948</TD>
+      <TD>234.1003</TD>
+      <TD>-49.8164</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1543.6-5148</TD>
+      <TD>235.9227</TD>
+      <TD>-51.8149</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1544.0+4939</TD>
+      <TD>236.0179</TD>
+      <TD>49.6524</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1553.1+5438</TD>
+      <TD>238.2833</TD>
+      <TD>54.6413</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1555.7-2908</TD>
+      <TD>238.9256</TD>
+      <TD>-29.1371</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1600.9-3054</TD>
+      <TD>240.2267</TD>
+      <TD>-30.9102</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1614.1-5047</TD>
+      <TD>243.5403</TD>
+      <TD>-50.7863</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1614.5-2230</TD>
+      <TD>243.6415</TD>
+      <TD>-22.5044</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1615.3-5136</TD>
+      <TD>243.8303</TD>
+      <TD>-51.6135</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1618.7-4633c</TD>
+      <TD>244.6966</TD>
+      <TD>-46.5569</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1620.7-4927</TD>
+      <TD>245.1805</TD>
+      <TD>-49.4599</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1623.0-5004</TD>
+      <TD>245.7514</TD>
+      <TD>-50.0756</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1623.0-0315</TD>
+      <TD>245.752</TD>
+      <TD>-3.264</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1623.9-6936</TD>
+      <TD>245.9865</TD>
+      <TD>-69.6069</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1624.1-4042</TD>
+      <TD>246.0399</TD>
+      <TD>-40.7073</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1624.3-3952</TD>
+      <TD>246.0999</TD>
+      <TD>-39.8667</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1625.1-0020</TD>
+      <TD>246.287</TD>
+      <TD>-0.3491</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1627.7+3219</TD>
+      <TD>246.94</TD>
+      <TD>32.3213</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1628.1-3204</TD>
+      <TD>247.0387</TD>
+      <TD>-32.0747</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1630.6+3734</TD>
+      <TD>247.6628</TD>
+      <TD>37.5825</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1634.7+0235</TD>
+      <TD>248.6845</TD>
+      <TD>2.5838</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1640.1+2222</TD>
+      <TD>250.0258</TD>
+      <TD>22.3774</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1641.2+8049</TD>
+      <TD>250.3029</TD>
+      <TD>80.8292</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1641.2-5317</TD>
+      <TD>250.325</TD>
+      <TD>-53.2989</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1648.4-4611</TD>
+      <TD>252.1065</TD>
+      <TD>-46.1955</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1649.8-3010</TD>
+      <TD>252.458</TD>
+      <TD>-30.1821</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1650.3-4600</TD>
+      <TD>252.5986</TD>
+      <TD>-46.0163</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1653.6-0158</TD>
+      <TD>253.4011</TD>
+      <TD>-1.9737</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1658.6-5323</TD>
+      <TD>254.6511</TD>
+      <TD>-53.3955</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1702.9-4131</TD>
+      <TD>255.7401</TD>
+      <TD>-41.5266</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1705.6-1909</TD>
+      <TD>256.401</TD>
+      <TD>-19.1658</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1709.7-4429</TD>
+      <TD>257.4298</TD>
+      <TD>-44.4854</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1713.8+0747</TD>
+      <TD>258.4701</TD>
+      <TD>7.7927</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1714.4-3830</TD>
+      <TD>258.6124</TD>
+      <TD>-38.507</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1716.3+3434</TD>
+      <TD>259.0996</TD>
+      <TD>34.5792</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1718.2-3825</TD>
+      <TD>259.5634</TD>
+      <TD>-38.4318</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1720.8-1937</TD>
+      <TD>260.2092</TD>
+      <TD>-19.6323</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1728.1-1610</TD>
+      <TD>262.0381</TD>
+      <TD>-16.167</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1730.5-3352</TD>
+      <TD>262.6425</TD>
+      <TD>-33.8801</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1730.8-2303</TD>
+      <TD>262.7031</TD>
+      <TD>-23.06</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1731.7-1850</TD>
+      <TD>262.9257</TD>
+      <TD>-18.8342</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1731.7-4744</TD>
+      <TD>262.926</TD>
+      <TD>-47.744</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1732.5-3131</TD>
+      <TD>263.1452</TD>
+      <TD>-31.5174</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1732.7-5050</TD>
+      <TD>263.1811</TD>
+      <TD>-50.8377</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1736.1-3422</TD>
+      <TD>264.0259</TD>
+      <TD>-34.3772</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1739.4-3015</TD>
+      <TD>264.8691</TD>
+      <TD>-30.2587</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1740.5+1005</TD>
+      <TD>265.1489</TD>
+      <TD>10.0977</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1741.4+1354</TD>
+      <TD>265.3668</TD>
+      <TD>13.9093</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1741.9-2054</TD>
+      <TD>265.4918</TD>
+      <TD>-20.9005</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1742.3-3318</TD>
+      <TD>265.5804</TD>
+      <TD>-33.3075</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1744.0-7618</TD>
+      <TD>266.0003</TD>
+      <TD>-76.3152</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1744.4-1135</TD>
+      <TD>266.1153</TD>
+      <TD>-11.5874</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1745.5+1017</TD>
+      <TD>266.3994</TD>
+      <TD>10.2947</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1746.8-3239</TD>
+      <TD>266.7205</TD>
+      <TD>-32.6644</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1747.2-2957</TD>
+      <TD>266.8231</TD>
+      <TD>-29.9648</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1747.7-4037</TD>
+      <TD>266.946</TD>
+      <TD>-40.6231</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1757.7-6032</TD>
+      <TD>269.4489</TD>
+      <TD>-60.5374</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1757.9-2419</TD>
+      <TD>269.4949</TD>
+      <TD>-24.33</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1801.2-2450</TD>
+      <TD>270.3192</TD>
+      <TD>-24.849</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1801.6-1418</TD>
+      <TD>270.4144</TD>
+      <TD>-14.3152</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1802.8-4719</TD>
+      <TD>270.7166</TD>
+      <TD>-47.3182</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1803.1-2148</TD>
+      <TD>270.7829</TD>
+      <TD>-21.8088</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1803.1-6708</TD>
+      <TD>270.791</TD>
+      <TD>-67.1347</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1803.2+1402</TD>
+      <TD>270.8012</TD>
+      <TD>14.0361</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1805.6+0615</TD>
+      <TD>271.4247</TD>
+      <TD>6.2556</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1807.1+2822</TD>
+      <TD>271.7938</TD>
+      <TD>28.3675</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1808.5-3701</TD>
+      <TD>272.1268</TD>
+      <TD>-37.0306</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1809.8-2332</TD>
+      <TD>272.4614</TD>
+      <TD>-23.5395</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1810.5+1744</TD>
+      <TD>272.6497</TD>
+      <TD>17.747</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1811.3-2403</TD>
+      <TD>272.8324</TD>
+      <TD>-24.055</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1811.5-1925</TD>
+      <TD>272.8865</TD>
+      <TD>-19.4275</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1813.4-1246</TD>
+      <TD>273.3508</TD>
+      <TD>-12.7677</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1814.4+3132</TD>
+      <TD>273.6207</TD>
+      <TD>31.5436</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1816.5+4510</TD>
+      <TD>274.1489</TD>
+      <TD>45.173</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1817.1-1742</TD>
+      <TD>274.292</TD>
+      <TD>-17.7023</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1823.2+1209</TD>
+      <TD>275.812</TD>
+      <TD>12.1573</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1823.5-3020</TD>
+      <TD>275.8915</TD>
+      <TD>-30.3495</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1823.8-3544</TD>
+      <TD>275.9677</TD>
+      <TD>-35.7402</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1824.1+1013</TD>
+      <TD>276.0484</TD>
+      <TD>10.2329</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1824.2-0621</TD>
+      <TD>276.0679</TD>
+      <TD>-6.3576</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1824.6-2452</TD>
+      <TD>276.1614</TD>
+      <TD>-24.8701</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1826.1-1256</TD>
+      <TD>276.5352</TD>
+      <TD>-12.9415</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1827.4-1445</TD>
+      <TD>276.8733</TD>
+      <TD>-14.7622</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1827.6-0849</TD>
+      <TD>276.9076</TD>
+      <TD>-8.8271</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1828.4-1059</TD>
+      <TD>277.1027</TD>
+      <TD>-10.9964</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1830.8-0947</TD>
+      <TD>277.7159</TD>
+      <TD>-9.79</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1831.1-6503</TD>
+      <TD>277.7773</TD>
+      <TD>-65.0659</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1833.0-3840</TD>
+      <TD>278.2605</TD>
+      <TD>-38.6702</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1833.5-1033</TD>
+      <TD>278.3832</TD>
+      <TD>-10.5568</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1835.7-3258</TD>
+      <TD>278.9396</TD>
+      <TD>-32.971</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1836.2+5925</TD>
+      <TD>279.0556</TD>
+      <TD>59.4279</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1837.8-0604</TD>
+      <TD>279.4726</TD>
+      <TD>-6.0824</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1838.9-0537</TD>
+      <TD>279.7459</TD>
+      <TD>-5.6174</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1843.7-1114</TD>
+      <TD>280.937</TD>
+      <TD>-11.242</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1844.4-0345</TD>
+      <TD>281.1182</TD>
+      <TD>-3.7579</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1845.0+0159</TD>
+      <TD>281.2651</TD>
+      <TD>1.9969</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1846.3+0919</TD>
+      <TD>281.5957</TD>
+      <TD>9.3322</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1852.2-1309</TD>
+      <TD>283.0739</TD>
+      <TD>-13.1595</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1853.3-0005</TD>
+      <TD>283.3487</TD>
+      <TD>-0.0895</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1855.9-1435</TD>
+      <TD>283.9946</TD>
+      <TD>-14.5908</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1857.2+0941</TD>
+      <TD>284.3227</TD>
+      <TD>9.695</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1857.6+0143</TD>
+      <TD>284.409</TD>
+      <TD>1.7327</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1858.3-2216</TD>
+      <TD>284.5752</TD>
+      <TD>-22.2805</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1858.3-5424</TD>
+      <TD>284.576</TD>
+      <TD>-54.4123</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1901.4-0126</TD>
+      <TD>285.3702</TD>
+      <TD>-1.4391</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1902.0-5105</TD>
+      <TD>285.5105</TD>
+      <TD>-51.09</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1903.4-7053</TD>
+      <TD>285.8622</TD>
+      <TD>-70.8886</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1904.4-1129</TD>
+      <TD>286.1146</TD>
+      <TD>-11.4982</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1906.4+0723</TD>
+      <TD>286.6115</TD>
+      <TD>7.3982</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1907.9+0602</TD>
+      <TD>286.9845</TD>
+      <TD>6.0351</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1908.9+2103</TD>
+      <TD>287.2387</TD>
+      <TD>21.0604</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1909.7-3744</TD>
+      <TD>287.4476</TD>
+      <TD>-37.7374</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1910.7-5320</TD>
+      <TD>287.6989</TD>
+      <TD>-53.3385</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1913.3+0905</TD>
+      <TD>288.3458</TD>
+      <TD>9.0918</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1913.3+1019</TD>
+      <TD>288.3496</TD>
+      <TD>10.3289</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1919.1+2354</TD>
+      <TD>289.7812</TD>
+      <TD>23.9027</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1921.1+1930</TD>
+      <TD>290.2928</TD>
+      <TD>19.5117</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1921.4+0136</TD>
+      <TD>290.357</TD>
+      <TD>1.6066</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1925.2+1729</TD>
+      <TD>291.3217</TD>
+      <TD>17.4847</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1932.2+2221</TD>
+      <TD>293.065</TD>
+      <TD>22.3616</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1932.3+1916</TD>
+      <TD>293.0761</TD>
+      <TD>19.2685</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1935.2+2029</TD>
+      <TD>293.8179</TD>
+      <TD>20.4908</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1939.6+2135</TD>
+      <TD>294.9221</TD>
+      <TD>21.5918</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1946.5-5402</TD>
+      <TD>296.6322</TD>
+      <TD>-54.0496</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1947.6-1121</TD>
+      <TD>296.9161</TD>
+      <TD>-11.3652</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1950.6+2416</TD>
+      <TD>297.6602</TD>
+      <TD>24.2809</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1952.9+3252</TD>
+      <TD>298.2473</TD>
+      <TD>32.883</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1954.3+2836</TD>
+      <TD>298.5854</TD>
+      <TD>28.6026</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1957.3+2517</TD>
+      <TD>299.3339</TD>
+      <TD>25.2965</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1957.6+5033</TD>
+      <TD>299.4058</TD>
+      <TD>50.5598</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1958.7+2846</TD>
+      <TD>299.6761</TD>
+      <TD>28.7704</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1959.5+2048</TD>
+      <TD>299.899</TD>
+      <TD>20.8085</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2006.2+3102</TD>
+      <TD>301.5661</TD>
+      <TD>31.0446</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2006.4+0147</TD>
+      <TD>301.6243</TD>
+      <TD>1.798</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2015.3+0758</TD>
+      <TD>303.8421</TD>
+      <TD>7.9791</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2017.4+0602</TD>
+      <TD>304.3518</TD>
+      <TD>6.0492</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2017.7-1612</TD>
+      <TD>304.4414</TD>
+      <TD>-16.2039</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2017.9+3625</TD>
+      <TD>304.4909</TD>
+      <TD>36.4277</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2021.1+3651</TD>
+      <TD>305.2796</TD>
+      <TD>36.8561</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2021.5+4026</TD>
+      <TD>305.3851</TD>
+      <TD>40.4445</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2022.3+3840</TD>
+      <TD>305.5845</TD>
+      <TD>38.6711</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2028.3+3331</TD>
+      <TD>307.0848</TD>
+      <TD>33.5315</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2029.5-4237</TD>
+      <TD>307.3765</TD>
+      <TD>-42.6285</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2030.0+3641</TD>
+      <TD>307.5086</TD>
+      <TD>36.6872</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2030.9+4416</TD>
+      <TD>307.7256</TD>
+      <TD>44.2669</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2032.2+4127</TD>
+      <TD>308.0631</TD>
+      <TD>41.459</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2035.0+3632</TD>
+      <TD>308.7571</TD>
+      <TD>36.5371</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2036.2-0207</TD>
+      <TD>309.0628</TD>
+      <TD>-2.133</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2039.4-3616</TD>
+      <TD>309.8557</TD>
+      <TD>-36.2714</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2039.5-5617</TD>
+      <TD>309.8974</TD>
+      <TD>-56.2836</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2042.2+0245</TD>
+      <TD>310.5609</TD>
+      <TD>2.7581</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2043.3+1711</TD>
+      <TD>310.838</TD>
+      <TD>17.1861</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2043.7+2741</TD>
+      <TD>310.9331</TD>
+      <TD>27.6936</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2045.9-6835</TD>
+      <TD>311.488</TD>
+      <TD>-68.5951</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2047.3+1051</TD>
+      <TD>311.8404</TD>
+      <TD>10.8606</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2051.0-0826</TD>
+      <TD>312.7676</TD>
+      <TD>-8.4344</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2052.7+1218</TD>
+      <TD>313.1937</TD>
+      <TD>12.3162</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2055.8+1545</TD>
+      <TD>313.954</TD>
+      <TD>15.7505</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2055.8+2540</TD>
+      <TD>313.9601</TD>
+      <TD>25.674</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2111.4+4606</TD>
+      <TD>317.863</TD>
+      <TD>46.1048</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2115.1+5449</TD>
+      <TD>318.7845</TD>
+      <TD>54.8206</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2116.2+3701</TD>
+      <TD>319.0594</TD>
+      <TD>37.0257</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2117.0+1344</TD>
+      <TD>319.2575</TD>
+      <TD>13.7449</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2124.7-3358</TD>
+      <TD>321.1919</TD>
+      <TD>-33.9786</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2129.8-0428</TD>
+      <TD>322.4649</TD>
+      <TD>-4.4815</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2140.0+4716</TD>
+      <TD>325.0009</TD>
+      <TD>47.2686</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2205.5+6016</TD>
+      <TD>331.3984</TD>
+      <TD>60.2694</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2208.1+4058</TD>
+      <TD>332.0399</TD>
+      <TD>40.9744</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2214.6+3000</TD>
+      <TD>333.6695</TD>
+      <TD>30.0061</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2215.6+5135</TD>
+      <TD>333.9018</TD>
+      <TD>51.5876</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2229.0+6114</TD>
+      <TD>337.2737</TD>
+      <TD>61.2364</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2234.7+0943</TD>
+      <TD>338.6906</TD>
+      <TD>9.732</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2238.5+5903</TD>
+      <TD>339.6277</TD>
+      <TD>59.0563</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2240.6+5833</TD>
+      <TD>340.1669</TD>
+      <TD>58.5519</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2241.7-5236</TD>
+      <TD>340.438</TD>
+      <TD>-52.6084</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2256.8-1024</TD>
+      <TD>344.2162</TD>
+      <TD>-10.4076</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2302.7+4443</TD>
+      <TD>345.6918</TD>
+      <TD>44.7182</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2310.0-0555</TD>
+      <TD>347.5183</TD>
+      <TD>-5.9251</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2317.3+1433</TD>
+      <TD>349.3349</TD>
+      <TD>14.5651</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2333.1-5527</TD>
+      <TD>353.286</TD>
+      <TD>-55.4638</TD>
+      <TD>lime</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2339.6-0533</TD>
+      <TD>354.9106</TD>
+      <TD>-5.5511</TD>
+      <TD>lime</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

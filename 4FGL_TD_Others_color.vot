@@ -1,0 +1,1637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 5.1
+     http://www.astropy.org/ -->
+<VOTABLE version="1.4" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/VOTable-1.4.xsd">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="name" arraysize="18" datatype="unicodeChar" name="name"/>
+   <FIELD ID="ra" datatype="double" name="ra"/>
+   <FIELD ID="dec" datatype="double" name="dec"/>
+   <FIELD ID="color" arraysize="4" datatype="unicodeChar" name="color"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>4FGL J0002.7+7220</TD>
+      <TD>0.6786</TD>
+      <TD>72.3479</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0024.0-7204</TD>
+      <TD>6.0082</TD>
+      <TD>-72.0788</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0025.3+6408</TD>
+      <TD>6.3405</TD>
+      <TD>64.1498</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0059.7-7210</TD>
+      <TD>14.9293</TD>
+      <TD>-72.1798</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0102.9-7051</TD>
+      <TD>15.739</TD>
+      <TD>-70.863</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0205.6+6449e</TD>
+      <TD>31.404</TD>
+      <TD>64.828</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0212.1+5321</TD>
+      <TD>33.0445</TD>
+      <TD>53.3507</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0221.4+6241e</TD>
+      <TD>35.36</TD>
+      <TD>62.69</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0222.4+6156e</TD>
+      <TD>35.62</TD>
+      <TD>61.94</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0240.5+6113</TD>
+      <TD>40.1426</TD>
+      <TD>61.2287</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0336.0+7502</TD>
+      <TD>54.0249</TD>
+      <TD>75.05</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0358.4-5446</TD>
+      <TD>59.6231</TD>
+      <TD>-54.7781</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0407.7-5702</TD>
+      <TD>61.9327</TD>
+      <TD>-57.0359</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0425.6+5522e</TD>
+      <TD>66.425</TD>
+      <TD>55.371</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0427.8-6704</TD>
+      <TD>66.9577</TD>
+      <TD>-67.0818</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0452.9+5117</TD>
+      <TD>73.2452</TD>
+      <TD>51.2857</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0458.4+5140c</TD>
+      <TD>74.6168</TD>
+      <TD>51.6723</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0500.3+4639e</TD>
+      <TD>75.08</TD>
+      <TD>46.66</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0513.9-4005</TD>
+      <TD>78.4959</TD>
+      <TD>-40.0949</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0517.9+5030</TD>
+      <TD>79.498</TD>
+      <TD>50.5163</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0523.3-2527</TD>
+      <TD>80.8318</TD>
+      <TD>-25.4632</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0524.4-2413</TD>
+      <TD>81.104</TD>
+      <TD>-24.2201</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0524.7+4824</TD>
+      <TD>81.1806</TD>
+      <TD>48.4083</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0524.8-6938</TD>
+      <TD>81.2176</TD>
+      <TD>-69.6413</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0526.7+4254</TD>
+      <TD>81.6929</TD>
+      <TD>42.9153</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0534.5+2201i</TD>
+      <TD>83.633</TD>
+      <TD>22.02</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0534.5+2201s</TD>
+      <TD>83.6331</TD>
+      <TD>22.0199</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0535.2-6736</TD>
+      <TD>83.8065</TD>
+      <TD>-67.6013</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0537.8-6909</TD>
+      <TD>84.4553</TD>
+      <TD>-69.1646</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0540.0-7552</TD>
+      <TD>85.0064</TD>
+      <TD>-75.8782</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0540.3+2756e</TD>
+      <TD>85.1</TD>
+      <TD>27.94</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0603.9+1901</TD>
+      <TD>90.9889</TD>
+      <TD>19.0179</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0617.2+2234e</TD>
+      <TD>94.31</TD>
+      <TD>22.58</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0632.8+0550</TD>
+      <TD>98.2139</TD>
+      <TD>5.8453</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0634.2+0436e</TD>
+      <TD>98.573</TD>
+      <TD>4.608</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0639.4+0655e</TD>
+      <TD>99.86</TD>
+      <TD>6.93</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0646.5+0018</TD>
+      <TD>101.6311</TD>
+      <TD>0.3035</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0647.7+0031</TD>
+      <TD>101.9494</TD>
+      <TD>0.5215</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0655.3-0037</TD>
+      <TD>103.8282</TD>
+      <TD>-0.631</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0809.5-4714</TD>
+      <TD>122.3782</TD>
+      <TD>-47.2453</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0822.1-4253e</TD>
+      <TD>125.544</TD>
+      <TD>-42.889</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0830.5-4451</TD>
+      <TD>127.645</TD>
+      <TD>-44.8635</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0833.8-4400</TD>
+      <TD>128.4584</TD>
+      <TD>-44.0113</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0834.3-4542e</TD>
+      <TD>128.6</TD>
+      <TD>-45.7</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0838.7-2827</TD>
+      <TD>129.6906</TD>
+      <TD>-28.4583</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0851.9-4620e</TD>
+      <TD>132.987</TD>
+      <TD>-46.342</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0912.1-6449</TD>
+      <TD>138.0481</TD>
+      <TD>-64.8244</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0921.7-6317</TD>
+      <TD>140.4454</TD>
+      <TD>-63.2906</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0935.3+0901</TD>
+      <TD>143.8326</TD>
+      <TD>9.0305</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J0940.3-7610</TD>
+      <TD>145.0989</TD>
+      <TD>-76.1794</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1000.0-5312e</TD>
+      <TD>150</TD>
+      <TD>-53.2</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1018.9-5856</TD>
+      <TD>154.7417</TD>
+      <TD>-58.9433</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1023.3-5747e</TD>
+      <TD>155.828</TD>
+      <TD>-57.794</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1023.7+0038</TD>
+      <TD>155.9446</TD>
+      <TD>0.6499</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1036.2-5936</TD>
+      <TD>159.0564</TD>
+      <TD>-59.6039</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1045.1-5940</TD>
+      <TD>161.2774</TD>
+      <TD>-59.6822</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1059.5-6021</TD>
+      <TD>164.892</TD>
+      <TD>-60.365</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1119.0-6127e</TD>
+      <TD>169.77</TD>
+      <TD>-61.45</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1120.0-2204</TD>
+      <TD>170.0016</TD>
+      <TD>-22.0779</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1149.3-6232</TD>
+      <TD>177.3386</TD>
+      <TD>-62.5436</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1151.4-6248</TD>
+      <TD>177.8644</TD>
+      <TD>-62.812</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1152.6-6207</TD>
+      <TD>178.1749</TD>
+      <TD>-62.1195</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1155.2-6259</TD>
+      <TD>178.8006</TD>
+      <TD>-62.9876</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1155.6-6245c</TD>
+      <TD>178.9226</TD>
+      <TD>-62.7652</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1158.3-6232</TD>
+      <TD>179.5769</TD>
+      <TD>-62.5371</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1208.1-5149</TD>
+      <TD>182.0255</TD>
+      <TD>-51.8223</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1208.5-5243e</TD>
+      <TD>182.13</TD>
+      <TD>-52.73</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1213.3-6240e</TD>
+      <TD>183.35</TD>
+      <TD>-62.677</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1302.9-6349</TD>
+      <TD>195.7274</TD>
+      <TD>-63.8304</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1303.0-6312e</TD>
+      <TD>195.75</TD>
+      <TD>-63.2</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1305.5-6241</TD>
+      <TD>196.3961</TD>
+      <TD>-62.6938</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1326.6-4729</TD>
+      <TD>201.6654</TD>
+      <TD>-47.493</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1343.8-6208</TD>
+      <TD>205.9639</TD>
+      <TD>-62.142</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1344.9-6228</TD>
+      <TD>206.247</TD>
+      <TD>-62.477</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1345.3-6253</TD>
+      <TD>206.3306</TD>
+      <TD>-62.885</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1346.1-5121</TD>
+      <TD>206.5411</TD>
+      <TD>-51.3602</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1349.5-6206c</TD>
+      <TD>207.3966</TD>
+      <TD>-62.1082</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1353.3-5910</TD>
+      <TD>208.3473</TD>
+      <TD>-59.1776</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1355.2-6420e</TD>
+      <TD>208.802</TD>
+      <TD>-64.345</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1358.2-6210</TD>
+      <TD>209.5571</TD>
+      <TD>-62.1722</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1404.4-6159</TD>
+      <TD>211.1249</TD>
+      <TD>-61.9843</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1405.1-6119</TD>
+      <TD>211.2982</TD>
+      <TD>-61.3321</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1408.6-2917</TD>
+      <TD>212.1627</TD>
+      <TD>-29.2913</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1416.5-6145</TD>
+      <TD>214.127</TD>
+      <TD>-61.7579</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1420.3-6046e</TD>
+      <TD>215.082</TD>
+      <TD>-60.782</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1423.3-5655</TD>
+      <TD>215.8296</TD>
+      <TD>-56.9232</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1435.8-6018</TD>
+      <TD>218.9641</TD>
+      <TD>-60.3134</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1441.6-5951c</TD>
+      <TD>220.4101</TD>
+      <TD>-59.8605</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1442.2-6005</TD>
+      <TD>220.5621</TD>
+      <TD>-60.0905</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1443.0-6227e</TD>
+      <TD>220.76</TD>
+      <TD>-62.45</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1450.2-5937c</TD>
+      <TD>222.5618</TD>
+      <TD>-59.626</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1453.4-5858</TD>
+      <TD>223.3604</TD>
+      <TD>-58.9685</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1503.6-4146</TD>
+      <TD>225.9135</TD>
+      <TD>-41.781</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1508.9-4110</TD>
+      <TD>227.2484</TD>
+      <TD>-41.1681</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1514.2-5909e</TD>
+      <TD>228.571</TD>
+      <TD>-59.163</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1518.8+0203</TD>
+      <TD>229.7015</TD>
+      <TD>2.0542</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1518.9-5903c</TD>
+      <TD>229.7465</TD>
+      <TD>-59.0506</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1533.9-5712e</TD>
+      <TD>233.5</TD>
+      <TD>-57.2</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1544.5-1126</TD>
+      <TD>236.1435</TD>
+      <TD>-11.4417</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1548.4-5344c</TD>
+      <TD>237.1109</TD>
+      <TD>-53.7391</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1550.8-5424c</TD>
+      <TD>237.7135</TD>
+      <TD>-54.4016</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1552.4-5612e</TD>
+      <TD>238.11</TD>
+      <TD>-56.21</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1552.9-5607e</TD>
+      <TD>238.25</TD>
+      <TD>-56.13</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1554.4-5506</TD>
+      <TD>238.6142</TD>
+      <TD>-55.1151</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1558.9-5220c</TD>
+      <TD>239.7309</TD>
+      <TD>-52.3452</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1601.3-5224</TD>
+      <TD>240.3429</TD>
+      <TD>-52.4019</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1615.3-5146e</TD>
+      <TD>243.83</TD>
+      <TD>-51.78</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1616.2-5054e</TD>
+      <TD>244.06</TD>
+      <TD>-50.91</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1616.9-2257</TD>
+      <TD>244.2428</TD>
+      <TD>-22.9589</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1626.9-2431e</TD>
+      <TD>246.75</TD>
+      <TD>-24.531</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1627.6-3852</TD>
+      <TD>246.9131</TD>
+      <TD>-38.8744</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1628.2-4848c</TD>
+      <TD>247.0727</TD>
+      <TD>-48.8002</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1631.6-4756e</TD>
+      <TD>247.922</TD>
+      <TD>-47.94</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1633.0-4746e</TD>
+      <TD>248.259</TD>
+      <TD>-47.77</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1636.0-4247</TD>
+      <TD>249.0186</TD>
+      <TD>-42.7991</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1636.3-4731e</TD>
+      <TD>249.079</TD>
+      <TD>-47.523</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1638.5-4657c</TD>
+      <TD>249.6466</TD>
+      <TD>-46.9503</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1640.7-4631e</TD>
+      <TD>250.18</TD>
+      <TD>-46.53</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1641.0-4619</TD>
+      <TD>250.2555</TD>
+      <TD>-46.3233</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1641.6+3622</TD>
+      <TD>250.4183</TD>
+      <TD>36.3765</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1642.1-5428e</TD>
+      <TD>250.538</TD>
+      <TD>-54.477</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1647.2-0154</TD>
+      <TD>251.814</TD>
+      <TD>-1.9106</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1701.2-3006</TD>
+      <TD>255.3026</TD>
+      <TD>-30.1063</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1702.7-5655</TD>
+      <TD>255.6945</TD>
+      <TD>-56.9283</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1704.1-4140</TD>
+      <TD>256.0266</TD>
+      <TD>-41.6749</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1712.5-4642</TD>
+      <TD>258.134</TD>
+      <TD>-46.7046</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1713.5-3945e</TD>
+      <TD>258.39</TD>
+      <TD>-39.76</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1714.1-3811</TD>
+      <TD>258.5271</TD>
+      <TD>-38.1902</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1714.2-2928</TD>
+      <TD>258.5694</TD>
+      <TD>-29.4794</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1715.8-4549</TD>
+      <TD>258.967</TD>
+      <TD>-45.8225</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1716.7-2808</TD>
+      <TD>259.178</TD>
+      <TD>-28.1469</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1716.8+4310</TD>
+      <TD>259.2033</TD>
+      <TD>43.173</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1718.0-3726</TD>
+      <TD>259.5048</TD>
+      <TD>-37.4489</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1718.3-4445</TD>
+      <TD>259.5895</TD>
+      <TD>-44.7531</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1719.2-2943</TD>
+      <TD>259.8246</TD>
+      <TD>-29.7332</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1719.7-4500</TD>
+      <TD>259.9422</TD>
+      <TD>-45.0058</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1720.0-3117c</TD>
+      <TD>260.0129</TD>
+      <TD>-31.2975</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1720.2-4757</TD>
+      <TD>260.0742</TD>
+      <TD>-47.9557</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1720.7-4629</TD>
+      <TD>260.1973</TD>
+      <TD>-46.4955</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1721.7-4709</TD>
+      <TD>260.4281</TD>
+      <TD>-47.1505</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1722.6-4529</TD>
+      <TD>260.6554</TD>
+      <TD>-45.4932</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1722.9-4427</TD>
+      <TD>260.7366</TD>
+      <TD>-44.4584</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1726.0-2843</TD>
+      <TD>261.5205</TD>
+      <TD>-28.7209</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1727.0-3835</TD>
+      <TD>261.7512</TD>
+      <TD>-38.5843</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1727.6-3050</TD>
+      <TD>261.913</TD>
+      <TD>-30.846</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1728.0-4606</TD>
+      <TD>262.0159</TD>
+      <TD>-46.1078</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1730.4-2131</TD>
+      <TD>262.6119</TD>
+      <TD>-21.5233</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1731.2-3234</TD>
+      <TD>262.8167</TD>
+      <TD>-32.575</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1731.7-3445</TD>
+      <TD>262.9357</TD>
+      <TD>-34.7609</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1733.7-4734</TD>
+      <TD>263.4463</TD>
+      <TD>-47.5757</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1735.7-3026</TD>
+      <TD>263.938</TD>
+      <TD>-30.436</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1735.9-3342</TD>
+      <TD>263.9853</TD>
+      <TD>-33.7015</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1736.2-4443</TD>
+      <TD>264.0633</TD>
+      <TD>-44.7233</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1737.5-0313</TD>
+      <TD>264.3878</TD>
+      <TD>-3.2232</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1739.5-3043</TD>
+      <TD>264.8859</TD>
+      <TD>-30.7293</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1739.6-3155</TD>
+      <TD>264.9101</TD>
+      <TD>-31.9207</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1740.3-3058c</TD>
+      <TD>265.093</TD>
+      <TD>-30.9741</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1741.1-5341</TD>
+      <TD>265.2908</TD>
+      <TD>-53.684</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1745.6-2859</TD>
+      <TD>266.4147</TD>
+      <TD>-28.997</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1746.2-3342c</TD>
+      <TD>266.5586</TD>
+      <TD>-33.7033</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1746.4-2852</TD>
+      <TD>266.6074</TD>
+      <TD>-28.8682</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1748.0-2446</TD>
+      <TD>267.0186</TD>
+      <TD>-24.7716</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1748.9-2021</TD>
+      <TD>267.2327</TD>
+      <TD>-20.3557</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1749.5-2747</TD>
+      <TD>267.3843</TD>
+      <TD>-27.7861</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1750.3-3702</TD>
+      <TD>267.5783</TD>
+      <TD>-37.0454</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1750.3-0644</TD>
+      <TD>267.5839</TD>
+      <TD>-6.7408</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1755.4-2552</TD>
+      <TD>268.8586</TD>
+      <TD>-25.8791</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1756.6-2352</TD>
+      <TD>269.1652</TD>
+      <TD>-23.8717</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1757.7-2337</TD>
+      <TD>269.4382</TD>
+      <TD>-23.6244</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1801.3-2326e</TD>
+      <TD>270.34</TD>
+      <TD>-23.44</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1804.7-2144e</TD>
+      <TD>271.191</TD>
+      <TD>-21.735</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1805.6-2136e</TD>
+      <TD>271.4083</TD>
+      <TD>-21.6117</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1807.8-4340</TD>
+      <TD>271.9619</TD>
+      <TD>-43.6747</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1808.8-1949c</TD>
+      <TD>272.2102</TD>
+      <TD>-19.8299</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1810.3-1925e</TD>
+      <TD>272.59</TD>
+      <TD>-19.43</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1811.5-1844</TD>
+      <TD>272.8936</TD>
+      <TD>-18.7469</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1813.1-1737e</TD>
+      <TD>273.29</TD>
+      <TD>-17.62</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1817.2-2400</TD>
+      <TD>274.3086</TD>
+      <TD>-24.0142</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1818.5-1656</TD>
+      <TD>274.6467</TD>
+      <TD>-16.9431</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1818.6-1533</TD>
+      <TD>274.6579</TD>
+      <TD>-15.5615</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1818.6-1455c</TD>
+      <TD>274.6746</TD>
+      <TD>-14.9189</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1820.4-1609c</TD>
+      <TD>275.1033</TD>
+      <TD>-16.1529</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1820.8-2822</TD>
+      <TD>275.2172</TD>
+      <TD>-28.3704</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1821.1-1422</TD>
+      <TD>275.2866</TD>
+      <TD>-14.3715</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1821.4-1516</TD>
+      <TD>275.3572</TD>
+      <TD>-15.2667</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1823.6-2345</TD>
+      <TD>275.9047</TD>
+      <TD>-23.7529</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1824.1-1304</TD>
+      <TD>276.0322</TD>
+      <TD>-13.072</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1824.4-1350e</TD>
+      <TD>276.111</TD>
+      <TD>-13.839</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1826.2-1450</TD>
+      <TD>276.5637</TD>
+      <TD>-14.8496</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1828.0-1133</TD>
+      <TD>277.0106</TD>
+      <TD>-11.5584</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1829.3-1614</TD>
+      <TD>277.3478</TD>
+      <TD>-16.2419</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1829.4-1256</TD>
+      <TD>277.3543</TD>
+      <TD>-12.95</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1830.3-1601</TD>
+      <TD>277.5811</TD>
+      <TD>-16.0229</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1831.8-1503</TD>
+      <TD>277.9742</TD>
+      <TD>-15.0651</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1832.3-1433</TD>
+      <TD>278.0929</TD>
+      <TD>-14.5588</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1832.9-0913</TD>
+      <TD>278.2404</TD>
+      <TD>-9.2332</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1834.1-0706e</TD>
+      <TD>278.531</TD>
+      <TD>-7.11</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1834.5-0846e</TD>
+      <TD>278.64</TD>
+      <TD>-8.78</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1836.5-0651e</TD>
+      <TD>279.143</TD>
+      <TD>-6.866</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1837.6-2904</TD>
+      <TD>279.4162</TD>
+      <TD>-29.0674</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1838.9-0704e</TD>
+      <TD>279.745</TD>
+      <TD>-7.067</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1840.0-0341</TD>
+      <TD>280.0038</TD>
+      <TD>-3.6885</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1840.0-0411</TD>
+      <TD>280.0121</TD>
+      <TD>-4.1941</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1840.8-0453e</TD>
+      <TD>280.21</TD>
+      <TD>-4.89</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1840.9-0532e</TD>
+      <TD>280.23</TD>
+      <TD>-5.55</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1842.2-0751</TD>
+      <TD>280.571</TD>
+      <TD>-7.8522</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1845.8-0831</TD>
+      <TD>281.4506</TD>
+      <TD>-8.5185</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1846.4-0258</TD>
+      <TD>281.6021</TD>
+      <TD>-2.9744</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1848.7-0129</TD>
+      <TD>282.1986</TD>
+      <TD>-1.4994</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1849.4-0056</TD>
+      <TD>282.356</TD>
+      <TD>-0.943</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1850.3-0031</TD>
+      <TD>282.5968</TD>
+      <TD>-0.5228</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1851.8-0007c</TD>
+      <TD>282.9698</TD>
+      <TD>-0.1225</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1852.4+0037e</TD>
+      <TD>283.1</TD>
+      <TD>0.63</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1853.2-0841</TD>
+      <TD>283.3115</TD>
+      <TD>-8.6839</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1855.1-2243</TD>
+      <TD>283.7759</TD>
+      <TD>-22.7214</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1855.1-3025</TD>
+      <TD>283.7935</TD>
+      <TD>-30.4205</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1855.9+0121e</TD>
+      <TD>283.99</TD>
+      <TD>1.355</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1857.6+0212</TD>
+      <TD>284.4192</TD>
+      <TD>2.2024</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1857.7+0246e</TD>
+      <TD>284.449</TD>
+      <TD>2.774</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1858.3+0209</TD>
+      <TD>284.5767</TD>
+      <TD>2.1529</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1903.8+0531</TD>
+      <TD>285.9748</TD>
+      <TD>5.5213</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1906.2+0631</TD>
+      <TD>286.562</TD>
+      <TD>6.5262</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1907.6+0703</TD>
+      <TD>286.9027</TD>
+      <TD>7.0612</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1908.6+0915e</TD>
+      <TD>287.16</TD>
+      <TD>9.26</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1910.8-6001</TD>
+      <TD>287.719</TD>
+      <TD>-60.0211</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1911.0+0905</TD>
+      <TD>287.7639</TD>
+      <TD>9.0925</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1916.3+1108</TD>
+      <TD>289.0805</TD>
+      <TD>11.1415</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1918.1+1215c</TD>
+      <TD>289.546</TD>
+      <TD>12.2607</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1923.2+1408e</TD>
+      <TD>290.818</TD>
+      <TD>14.145</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1925.2+1618e</TD>
+      <TD>291.31</TD>
+      <TD>16.3</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1926.7+3027</TD>
+      <TD>291.7</TD>
+      <TD>30.4656</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1928.3+3325</TD>
+      <TD>292.0761</TD>
+      <TD>33.4211</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1928.8+3126</TD>
+      <TD>292.2197</TD>
+      <TD>31.4389</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1930.5+1853</TD>
+      <TD>292.6439</TD>
+      <TD>18.8954</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1931.0+3135</TD>
+      <TD>292.77</TD>
+      <TD>31.5889</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1932.4+1846</TD>
+      <TD>293.1089</TD>
+      <TD>18.7821</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1934.3+1859</TD>
+      <TD>293.5848</TD>
+      <TD>18.9979</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1937.0+3003</TD>
+      <TD>294.2705</TD>
+      <TD>30.0571</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1947.7+2744</TD>
+      <TD>296.9317</TD>
+      <TD>27.7337</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1952.8+2924</TD>
+      <TD>298.2177</TD>
+      <TD>29.4005</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1953.6+1846</TD>
+      <TD>298.4153</TD>
+      <TD>18.7798</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1954.4+3252e</TD>
+      <TD>298.6</TD>
+      <TD>32.87</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J1958.5+3512</TD>
+      <TD>299.6343</TD>
+      <TD>35.2024</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2002.3+3246</TD>
+      <TD>300.5997</TD>
+      <TD>32.7788</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2013.5+3613</TD>
+      <TD>303.3845</TD>
+      <TD>36.2254</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2016.2+3712</TD>
+      <TD>304.0569</TD>
+      <TD>37.2131</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2021.0+4031e</TD>
+      <TD>305.27</TD>
+      <TD>40.52</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2023.5+2046</TD>
+      <TD>305.8792</TD>
+      <TD>20.7681</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2028.6+4110e</TD>
+      <TD>307.17</TD>
+      <TD>41.17</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2032.4+4056</TD>
+      <TD>308.1166</TD>
+      <TD>40.9434</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2039.5+5055</TD>
+      <TD>309.8893</TD>
+      <TD>50.9306</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2044.9+5029e</TD>
+      <TD>311.241</TD>
+      <TD>50.489</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2051.0+3049e</TD>
+      <TD>312.75</TD>
+      <TD>30.83</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2052.7+4334</TD>
+      <TD>313.1907</TD>
+      <TD>43.575</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2058.7+4454</TD>
+      <TD>314.6752</TD>
+      <TD>44.915</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2102.1+4546</TD>
+      <TD>315.5409</TD>
+      <TD>45.7758</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2114.0+1956</TD>
+      <TD>318.5045</TD>
+      <TD>19.9492</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2123.9+5158</TD>
+      <TD>320.986</TD>
+      <TD>51.9781</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2129.9+1208</TD>
+      <TD>322.4824</TD>
+      <TD>12.1439</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2131.5+2016</TD>
+      <TD>322.8766</TD>
+      <TD>20.2712</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2226.7+6052e</TD>
+      <TD>336.68</TD>
+      <TD>60.88</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2252.6+5808</TD>
+      <TD>343.1743</TD>
+      <TD>58.1482</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2256.4+5829</TD>
+      <TD>344.1094</TD>
+      <TD>58.4956</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2258.6+5847c</TD>
+      <TD>344.6631</TD>
+      <TD>58.7846</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2301.9+5855e</TD>
+      <TD>345.494</TD>
+      <TD>58.92</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2323.4+5849</TD>
+      <TD>350.8613</TD>
+      <TD>58.8173</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2326.5+6122</TD>
+      <TD>351.6448</TD>
+      <TD>61.3684</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2347.8+6256</TD>
+      <TD>356.9668</TD>
+      <TD>62.9384</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2355.2+6257c</TD>
+      <TD>358.8084</TD>
+      <TD>62.9608</TD>
+      <TD>cyan</TD>
+     </TR>
+     <TR>
+      <TD>4FGL J2357.8+6231</TD>
+      <TD>359.4717</TD>
+      <TD>62.5329</TD>
+      <TD>cyan</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>
